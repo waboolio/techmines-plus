@@ -1,0 +1,712 @@
+{
+  "schemaVersion": 1,
+  "source": "User supplied Techmines.xlsx; imported 2026-10-18",
+  "worlds": [
+    {
+      "name": "Spawn",
+      "mines": []
+    },
+    {
+      "name": "Nether",
+      "mines": []
+    },
+    {
+      "name": "End",
+      "mines": []
+    },
+    {
+      "name": "Heaven",
+      "mines": []
+    },
+    {
+      "name": "Ocean",
+      "mines": []
+    },
+    {
+      "name": "Acidic Lakes",
+      "mines": []
+    },
+    {
+      "name": "Steampunk",
+      "mines": []
+    },
+    {
+      "name": "Sakura Forest",
+      "mines": []
+    },
+    {
+      "name": "Wild West",
+      "mines": []
+    },
+    {
+      "name": "Pixel Grove",
+      "mines": [
+        {
+          "name": "MINE 73 Eevee",
+          "resource": "Apricorn",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "222.35M",
+              "tool": "18.53M",
+              "armor": "222.35M"
+            },
+            {
+              "tier": "II",
+              "sword": "444.7M",
+              "tool": "37.06M",
+              "armor": "444.7M"
+            },
+            {
+              "tier": "III",
+              "sword": "667.05M",
+              "tool": "74.12M",
+              "armor": "667.05M"
+            },
+            {
+              "tier": "IV",
+              "sword": "889.4M",
+              "tool": "148.23M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "1.11B",
+              "tool": "222.35M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "4.45B",
+          "elytra": "2.22B",
+          "notes": [],
+          "source": "Techmines.xlsx / Pixel Grove / C1:G10"
+        },
+        {
+          "name": "MINE 74 Bulbasaur",
+          "resource": "Leafbud",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "26.82M",
+              "tool": "2.24M",
+              "armor": "26.82M"
+            },
+            {
+              "tier": "II",
+              "sword": "53.64M",
+              "tool": "4.47M",
+              "armor": "53.64M"
+            },
+            {
+              "tier": "III",
+              "sword": "80.47M",
+              "tool": "8.94M",
+              "armor": "80.47M"
+            },
+            {
+              "tier": "IV",
+              "sword": "107.29M",
+              "tool": "17.88M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "134.11M",
+              "tool": "26.82M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "536.44 (unit unconfirmed)",
+          "elytra": "268.22M",
+          "notes": [
+            "F19: unit missing in source; verify with vendor."
+          ],
+          "source": "Techmines.xlsx / Pixel Grove / C14:G23"
+        },
+        {
+          "name": "MINE 75 Snorlax",
+          "resource": "Oranberry",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "510.87M",
+              "tool": "42.57M",
+              "armor": "510.87M"
+            },
+            {
+              "tier": "II",
+              "sword": "1.02B",
+              "tool": "85.15M",
+              "armor": "1.02B"
+            },
+            {
+              "tier": "III",
+              "sword": "1.53B",
+              "tool": "170.29M",
+              "armor": "1.53B"
+            },
+            {
+              "tier": "IV",
+              "sword": "2.04B",
+              "tool": "340.58M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "2.55B",
+              "tool": "510.87M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "10.22B",
+          "elytra": "5.11B",
+          "notes": [],
+          "source": "Techmines.xlsx / Pixel Grove / C27:G36"
+        },
+        {
+          "name": "MINE 76 Jillypuff",
+          "resource": "Stardust",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "38.6M",
+              "tool": "3.22M",
+              "armor": "38.6M"
+            },
+            {
+              "tier": "II",
+              "sword": "77.2M",
+              "tool": "6.43M",
+              "armor": "77.2M"
+            },
+            {
+              "tier": "III",
+              "sword": "115.81M",
+              "tool": "12.87M",
+              "armor": "115.81M"
+            },
+            {
+              "tier": "IV",
+              "sword": "154.41M",
+              "tool": "25.73M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "193.01M",
+              "tool": "38.6M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "772.05M",
+          "elytra": "386.02M",
+          "notes": [],
+          "source": "Techmines.xlsx / Pixel Grove / C38:G47"
+        },
+        {
+          "name": "MINE 77 Squirtle",
+          "resource": "Waterstone",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "700.47M",
+              "tool": "58.37M",
+              "armor": "700.47M"
+            },
+            {
+              "tier": "II",
+              "sword": "1.4B",
+              "tool": "116.75M",
+              "armor": "1.4B"
+            },
+            {
+              "tier": "III",
+              "sword": "2.1B",
+              "tool": "233.49M",
+              "armor": "2.1B"
+            },
+            {
+              "tier": "IV",
+              "sword": "2.8B",
+              "tool": "466.98M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "3.5B",
+              "tool": "700.47M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "14.01B",
+          "elytra": "7B",
+          "notes": [],
+          "source": "Techmines.xlsx / Pixel Grove / C49:G58"
+        },
+        {
+          "name": "MINE 78 Jolteon",
+          "resource": "Thunderstone",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "826.36M",
+              "tool": "68.86M",
+              "armor": "826.36M"
+            },
+            {
+              "tier": "II",
+              "sword": "1.65B",
+              "tool": "137.73M",
+              "armor": "1.65B"
+            },
+            {
+              "tier": "III",
+              "sword": "2.48B",
+              "tool": "275.45M",
+              "armor": "2.48B"
+            },
+            {
+              "tier": "IV",
+              "sword": "3.31B",
+              "tool": "550.91M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "4.13B",
+              "tool": "826.36M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "16.53B",
+          "elytra": "8.26B",
+          "notes": [],
+          "source": "Techmines.xlsx / Pixel Grove / C60:G69"
+        },
+        {
+          "name": "MINE 79 Umbreon",
+          "resource": "Moonstone",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "976.51M",
+              "tool": "81.38M",
+              "armor": "976.51M"
+            },
+            {
+              "tier": "II",
+              "sword": "1.95B",
+              "tool": "162.75M",
+              "armor": "1.95B"
+            },
+            {
+              "tier": "III",
+              "sword": "2.93B",
+              "tool": "325.5M",
+              "armor": "2.93B"
+            },
+            {
+              "tier": "IV",
+              "sword": "3.91B",
+              "tool": "651.01M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "4.88B",
+              "tool": "976.51M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "19.53B",
+          "elytra": "9.77B",
+          "notes": [],
+          "source": "Techmines.xlsx / Pixel Grove / C71:G80"
+        },
+        {
+          "name": "MINE 80 Charmander",
+          "resource": "Firestone",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "1.16B",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "23.12B",
+          "elytra": "11.56B",
+          "notes": [],
+          "source": "Techmines.xlsx / Pixel Grove / C82:G91"
+        }
+      ]
+    },
+    {
+      "name": "Planet X",
+      "mines": [
+        {
+          "name": "MINE 81 Xenowood",
+          "resource": "Xenowood",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "16.1B",
+          "elytra": "Not recorded",
+          "notes": [],
+          "source": "Techmines.xlsx / Planet X / C1:G10"
+        },
+        {
+          "name": "MINE 82 Sporeleaf",
+          "resource": "Sporeleaf",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "1.98B",
+          "elytra": "Not recorded",
+          "notes": [],
+          "source": "Techmines.xlsx / Planet X / C13:G22"
+        },
+        {
+          "name": "MINE 83 Meteorite",
+          "resource": "Meteorite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "42.29B",
+          "elytra": "Not recorded",
+          "notes": [],
+          "source": "Techmines.xlsx / Planet X / C25:G34"
+        },
+        {
+          "name": "MINE 84 Moon Dust",
+          "resource": "Moon Dust",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "2.92B",
+          "elytra": "Not recorded",
+          "notes": [],
+          "source": "Techmines.xlsx / Planet X / C36:G45"
+        },
+        {
+          "name": "MINE 85 Xenocite",
+          "resource": "Xenocite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "59.73B",
+          "elytra": "Not recorded",
+          "notes": [],
+          "source": "Techmines.xlsx / Planet X / C47:G56"
+        },
+        {
+          "name": "MINE 86 Plasmite",
+          "resource": "Plasmite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "71.51B",
+          "elytra": "Not recorded",
+          "notes": [],
+          "source": "Techmines.xlsx / Planet X / C58:G67"
+        },
+        {
+          "name": "MINE 87 Darkmatter",
+          "resource": "Darkmatter",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "85.77B",
+          "elytra": "Not recorded",
+          "notes": [],
+          "source": "Techmines.xlsx / Planet X / C69:G78"
+        },
+        {
+          "name": "MINE 88 Astralium",
+          "resource": "Astralium",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "1.16B",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "103.08B",
+          "elytra": "Not confirmed",
+          "notes": [
+            "G85: source says \"Elytra\"; verify with vendor."
+          ],
+          "source": "Techmines.xlsx / Planet X / C80:G89"
+        }
+      ]
+    }
+  ]
+}

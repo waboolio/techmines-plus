@@ -41,6 +41,7 @@ public final class TechminesPlus implements ClientModInitializer {
   ScreenEvents.AFTER_INIT.register((client, screen, width, height) -> {
    if (screen instanceof InventoryScreen && onTechmines(client)) {
     InventoryOrigin origin = (InventoryOrigin)screen;
+    Screens.getWidgets(screen).add(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(screen)).bounds(origin.techminesPlusLeft()+98,origin.techminesPlusTop()-24,76,20).build());
     // Three compact item buttons fit beside the recipe book without covering inventory slots.
     int x = origin.techminesPlusLeft() + 126, y = origin.techminesPlusTop() + 61;
     Screens.getWidgets(screen).add(new ItemButton(x,y,"Wardrobe — /wardrobe",new ItemStack(Items.ARMOR_STAND),0,b -> command("wardrobe")).compact());
@@ -95,12 +96,14 @@ public final class TechminesPlus implements ClientModInitializer {
     addRenderableWidget(new ItemButton(x+89,y+32,"Ender Chest — /ec",new ItemStack(Items.ENDER_CHEST),0,b -> command("ec")));
     addRenderableWidget(new ItemButton(x+150,y+32,"Personal Vaults",new ItemStack(Items.CHEST),0,b -> Minecraft.getInstance().gui.setScreen(new PlusScreen(this,true))));
    }
+   if(!vaults) addRenderableWidget(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(this)).bounds(x,y+70,200,20).build());
    addRenderableWidget(Button.builder(Component.literal("Back"),b -> onClose()).bounds(x,y+116,200,20).build());
   }
   @Override public void onClose() { Minecraft.getInstance().gui.setScreen(parent); }
   @Override public boolean isPauseScreen() { return false; }
  }
 }
+
 
 
 

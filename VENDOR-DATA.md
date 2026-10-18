@@ -1,0 +1,40 @@
+# Vendor catalogue
+
+Bundled data: `src/main/resources/assets/techmines_plus/data/vendors.json`.
+Source: user-supplied Techmines.xlsx, imported 2026-10-18. No private server
+files are needed. No workbook or game/account files are published here.
+
+## Updating from the workbook
+
+Install Python and openpyxl, then run:
+
+    python tools/import_vendors.py path/to/Techmines.xlsx src/main/resources/assets/techmines_plus/data/vendors.json
+
+The importer reads the current workbook layout: mine heading in C, resource two
+rows below, category headings four rows below, and five tier rows next.
+Costs are in columns C-G; tier names in A. Add new world names to the importer's
+world_names list when a new world is added. The importer preserves missing cells
+and flags ambiguous entries. It does not calculate totals or guess requirements.
+
+## Updating without rebuilding
+
+Copy the bundled JSON into the Prism instance's
+`minecraft/config/techmines-plus/vendors.json` (create the folder if needed).
+Edit this copy to add worlds, mines, or missing values. Close and reopen Vendor
+Info to reload. The local file replaces the whole bundled catalogue, so copy
+all worlds you want to retain. Invalid JSON falls back to the bundled data and
+displays a warning in the world list; details are logged in the console.
+
+The JSON root has `schemaVersion: 1`, source metadata, and a `worlds` array.
+Each world has `name` and `mines`. Each mine has `name`, `resource`, `toolName`,
+exactly five `rows` (`tier`, `sword`, `tool`, `armor`), `talisman`, `elytra`,
+`notes` and `source`. Values are display strings; use `Not recorded` for unknowns.
+Keep amounts in resource units with M/B suffixes, as recorded from vendors.
+Add notes for uncertain entries and retain the source reference.
+
+## Collecting the other worlds
+
+Vendor screenshots or copied item tooltips can be transcribed and verified.
+A client-side capture tool could be added later to save items/tooltips from
+vendor menus the player opens. This version does not automatically capture
+vendors or retrieve private server configuration.
