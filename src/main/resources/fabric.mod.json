@@ -1,0 +1,11 @@
+{
+ "schemaVersion": 1,
+ "id": "techmines_plus",
+ "version": "${version}",
+ "name": "Techmines Plus",
+ "description": "Client-side command shortcuts for Techmines.",
+ "environment": "client",
+ "mixins": ["techmines_plus.client.mixins.json"], "entrypoints": { "client": ["gg.techmines.plus.TechminesPlus"] },
+ "depends": { "fabricloader": ">=0.19.5", "minecraft": "26.3", "java": ">=25", "fabric-api": "*" }
+}
+
