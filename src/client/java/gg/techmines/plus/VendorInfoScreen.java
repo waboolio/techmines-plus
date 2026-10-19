@@ -72,7 +72,7 @@ final class VendorInfoScreen extends Screen {
   }
   VendorCatalog.Mine mine=world.mines().get(mineIndex);
   line(g,world.name()+" | Resource: "+mine.resource(),left,28,0xff8fdeb1,boxWidth);
-  int top=47,rowH=14,col=(boxWidth-30)/3;
+  int top=43,rowH=12,col=(boxWidth-30)/3;
   g.fill(left,top-3,left+boxWidth,top+6*rowH+1,0xdd202630);
   int[] xs={left+3,left+32,left+32+col,left+32+col*2};
   String[] headers={"Tier","Sword",mine.toolName(),"Armor (each)"};
@@ -83,11 +83,13 @@ final class VendorInfoScreen extends Screen {
    String[] values={cost.tier(),cost.sword(),cost.tool(),cost.armor()};
    for(int j=0;j<4;j++)line(g,values[j].equals("Not recorded")?"--":values[j],xs[j],y,values[j].equals("Not recorded")?0xff999999:values[j].startsWith("~")?0xff60cfff:0xffffffff,j==0?28:col-3);
   }
-  line(g,"Talisman: "+mine.talisman(),left,140,mine.talisman().startsWith("~")?0xff60cfff:0xffffffff,boxWidth);
-  line(g,"Elytra: "+mine.elytra(),left,153,mine.elytra().startsWith("~")?0xff60cfff:0xffffffff,boxWidth);
-  line(g,"k=thousand M=million B=billion ~=estimate",left,169,0xffbbbbbb,boxWidth);
-  if(!mine.notes().isEmpty())line(g,mine.notes().get(0),left,182,0xffffbf69,boxWidth);
-  if(height>=246)line(g,"Source: "+mine.source(),left,height-44,0xffaaaaaa,boxWidth);
+  line(g,"Talisman: "+mine.talisman(),left,120,mine.talisman().startsWith("~")?0xff60cfff:0xffffffff,boxWidth);
+  line(g,"Elytra: "+mine.elytra(),left,133,mine.elytra().startsWith("~")?0xff60cfff:0xffffffff,boxWidth);
+  line(g,mine.total().label(),left,146,mine.total().estimated()?0xff60cfff:mine.total().complete()?0xff8fdeb1:0xffffbf69,boxWidth);
+  line(g,"All tiers + 4 armor pieces + talisman + elytra",left,159,0xffbbbbbb,boxWidth);
+  line(g,"k=thousand M=million B=billion ~=estimate",left,172,0xffbbbbbb,boxWidth);
+  if(height>=224&&!mine.notes().isEmpty())line(g,mine.notes().get(0),left,185,0xffffbf69,boxWidth);
+  if(height>=248)line(g,"Source: "+mine.source(),left,height-44,0xffaaaaaa,boxWidth);
  }
  @Override public void onClose() { show(parent); }
  @Override public boolean isPauseScreen() { return false; }

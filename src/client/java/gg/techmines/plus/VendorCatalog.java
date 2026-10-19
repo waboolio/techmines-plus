@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 
 final class VendorCatalog {
  record Cost(String tier,String sword,String tool,String armor) {}
- record Mine(String name,String resource,String toolName,List<Cost> rows,String talisman,String elytra,List<String> notes,String source) {}
+ record Mine(String name,String resource,String toolName,List<Cost> rows,String talisman,String elytra,List<String> notes,String source,VendorTotal.Result total) {}
  record World(String name,List<Mine> mines) {}
  final List<World> worlds;
  final String status;
@@ -47,7 +47,17 @@ final class VendorCatalog {
     if(costs.size()!=5) throw new IllegalArgumentException("Each mine needs five tier rows");
     List<String> notes=new ArrayList<>();
     if(m.has("notes")) for(JsonElement n:m.getAsJsonArray("notes")) notes.add(n.getAsString());
-    mines.add(new Mine(text(m,"name"),text(m,"resource"),text(m,"toolName"),List.copyOf(costs),text(m,"talisman"),text(m,"elytra"),List.copyOf(notes),text(m,"source")));
+    List<String> totalCosts=new ArrayList<>();
+    if(m.has("totalCosts")) for(JsonElement price:m.getAsJsonArray("totalCosts")) totalCosts.add(price.getAsString());
+    else {
+     for(Cost cost:costs)totalCosts.add(cost.sword());
+     for(Cost cost:costs)totalCosts.add(cost.tool());
+     for(int i=0;i<3;i++)totalCosts.add(costs.get(i).armor());
+     totalCosts.add(text(m,"talisman"));totalCosts.add(text(m,"elytra"));
+    }
+    List<String> additionalCosts=new ArrayList<>();
+    if(m.has("additionalTotalCosts")) for(JsonElement price:m.getAsJsonArray("additionalTotalCosts")) additionalCosts.add(price.getAsString());
+    mines.add(new Mine(text(m,"name"),text(m,"resource"),text(m,"toolName"),List.copyOf(costs),text(m,"talisman"),text(m,"elytra"),List.copyOf(notes),text(m,"source"),VendorTotal.calculate(totalCosts,additionalCosts)));
    }
    worlds.add(new World(text(w,"name"),List.copyOf(mines)));
   }

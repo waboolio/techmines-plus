@@ -43,7 +43,9 @@ public final class TechminesPlus implements ClientModInitializer {
    if (screen instanceof InventoryScreen && onTechmines(client)) {
     InventoryOrigin origin = (InventoryOrigin)screen;
     Screens.getWidgets(screen).add(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(screen)).bounds(origin.techminesPlusLeft()+98,origin.techminesPlusTop()-24,76,20).build());
-    // Replace the unused recipe button with five compact command shortcuts.
+    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+48,origin.techminesPlusTop()-24,"Trash - /trash",new ItemStack(Items.HOPPER),0,b -> command("trash")));
+    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+74,origin.techminesPlusTop()-24,"Toggle PvP - /pvp",new ItemStack(Items.IRON_SWORD),0,b -> command("pvp")));
+    // Replace the unused recipe button with five compact command shortcuts and two upper buttons.
     Screens.getWidgets(screen).removeIf(widget -> widget instanceof ImageButton && widget.getX()==origin.techminesPlusLeft()+104 && widget.getY()==height/2-22);
     int x = origin.techminesPlusLeft() + 98, y = origin.techminesPlusTop() + 61;
     Screens.getWidgets(screen).add(new ItemButton(x,y,"Wardrobe — /wardrobe",new ItemStack(Items.ARMOR_STAND),0,b -> command("wardrobe")).compact());
@@ -101,10 +103,12 @@ public final class TechminesPlus implements ClientModInitializer {
     }
    } else {
     addRenderableWidget(new ItemButton(x,y+32,"Wardrobe — /wardrobe",new ItemStack(Items.ARMOR_STAND),0,b -> command("wardrobe")));
-    addRenderableWidget(new ItemButton(x+44,y+32,"Ender Chest — /ec",new ItemStack(Items.ENDER_CHEST),0,b -> command("ec")));
-    addRenderableWidget(new ItemButton(x+88,y+32,"Personal Vaults",new ItemStack(Items.CHEST),0,b -> Minecraft.getInstance().gui.setScreen(new PlusScreen(this,true))));
-    addRenderableWidget(new ItemButton(x+132,y+32,"Fly — /fly",new ItemStack(Items.ELYTRA),0,b -> command("fly")));
-    addRenderableWidget(new ItemButton(x+176,y+32,"Auction House — /ah",new ItemStack(Items.EMERALD),0,b -> command("ah")));
+    addRenderableWidget(new ItemButton(x+29,y+32,"Ender Chest — /ec",new ItemStack(Items.ENDER_CHEST),0,b -> command("ec")));
+    addRenderableWidget(new ItemButton(x+58,y+32,"Personal Vaults",new ItemStack(Items.CHEST),0,b -> Minecraft.getInstance().gui.setScreen(new PlusScreen(this,true))));
+    addRenderableWidget(new ItemButton(x+87,y+32,"Fly — /fly",new ItemStack(Items.ELYTRA),0,b -> command("fly")));
+    addRenderableWidget(new ItemButton(x+116,y+32,"Auction House — /ah",new ItemStack(Items.EMERALD),0,b -> command("ah")));
+    addRenderableWidget(new ItemButton(x+145,y+32,"Trash - /trash",new ItemStack(Items.HOPPER),0,b -> command("trash")));
+    addRenderableWidget(new ItemButton(x+174,y+32,"Toggle PvP - /pvp",new ItemStack(Items.IRON_SWORD),0,b -> command("pvp")));
    }
    if(!vaults) {
     addRenderableWidget(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(this)).bounds(x,y+62,200,20).build());

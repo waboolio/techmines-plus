@@ -46,6 +46,26 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [
+            "512"
+          ],
+          "totalCosts": [
+            "512",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "8",
+            "24",
+            "64",
+            "192",
+            "320",
+            "256",
+            "Not recorded",
+            "Not recorded",
+            "1540",
+            "1020"
+          ],
           "source": "Techmines.xlsx / Spawn / B1:G10"
         },
         {
@@ -88,6 +108,24 @@
           "elytra": "2.81k",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "44",
+            "88",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "44",
+            "88",
+            "Not recorded",
+            "Not recorded",
+            "44",
+            "Not recorded",
+            "Not recorded",
+            "4220",
+            "2810"
           ],
           "source": "Techmines.xlsx / Spawn / C14:G23"
         },
@@ -132,6 +170,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "410",
+            "820",
+            "1230",
+            "1640",
+            "Not recorded",
+            "68",
+            "137",
+            "273",
+            "410",
+            "Not recorded",
+            "410",
+            "820",
+            "Not confirmed",
+            "13120",
+            "8740"
+          ],
           "source": "Techmines.xlsx / Spawn / C27:G36"
         },
         {
@@ -174,6 +230,24 @@
           "elytra": "11.46k",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "1070",
+            "2150",
+            "3220",
+            "4300",
+            "5370",
+            "90",
+            "179",
+            "358",
+            "716",
+            "1170",
+            "1070",
+            "2150",
+            "Not recorded",
+            "22920",
+            "11460"
           ],
           "source": "Techmines.xlsx / Spawn / C38:G47"
         },
@@ -218,6 +292,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "1440",
+            "2880",
+            "4330",
+            "5770",
+            "7210",
+            "120",
+            "240",
+            "481",
+            "962",
+            "1440",
+            "1440",
+            "2880",
+            "4330",
+            "30770",
+            "15390"
+          ],
           "source": "Techmines.xlsx / Spawn / C49:G58"
         },
         {
@@ -260,6 +352,24 @@
           "elytra": "18.91k",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "2220",
+            "4430",
+            "6650",
+            "8870",
+            "11080",
+            "185",
+            "369",
+            "739",
+            "1480",
+            "2220",
+            "2220",
+            "4430",
+            "6650",
+            "37820",
+            "18910"
           ],
           "source": "Techmines.xlsx / Spawn / C60:G69"
         },
@@ -304,6 +414,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "3240",
+            "6490",
+            "9730",
+            "10810",
+            "14060",
+            "270",
+            "541",
+            "1080",
+            "2160",
+            "3240",
+            "3240",
+            "6490",
+            "9730",
+            "43260",
+            "21630"
+          ],
           "source": "Techmines.xlsx / Spawn / C71:G80"
         },
         {
@@ -347,6 +475,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "4290",
+            "8590",
+            "12880",
+            "17170",
+            "21470",
+            "358",
+            "716",
+            "1430",
+            "2860",
+            "4290",
+            "4290",
+            "8590",
+            "12880",
+            "45800",
+            "22900"
+          ],
           "source": "Techmines.xlsx / Spawn / C82:G91"
         },
         {
@@ -389,6 +535,24 @@
           "elytra": "Not recorded",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "1",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "1",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "1",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
           ],
           "source": "Techmines.xlsx / Spawn / C93:G102"
         }
@@ -438,6 +602,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "18880",
+            "~37760",
+            "~56640",
+            "~75520",
+            "~94400",
+            "1570",
+            "~3147",
+            "~6293",
+            "~12587",
+            "~18880",
+            "18880",
+            "~37760",
+            "~56640",
+            "377590",
+            "188790"
+          ],
           "source": "Techmines.xlsx / Nether / B1:G10"
         },
         {
@@ -480,6 +662,24 @@
           "elytra": "~510.57k",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "51060",
+            "~102115",
+            "~153173",
+            "~204230",
+            "~255288",
+            "4250",
+            "~8510",
+            "~17019",
+            "~34038",
+            "~51058",
+            "~51058",
+            "~102115",
+            "~153173",
+            "~1021150",
+            "~510575"
           ],
           "source": "Techmines.xlsx / Nether / C14:G23"
         },
@@ -524,6 +724,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "25460",
+            "~50920",
+            "~76380",
+            "~101840",
+            "~127300",
+            "2120",
+            "~4243",
+            "~8487",
+            "~16973",
+            "~25460",
+            "~25460",
+            "~50920",
+            "~76380",
+            "~509200",
+            "~254600"
+          ],
           "source": "Techmines.xlsx / Nether / C27:G36"
         },
         {
@@ -566,6 +784,24 @@
           "elytra": "~288.50k",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "28850",
+            "~57700",
+            "~86550",
+            "~115400",
+            "~144250",
+            "~2404",
+            "~4808",
+            "~9617",
+            "~19233",
+            "~28850",
+            "~28850",
+            "~57700",
+            "~86550",
+            "~577000",
+            "~288500"
           ],
           "source": "Techmines.xlsx / Nether / C38:G47"
         },
@@ -610,6 +846,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "101480",
+            "~202960",
+            "~304440",
+            "~405920",
+            "~507400",
+            "8460",
+            "~16913",
+            "~33827",
+            "~67653",
+            "~101480",
+            "101480",
+            "~202960",
+            "~304440",
+            "~2029600",
+            "~1014800"
+          ],
           "source": "Techmines.xlsx / Nether / C49:G58"
         },
         {
@@ -652,6 +906,24 @@
           "elytra": "~415.90k",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "41590",
+            "~83180",
+            "~124770",
+            "~166360",
+            "~207950",
+            "1730",
+            "~3460",
+            "~6920",
+            "~13840",
+            "~20760",
+            "~41590",
+            "~83180",
+            "~124770",
+            "~831800",
+            "~415900"
           ],
           "source": "Techmines.xlsx / Nether / C60:G69"
         },
@@ -696,6 +968,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "8260",
+            "~16528",
+            "~24791",
+            "~33055",
+            "~41319",
+            "344",
+            "861",
+            "2070",
+            "4130",
+            "6200",
+            "8260",
+            "16530",
+            "24790",
+            "~165275",
+            "~82638"
+          ],
           "source": "Techmines.xlsx / Nether / C71:G80"
         },
         {
@@ -739,6 +1029,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "51450",
+            "~102908",
+            "~154361",
+            "~205815",
+            "~257269",
+            "4290",
+            "~8576",
+            "~17151",
+            "~34303",
+            "51450",
+            "51450",
+            "102910",
+            "154360",
+            "~1029075",
+            "~514538"
+          ],
           "source": "Techmines.xlsx / Nether / C82:G91"
         },
         {
@@ -781,6 +1089,24 @@
           "elytra": "Not recorded",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "2",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "2",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "1",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
           ],
           "source": "Techmines.xlsx / Nether / C93:G102"
         }
@@ -830,6 +1156,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "~94500",
+            "~189000",
+            "~283500",
+            "~378000",
+            "~472500",
+            "~7875",
+            "~15750",
+            "~31500",
+            "~63000",
+            "~94500",
+            "~94500",
+            "~189000",
+            "~283500",
+            "1890000",
+            "~945000"
+          ],
           "source": "Techmines.xlsx / End / C1:G10"
         },
         {
@@ -872,6 +1216,24 @@
           "elytra": "~1.09M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "109040",
+            "~218080",
+            "~327120",
+            "~436160",
+            "~545200",
+            "9090",
+            "~18173",
+            "~36347",
+            "~72693",
+            "~109040",
+            "~109040",
+            "~218080",
+            "~327120",
+            "2180000",
+            "~1090400"
           ],
           "source": "Techmines.xlsx / End / C14:G23"
         },
@@ -916,6 +1278,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "206000",
+            "~412080",
+            "~618120",
+            "~824160",
+            "~1030200",
+            "17170",
+            "~34340",
+            "~68680",
+            "~137360",
+            "~206040",
+            "~206040",
+            "~412080",
+            "~618120",
+            "~4120800",
+            "~2060400"
+          ],
           "source": "Techmines.xlsx / End / C27:G36"
         },
         {
@@ -958,6 +1338,24 @@
           "elytra": "~226.30k",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "22630",
+            "~45260",
+            "~67890",
+            "~90520",
+            "~113150",
+            "1890",
+            "~3772",
+            "~7543",
+            "~15087",
+            "~22630",
+            "22630",
+            "~45260",
+            "~67890",
+            "~452600",
+            "~226300"
           ],
           "source": "Techmines.xlsx / End / C38:G47"
         },
@@ -1002,6 +1400,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "153450",
+            "~306900",
+            "~460350",
+            "~613800",
+            "~767250",
+            "12790",
+            "~25575",
+            "~51150",
+            "~102300",
+            "~153450",
+            "~153450",
+            "~306900",
+            "~460350",
+            "~3069000",
+            "~1534500"
+          ],
           "source": "Techmines.xlsx / End / C49:G58"
         },
         {
@@ -1044,6 +1460,24 @@
           "elytra": "~1.75M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "175480",
+            "~350960",
+            "~526440",
+            "~701920",
+            "~877400",
+            "~14623",
+            "~29247",
+            "~58493",
+            "~116987",
+            "~175480",
+            "175480",
+            "~350960",
+            "526440",
+            "~3509600",
+            "~1754800"
           ],
           "source": "Techmines.xlsx / End / C60:G69"
         },
@@ -1088,6 +1522,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "200260",
+            "~400520",
+            "~600780",
+            "~801040",
+            "~1001300",
+            "~16688",
+            "~33377",
+            "~66753",
+            "~133507",
+            "~200260",
+            "200260",
+            "~400520",
+            "~600780",
+            "4010000",
+            "~2002600"
+          ],
           "source": "Techmines.xlsx / End / C71:G80"
         },
         {
@@ -1131,6 +1583,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "35160",
+            "~70320",
+            "~105480",
+            "~140640",
+            "175800",
+            "1100",
+            "2200",
+            "4390",
+            "8790",
+            "17580",
+            "~35160",
+            "~70320",
+            "~105480",
+            "703180",
+            "~351600"
+          ],
           "source": "Techmines.xlsx / End / C82:G91"
         },
         {
@@ -1173,6 +1643,24 @@
           "elytra": "Not recorded",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
           ],
           "source": "Techmines.xlsx / End / C93:G102"
         }
@@ -1222,6 +1710,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "349800",
+            "699600",
+            "1049400",
+            "1399200",
+            "1749000",
+            "29150",
+            "58300",
+            "116600",
+            "233200",
+            "349800",
+            "349800",
+            "699600",
+            "1049400",
+            "6996000",
+            "3498000"
+          ],
           "source": "Techmines.xlsx / Heaven / C1:G10"
         },
         {
@@ -1264,6 +1770,24 @@
           "elytra": "501.60k",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "50160",
+            "100320",
+            "150480",
+            "200640",
+            "250800",
+            "4180",
+            "8360",
+            "16720",
+            "33440",
+            "50160",
+            "50160",
+            "100320",
+            "150480",
+            "1003200",
+            "501600"
           ],
           "source": "Techmines.xlsx / Heaven / C16:G25"
         },
@@ -1308,6 +1832,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "439180",
+            "878360",
+            "1317540",
+            "1756720",
+            "2195900",
+            "36598",
+            "73197",
+            "146393",
+            "292787",
+            "439180",
+            "439180",
+            "878360",
+            "1317540",
+            "8783600",
+            "4391800"
+          ],
           "source": "Techmines.xlsx / Heaven / C29:G38"
         },
         {
@@ -1350,6 +1892,24 @@
           "elytra": "6.24M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "623860",
+            "1247720",
+            "1871580",
+            "2495440",
+            "3119300",
+            "51990",
+            "103977",
+            "207953",
+            "415907",
+            "623860",
+            "623860",
+            "1247720",
+            "1871580",
+            "12477200",
+            "6238600"
           ],
           "source": "Techmines.xlsx / Heaven / C42:G51"
         },
@@ -1394,6 +1954,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "551070",
+            "1102140",
+            "1653210",
+            "2204280",
+            "2755350",
+            "45923",
+            "91845",
+            "183690",
+            "367380",
+            "551070",
+            "551070",
+            "1102140",
+            "1653210",
+            "11021400",
+            "5510700"
+          ],
           "source": "Techmines.xlsx / Heaven / C53:G62"
         },
         {
@@ -1436,6 +2014,24 @@
           "elytra": "~758.80k",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "75880",
+            "~151760",
+            "~227640",
+            "~303520",
+            "~379400",
+            "6320",
+            "~12647",
+            "~25293",
+            "~50587",
+            "~75880",
+            "~75880",
+            "~151760",
+            "~227640",
+            "~1517600",
+            "~758800"
           ],
           "source": "Techmines.xlsx / Heaven / C64:G73"
         },
@@ -1480,6 +2076,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "783280",
+            "~1566560",
+            "~2349840",
+            "~3133120",
+            "~3916400",
+            "65270",
+            "~130547",
+            "~261093",
+            "~522187",
+            "~783280",
+            "~783280",
+            "~1566560",
+            "~2349840",
+            "~15665600",
+            "~7832800"
+          ],
           "source": "Techmines.xlsx / Heaven / C75:G84"
         },
         {
@@ -1523,6 +2137,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "~783500",
+            "~1567000",
+            "~2350500",
+            "~3134000",
+            "~3917500",
+            "~65292",
+            "~130583",
+            "~261167",
+            "~522333",
+            "~783500",
+            "~783500",
+            "~1567000",
+            "~2350500",
+            "15670000",
+            "~7835000"
+          ],
           "source": "Techmines.xlsx / Heaven / C86:G95"
         },
         {
@@ -1565,6 +2197,24 @@
           "elytra": "Not recorded",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "6",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "6",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "3",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
           ],
           "source": "Techmines.xlsx / Heaven / C98:G107"
         }
@@ -1614,6 +2264,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "118950",
+            "237900",
+            "356850",
+            "475800",
+            "594750",
+            "9910",
+            "19825",
+            "39650",
+            "79300",
+            "118950",
+            "118950",
+            "237900",
+            "356850",
+            "2380000",
+            "1190000"
+          ],
           "source": "Techmines.xlsx / Ocean / C1:G10"
         },
         {
@@ -1656,6 +2324,24 @@
           "elytra": "12.65M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "1270000",
+            "2530000",
+            "3800000",
+            "5060000",
+            "6330000",
+            "105440",
+            "210880",
+            "421760",
+            "843520",
+            "1270000",
+            "1265280",
+            "2530560",
+            "3795840",
+            "25305600",
+            "12652800"
           ],
           "source": "Techmines.xlsx / Ocean / C14:G23"
         },
@@ -1700,6 +2386,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "1450000",
+            "2894640",
+            "4341960",
+            "5789280",
+            "7236600",
+            "120610",
+            "241220",
+            "482440",
+            "964880",
+            "1447320",
+            "1447320",
+            "2894640",
+            "4341960",
+            "28946400",
+            "14473200"
+          ],
           "source": "Techmines.xlsx / Ocean / C27:G36"
         },
         {
@@ -1742,6 +2446,24 @@
           "elytra": "1.61M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "161260",
+            "322520",
+            "483780",
+            "645040",
+            "806300",
+            "13440",
+            "26877",
+            "53753",
+            "107507",
+            "161260",
+            "161260",
+            "322520",
+            "483780",
+            "3225200",
+            "1612600"
           ],
           "source": "Techmines.xlsx / Ocean / C38:G47"
         },
@@ -1786,6 +2508,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "1760000",
+            "~3524640",
+            "~5286960",
+            "~7049280",
+            "~8811600",
+            "146860",
+            "~293720",
+            "~587440",
+            "~1174880",
+            "~1762320",
+            "~1762320",
+            "~3524640",
+            "~5286960",
+            "~35246400",
+            "~17623200"
+          ],
           "source": "Techmines.xlsx / Ocean / C49:G58"
         },
         {
@@ -1828,6 +2568,24 @@
           "elytra": "~19.95M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "2000000",
+            "~3990720",
+            "~5986080",
+            "~7981440",
+            "9980000",
+            "166280",
+            "~332560",
+            "~665120",
+            "~1330240",
+            "~1995360",
+            "~1995360",
+            "~3990720",
+            "~5986080",
+            "~39907200",
+            "~19953600"
           ],
           "source": "Techmines.xlsx / Ocean / C60:G69"
         },
@@ -1872,6 +2630,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "2260000",
+            "4520000",
+            "6780000",
+            "9040000",
+            "11300000",
+            "188270",
+            "~376540",
+            "~753080",
+            "~1506160",
+            "2260000",
+            "~2259240",
+            "~4518480",
+            "~6777720",
+            "~45184800",
+            "~22592400"
+          ],
           "source": "Techmines.xlsx / Ocean / C71:G80"
         },
         {
@@ -1915,6 +2691,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "2560000",
+            "5120000",
+            "~7674840",
+            "~10233120",
+            "~12791400",
+            "213190",
+            "426380",
+            "~852760",
+            "~1705520",
+            "~2558280",
+            "~2558280",
+            "~5116560",
+            "~7674840",
+            "~51165600",
+            "~25582800"
+          ],
           "source": "Techmines.xlsx / Ocean / C82:G91"
         },
         {
@@ -1957,6 +2751,24 @@
           "elytra": "Not recorded",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "10",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "10",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "5",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
           ],
           "source": "Techmines.xlsx / Ocean / C93:G102"
         }
@@ -2006,6 +2818,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "312790",
+            "~625580",
+            "~938370",
+            "~1251160",
+            "~1563950",
+            "26070",
+            "~52132",
+            "~104263",
+            "~208527",
+            "~312790",
+            "~312790",
+            "~625580",
+            "~938370",
+            "~6255800",
+            "~3127900"
+          ],
           "source": "Techmines.xlsx / Acidic Lakes / C1:G10"
         },
         {
@@ -2048,6 +2878,24 @@
           "elytra": "~39.65M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "3960000",
+            "~7929980",
+            "~11894970",
+            "~15859960",
+            "~19824950",
+            "330420",
+            "~660832",
+            "~1321663",
+            "~2643327",
+            "~3964990",
+            "~3964990",
+            "~7929980",
+            "~11894970",
+            "~79299800",
+            "~39649900"
           ],
           "source": "Techmines.xlsx / Acidic Lakes / C14:G23"
         },
@@ -2092,6 +2940,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "3780000",
+            "~7550160",
+            "~11325240",
+            "~15100320",
+            "~18875400",
+            "314590",
+            "~629180",
+            "~1258360",
+            "~2516720",
+            "~3775080",
+            "~3775080",
+            "~7550160",
+            "~11325240",
+            "~75501600",
+            "~37750800"
+          ],
           "source": "Techmines.xlsx / Acidic Lakes / C27:G36"
         },
         {
@@ -2134,6 +3000,24 @@
           "elytra": "~4.31M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "430980",
+            "~861955",
+            "~1292933",
+            "~1723910",
+            "~2154888",
+            "35910",
+            "~71830",
+            "~143659",
+            "~287318",
+            "~430978",
+            "~430978",
+            "~861955",
+            "~1292933",
+            "~8619550",
+            "~4309775"
           ],
           "source": "Techmines.xlsx / Acidic Lakes / C38:G47"
         },
@@ -2178,6 +3062,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "5590000",
+            "~11187120",
+            "~16780680",
+            "~22374240",
+            "~27967800",
+            "466130",
+            "~932260",
+            "~1864520",
+            "~3729040",
+            "~5593560",
+            "~5593560",
+            "~11187120",
+            "~16780680",
+            "~111871200",
+            "~55935600"
+          ],
           "source": "Techmines.xlsx / Acidic Lakes / C49:G58"
         },
         {
@@ -2220,6 +3122,24 @@
           "elytra": "~5.80M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "580280",
+            "~1160560",
+            "~1740840",
+            "~2321120",
+            "~2901400",
+            "48360",
+            "~96713",
+            "~193427",
+            "~386853",
+            "~580280",
+            "~580280",
+            "~1160560",
+            "~1740840",
+            "~11605600",
+            "~5802800"
           ],
           "source": "Techmines.xlsx / Acidic Lakes / C60:G69"
         },
@@ -2264,6 +3184,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "7100000",
+            "~14205840",
+            "~21308760",
+            "~28411680",
+            "~35514600",
+            "591910",
+            "~1183820",
+            "~2367640",
+            "~4735280",
+            "~7102920",
+            "~7102920",
+            "~14205840",
+            "~21308760",
+            "~142058400",
+            "~71029200"
+          ],
           "source": "Techmines.xlsx / Acidic Lakes / C71:G80"
         },
         {
@@ -2307,6 +3245,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "8070000",
+            "~16149840",
+            "~24224760",
+            "~32299680",
+            "~40374600",
+            "672910",
+            "~1345820",
+            "~2691640",
+            "~5383280",
+            "~8074920",
+            "~8074920",
+            "~16149840",
+            "~24224760",
+            "~161498400",
+            "~80749200"
+          ],
           "source": "Techmines.xlsx / Acidic Lakes / C82:G91"
         },
         {
@@ -2349,6 +3305,24 @@
           "elytra": "Not recorded",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "14",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "14",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "7",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
           ],
           "source": "Techmines.xlsx / Acidic Lakes / C93:G102"
         }
@@ -2398,6 +3372,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "10940000",
+            "~21874080",
+            "~32811120",
+            "~43748160",
+            "~54685200",
+            "911420",
+            "~1822840",
+            "~3645680",
+            "~7291360",
+            "~10937040",
+            "~10937040",
+            "~21874080",
+            "~32811120",
+            "~218740800",
+            "~109370400"
+          ],
           "source": "Techmines.xlsx / Steampunk / C1:G10"
         },
         {
@@ -2440,6 +3432,24 @@
           "elytra": "~90.13M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "9010000",
+            "~18026640",
+            "~27039960",
+            "~36053280",
+            "~45066600",
+            "751110",
+            "~1502220",
+            "~3004440",
+            "~6008880",
+            "~9013320",
+            "~9013320",
+            "~18026640",
+            "~27039960",
+            "~180266400",
+            "~90133200"
           ],
           "source": "Techmines.xlsx / Steampunk / C14:G23"
         },
@@ -2484,6 +3494,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "13970000",
+            "~27940000",
+            "~41910000",
+            "~55880000",
+            "~69850000",
+            "1160000",
+            "~2328333",
+            "~4656667",
+            "~9313333",
+            "~13970000",
+            "~13970000",
+            "~27940000",
+            "~41910000",
+            "~279400000",
+            "~139700000"
+          ],
           "source": "Techmines.xlsx / Steampunk / C27:G36"
         },
         {
@@ -2526,6 +3554,24 @@
           "elytra": "~11.87M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "1190000",
+            "~2374320",
+            "~3561480",
+            "~4748640",
+            "~5935800",
+            "98930",
+            "~197860",
+            "~395720",
+            "~791440",
+            "~1187160",
+            "~1187160",
+            "~2374320",
+            "~3561480",
+            "~23743200",
+            "~11871600"
           ],
           "source": "Techmines.xlsx / Steampunk / C38:G47"
         },
@@ -2570,6 +3616,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "1790000",
+            "~3585600",
+            "~5378400",
+            "~7171200",
+            "~8964000",
+            "149400",
+            "~298800",
+            "~597600",
+            "~1195200",
+            "~1792800",
+            "~1792800",
+            "~3585600",
+            "~5378400",
+            "~35856000",
+            "~17928000"
+          ],
           "source": "Techmines.xlsx / Steampunk / C49:G58"
         },
         {
@@ -2612,6 +3676,24 @@
           "elytra": "~201.90M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "20190000",
+            "~40380000",
+            "~60570000",
+            "~80760000",
+            "~100950000",
+            "1680000",
+            "~3365000",
+            "~6730000",
+            "~13460000",
+            "~20190000",
+            "~20190000",
+            "~40380000",
+            "~60570000",
+            "~403800000",
+            "~201900000"
           ],
           "source": "Techmines.xlsx / Steampunk / C60:G69"
         },
@@ -2656,6 +3738,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "23090000",
+            "~46180000",
+            "~69270000",
+            "~92360000",
+            "~115450000",
+            "1920000",
+            "~3848333",
+            "~7696667",
+            "~15393333",
+            "~23090000",
+            "~23090000",
+            "~46180000",
+            "~69270000",
+            "~461800000",
+            "~230900000"
+          ],
           "source": "Techmines.xlsx / Steampunk / C71:G80"
         },
         {
@@ -2699,6 +3799,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "26420000",
+            "~52840000",
+            "~79260000",
+            "~105680000",
+            "~132100000",
+            "2200000",
+            "~4403333",
+            "~8806667",
+            "~17613333",
+            "~26420000",
+            "~26420000",
+            "~52840000",
+            "~79260000",
+            "~528400000",
+            "~264200000"
+          ],
           "source": "Techmines.xlsx / Steampunk / C82:G91"
         },
         {
@@ -2741,6 +3859,24 @@
           "elytra": "Not recorded",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "18",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "18",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "9",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
           ],
           "source": "Techmines.xlsx / Steampunk / C93:G102"
         }
@@ -2790,6 +3926,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "22400000",
+            "~44830000",
+            "~67245000",
+            "~89660000",
+            "~112075000",
+            "1870000",
+            "~3735833",
+            "~7471667",
+            "~14943333",
+            "~22415000",
+            "~22415000",
+            "~44830000",
+            "~67245000",
+            "~448300000",
+            "~224150000"
+          ],
           "source": "Techmines.xlsx / Sakura Forest / C1:G10"
         },
         {
@@ -2832,6 +3986,24 @@
           "elytra": "~398.40M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "39840000",
+            "~79680000",
+            "~119520000",
+            "~159360000",
+            "~199200000",
+            "3320000",
+            "~6640000",
+            "~13280000",
+            "~26560000",
+            "~39840000",
+            "~39840000",
+            "~79680000",
+            "~119520000",
+            "~796800000",
+            "~398400000"
           ],
           "source": "Techmines.xlsx / Sakura Forest / C14:G23"
         },
@@ -2876,6 +4048,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "29690000",
+            "~59380000",
+            "~89070000",
+            "~118760000",
+            "~148450000",
+            "2470000",
+            "~4948333",
+            "~9896667",
+            "~19793333",
+            "~29690000",
+            "~29690000",
+            "~59380000",
+            "~89070000",
+            "~593800000",
+            "~296900000"
+          ],
           "source": "Techmines.xlsx / Sakura Forest / C27:G36"
         },
         {
@@ -2918,6 +4108,24 @@
           "elytra": "~518.75M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "51900000",
+            "~103750000",
+            "~155625000",
+            "~207500000",
+            "~259375000",
+            "4320000",
+            "~8645833",
+            "~17291667",
+            "~34583333",
+            "~51875000",
+            "~51875000",
+            "~103750000",
+            "~155625000",
+            "~1037500000",
+            "~518750000"
           ],
           "source": "Techmines.xlsx / Sakura Forest / C38:G47"
         },
@@ -2962,6 +4170,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "3950000",
+            "~7901280",
+            "~11851920",
+            "~15802560",
+            "~19753200",
+            "329220",
+            "~658440",
+            "~1316880",
+            "~2633760",
+            "~3950640",
+            "~3950640",
+            "~7901280",
+            "~11851920",
+            "~79012800",
+            "~39506400"
+          ],
           "source": "Techmines.xlsx / Sakura Forest / C49:G58"
         },
         {
@@ -3004,6 +4230,24 @@
           "elytra": "~47.24M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "4720000",
+            "~9447120",
+            "~14170680",
+            "~18894240",
+            "~23617800",
+            "393630",
+            "~787260",
+            "~1574520",
+            "~3149040",
+            "~4723560",
+            "~4723560",
+            "~9447120",
+            "~14170680",
+            "~94471200",
+            "~47235600"
           ],
           "source": "Techmines.xlsx / Sakura Forest / C60:G69"
         },
@@ -3048,6 +4292,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "77470000",
+            "~154940000",
+            "~232410000",
+            "~309880000",
+            "~387350000",
+            "6460000",
+            "~12911667",
+            "~25823333",
+            "~51646667",
+            "~77470000",
+            "~77470000",
+            "~154940000",
+            "~232410000",
+            "~1549400000",
+            "~774700000"
+          ],
           "source": "Techmines.xlsx / Sakura Forest / C71:G80"
         },
         {
@@ -3091,6 +4353,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "89470000",
+            "~178940000",
+            "~268410000",
+            "~357880000",
+            "~447350000",
+            "7460000",
+            "~14911667",
+            "~29823333",
+            "~59646667",
+            "~89470000",
+            "~89470000",
+            "~178940000",
+            "~268410000",
+            "~1789400000",
+            "~894700000"
+          ],
           "source": "Techmines.xlsx / Sakura Forest / C82:G91"
         },
         {
@@ -3133,6 +4413,24 @@
           "elytra": "Not recorded",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "20",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "20",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "10",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
           ],
           "source": "Techmines.xlsx / Sakura Forest / C93:G102"
         }
@@ -3183,6 +4481,24 @@
             "~ marks estimates; verify vendor prices.",
             "REVIEW: entered sword/tool prices differ from 12:1. Each progresses independently."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "9770000",
+            "14.82M",
+            "19.87M",
+            "24.93M",
+            "32.67M",
+            "673680",
+            "1347360",
+            "2.02M",
+            "2.69M",
+            "5.39M",
+            "9770000",
+            "14.82M",
+            "19.87M",
+            "151.58M",
+            "75.79M"
+          ],
           "source": "Techmines.xlsx / Wild West / C1:G10"
         },
         {
@@ -3225,6 +4541,24 @@
           "elytra": "~1.33B",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "133260000",
+            "~266520000",
+            "~399780000",
+            "~533040000",
+            "~666300000",
+            "11100000",
+            "~22210000",
+            "~44420000",
+            "~88840000",
+            "~133260000",
+            "~133260000",
+            "~266520000",
+            "~399780000",
+            "~2665200000",
+            "~1332600000"
           ],
           "source": "Techmines.xlsx / Wild West / C14:G23"
         },
@@ -3269,6 +4603,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "154510000",
+            "~309020000",
+            "~463530000",
+            "~618040000",
+            "~772550000",
+            "12880000",
+            "~25751667",
+            "~51503333",
+            "~103006667",
+            "~154510000",
+            "~154510000",
+            "~309020000",
+            "~463530000",
+            "~3090200000",
+            "~1545100000"
+          ],
           "source": "Techmines.xlsx / Wild West / C27:G36"
         },
         {
@@ -3311,6 +4663,24 @@
           "elytra": "~107.36M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "10740000",
+            "~21472560",
+            "~32208840",
+            "~42945120",
+            "~53681400",
+            "894690",
+            "~1789380",
+            "~3578760",
+            "~7157520",
+            "~10736280",
+            "~10736280",
+            "~21472560",
+            "~32208840",
+            "~214725600",
+            "~107362800"
           ],
           "source": "Techmines.xlsx / Wild West / C38:G47"
         },
@@ -3355,6 +4725,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "120570000",
+            "~241140000",
+            "~361710000",
+            "~482280000",
+            "~602850000",
+            "10050000",
+            "~20095000",
+            "~40190000",
+            "~80380000",
+            "~120570000",
+            "~120570000",
+            "~241140000",
+            "~361710000",
+            "~2411400000",
+            "~1205700000"
+          ],
           "source": "Techmines.xlsx / Wild West / C49:G58"
         },
         {
@@ -3398,6 +4786,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "237800000",
+            "~475630000",
+            "~713445000",
+            "~951260000",
+            "~1189075000",
+            "19820000",
+            "~39635833",
+            "~79271667",
+            "~158543333",
+            "~237815000",
+            "~237815000",
+            "~475630000",
+            "~713445000",
+            "~4756300000",
+            "~2378150000"
+          ],
           "source": "Techmines.xlsx / Wild West / C60:G69"
         },
         {
@@ -3440,6 +4846,24 @@
           "elytra": "~2.77B",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "277360000",
+            "~554720000",
+            "~832080000",
+            "~1109440000",
+            "~1386800000",
+            "23110000",
+            "~46226667",
+            "~92453333",
+            "~184906667",
+            "~277360000",
+            "~277360000",
+            "~554720000",
+            "~832080000",
+            "~5547200000",
+            "~2773600000"
           ],
           "source": "Techmines.xlsx / Wild West / C71:G80"
         },
@@ -3485,6 +4909,24 @@
             "~ marks estimates; verify vendor prices.",
             "REVIEW: entered sword/tool prices differ from 12:1. Each progresses independently."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "20510000",
+            "41020000",
+            "61530000",
+            "82040000",
+            "102550000",
+            "1170000",
+            "3.42M",
+            "6.84M",
+            "13.67M",
+            "20.51M",
+            "20510000",
+            "41020000",
+            "61530000",
+            "410.13M",
+            "205.06M"
+          ],
           "source": "Techmines.xlsx / Wild West / C82:G91"
         },
         {
@@ -3527,6 +4969,24 @@
           "elytra": "Not recorded",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "22",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "22",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "11",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
           ],
           "source": "Techmines.xlsx / Wild West / C93:G102"
         }
@@ -3576,6 +5036,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "222350000",
+            "444700000",
+            "667050000",
+            "889400000",
+            "1110000000",
+            "18530000",
+            "37060000",
+            "74120000",
+            "148230000",
+            "222350000",
+            "222350000",
+            "444700000",
+            "667050000",
+            "4450000000",
+            "2220000000"
+          ],
           "source": "Techmines.xlsx / Pixel Grove / C1:G10"
         },
         {
@@ -3618,6 +5096,24 @@
           "elytra": "268.22M",
           "notes": [
             "Talisman unit missing in source; verify with vendor."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "26820000",
+            "53640000",
+            "80470000",
+            "107290000",
+            "134110000",
+            "2240000",
+            "4470000",
+            "8940000",
+            "17880000",
+            "26820000",
+            "26820000",
+            "53640000",
+            "80470000",
+            "Not confirmed",
+            "268220000"
           ],
           "source": "Techmines.xlsx / Pixel Grove / C14:G23"
         },
@@ -3662,6 +5158,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "510870000",
+            "1020000000",
+            "1530000000",
+            "2040000000",
+            "2550000000",
+            "42570000",
+            "85150000",
+            "170290000",
+            "340580000",
+            "510870000",
+            "510870000",
+            "1020000000",
+            "1530000000",
+            "10220000000",
+            "5110000000"
+          ],
           "source": "Techmines.xlsx / Pixel Grove / C27:G36"
         },
         {
@@ -3704,6 +5218,24 @@
           "elytra": "386.02M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "38600000",
+            "77200000",
+            "115810000",
+            "154410000",
+            "193010000",
+            "3220000",
+            "6430000",
+            "12870000",
+            "25730000",
+            "38600000",
+            "38600000",
+            "77200000",
+            "115810000",
+            "772050000",
+            "386020000"
           ],
           "source": "Techmines.xlsx / Pixel Grove / C38:G47"
         },
@@ -3748,6 +5280,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "700470000",
+            "1400000000",
+            "2100000000",
+            "2800000000",
+            "3500000000",
+            "58370000",
+            "116750000",
+            "233490000",
+            "466980000",
+            "700470000",
+            "700470000",
+            "1400000000",
+            "2100000000",
+            "14010000000",
+            "7000000000"
+          ],
           "source": "Techmines.xlsx / Pixel Grove / C49:G58"
         },
         {
@@ -3790,6 +5340,24 @@
           "elytra": "8.26B",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "826360000",
+            "1650000000",
+            "2480000000",
+            "3310000000",
+            "4130000000",
+            "68860000",
+            "137730000",
+            "275450000",
+            "550910000",
+            "826360000",
+            "826360000",
+            "1650000000",
+            "2480000000",
+            "16530000000",
+            "8260000000"
           ],
           "source": "Techmines.xlsx / Pixel Grove / C60:G69"
         },
@@ -3834,6 +5402,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "976510000",
+            "1950000000",
+            "2930000000",
+            "3910000000",
+            "4880000000",
+            "81380000",
+            "162750000",
+            "325500000",
+            "651010000",
+            "976510000",
+            "976510000",
+            "1950000000",
+            "2930000000",
+            "19530000000",
+            "9770000000"
+          ],
           "source": "Techmines.xlsx / Pixel Grove / C71:G80"
         },
         {
@@ -3877,6 +5463,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "1160000000",
+            "~2311920000",
+            "~3467880000",
+            "~4623840000",
+            "~5779800000",
+            "96330000",
+            "~192660000",
+            "~385320000",
+            "~770640000",
+            "~1155960000",
+            "~1155960000",
+            "~2311920000",
+            "~3467880000",
+            "23120000000",
+            "11560000000"
+          ],
           "source": "Techmines.xlsx / Pixel Grove / C82:G91"
         },
         {
@@ -3919,6 +5523,24 @@
           "elytra": "Not recorded",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "24",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "24",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "12",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
           ],
           "source": "Techmines.xlsx / Pixel Grove / C93:G102"
         }
@@ -3968,6 +5590,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "804810000",
+            "~1609620000",
+            "~2414430000",
+            "~3219240000",
+            "~4024050000",
+            "67070000",
+            "~134135000",
+            "~268270000",
+            "~536540000",
+            "~804810000",
+            "~804810000",
+            "~1609620000",
+            "~2414430000",
+            "16100000000",
+            "~8048100000"
+          ],
           "source": "Techmines.xlsx / Planet X / C1:G10"
         },
         {
@@ -4010,6 +5650,24 @@
           "elytra": "~991.30M",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "99130000",
+            "~198260000",
+            "~297390000",
+            "~396520000",
+            "~495650000",
+            "8260000",
+            "~16521667",
+            "~33043333",
+            "~66086667",
+            "99130000",
+            "~99130000",
+            "~198260000",
+            "~297390000",
+            "1980000000",
+            "~991300000"
           ],
           "source": "Techmines.xlsx / Planet X / C13:G22"
         },
@@ -4054,6 +5712,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "2110000000",
+            "~4229280000",
+            "~6343920000",
+            "~8458560000",
+            "~10573200000",
+            "176220000",
+            "~352440000",
+            "~704880000",
+            "~1409760000",
+            "~2114640000",
+            "~2114640000",
+            "~4229280000",
+            "~6343920000",
+            "42290000000",
+            "~21146400000"
+          ],
           "source": "Techmines.xlsx / Planet X / C25:G34"
         },
         {
@@ -4096,6 +5772,24 @@
           "elytra": "~1.46B",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "146170000",
+            "~292332500",
+            "~438498750",
+            "~584665000",
+            "~730831250",
+            "12180000",
+            "24360000",
+            "48720000",
+            "97440000",
+            "146170000",
+            "~146166250",
+            "~292332500",
+            "~438498750",
+            "2920000000",
+            "~1461662500"
           ],
           "source": "Techmines.xlsx / Planet X / C36:G45"
         },
@@ -4140,6 +5834,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "2990000000",
+            "~5972880000",
+            "~8959320000",
+            "~11945760000",
+            "~14932200000",
+            "248870000",
+            "~497740000",
+            "~995480000",
+            "~1990960000",
+            "~2986440000",
+            "~2986440000",
+            "~5972880000",
+            "~8959320000",
+            "59730000000",
+            "~29864400000"
+          ],
           "source": "Techmines.xlsx / Planet X / C47:G56"
         },
         {
@@ -4183,6 +5895,24 @@
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "3580000000",
+            "~7150590000",
+            "~10725885000",
+            "~14301180000",
+            "~17876475000",
+            "297940000",
+            "~595882500",
+            "~1191765000",
+            "~2383530000",
+            "~3575295000",
+            "~3575295000",
+            "~7150590000",
+            "~10725885000",
+            "71510000000",
+            "~35752950000"
+          ],
           "source": "Techmines.xlsx / Planet X / C58:G67"
         },
         {
@@ -4225,6 +5955,24 @@
           "elytra": "~42.88B",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "4290000000",
+            "~8576880000",
+            "~12865320000",
+            "~17153760000",
+            "~21442200000",
+            "357370000",
+            "~714740000",
+            "~1429480000",
+            "~2858960000",
+            "~4288440000",
+            "~4288440000",
+            "~8576880000",
+            "~12865320000",
+            "85770000000",
+            "~42884400000"
           ],
           "source": "Techmines.xlsx / Planet X / C69:G78"
         },
@@ -4270,6 +6018,24 @@
             "~ marks estimates; verify vendor prices.",
             "REVIEW: Sword I entered 1.16B; pickaxe/talisman imply ~5.154B. Original retained; estimates use pickaxe/talisman."
           ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "1160000000",
+            "~10308000000",
+            "~15462000000",
+            "~20616000000",
+            "~25770000000",
+            "429500000",
+            "~859000000",
+            "~1718000000",
+            "~3436000000",
+            "~5154000000",
+            "~5154000000",
+            "~10308000000",
+            "~15462000000",
+            "103080000000",
+            "~51540000000"
+          ],
           "source": "Techmines.xlsx / Planet X / C80:G89"
         },
         {
@@ -4312,6 +6078,24 @@
           "elytra": "Not recorded",
           "notes": [
             "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "26",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "26",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "13",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
           ],
           "source": "Techmines.xlsx / Planet X / C91:G100"
         }
