@@ -6,10 +6,11 @@ Client-side Fabric mod for `techmines.minehut.gg`.
 
 Latest public version: **0.8.0**. Choose the jar for your Minecraft version:
 
-- [Minecraft 26.3: techmines-plus-0.8.0.jar](downloads/techmines-plus-0.8.0.jar)
-- [Minecraft 26.2: techmines-plus-0.8.0+mc26.2.jar](downloads/techmines-plus-0.8.0+mc26.2.jar)
+- [Minecraft 26.3: techmines-plus-0.8.0.jar](https://github.com/waboolio/techmines-plus/releases/download/v0.8.0/techmines-plus-0.8.0.jar)
+- [Minecraft 26.2: techmines-plus-0.8.0+mc26.2.jar](https://github.com/waboolio/techmines-plus/releases/download/v0.8.0/techmines-plus-0.8.0%2Bmc26.2.jar)
 
-Open the file on GitHub and use the download button. Do not install a sources jar.
+Use these release attachments for counted downloads. Do not install the source-code ZIP.
+Browse all versions on the [Releases page](https://github.com/waboolio/techmines-plus/releases).
 
 1. In Prism Launcher, select your instance and click **Edit**.
 2. Under **Version**, install **Fabric Loader 0.19.5 or newer**.
@@ -93,3 +94,16 @@ Unofficial community project; not affiliated with Mojang, Microsoft, Minehut or 
 
 Recorded additional starter-tool costs, such as the Wood mine pickaxe, are also
 included. The importer stores these under optional `additionalTotalCosts`.
+
+## Download counts and publishing
+
+GitHub counts downloads of each Release attachment separately. Counts represent
+download requests, not unique players. Earlier repository-file downloads cannot
+be reconstructed. Repository-file downloads and clones are not counted as
+Release-attachment downloads.
+
+When a new public version and its matching 26.3/26.2 jars are committed to main,
+the Publish public release workflow creates vVERSION and attaches both jars.
+Optional release notes go in release-notes/VERSION.md. Existing attachments are
+never overwritten, preserving their counters. Always use a new version for
+changed jars. The workflow can also be run manually in Actions.

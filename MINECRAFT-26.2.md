@@ -1,7 +1,7 @@
 # Minecraft 26.2 compatibility
 
-Use downloads/techmines-plus-0.8.0+mc26.2.jar for 26.2.
-Keep using downloads/techmines-plus-0.8.0.jar for 26.3.
+Use the 26.2 jar attached to https://github.com/waboolio/techmines-plus/releases/tag/v0.8.0.
+Use that release's 26.3 jar for Minecraft 26.3.
 Install one Techmines Plus jar at a time.
 
 26.2 requires Java 25, Fabric Loader 0.19.5+, and Fabric API 0.161.0+26.2.
