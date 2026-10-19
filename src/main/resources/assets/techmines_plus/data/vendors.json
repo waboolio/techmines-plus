@@ -3844,31 +3844,31 @@
             {
               "tier": "I",
               "sword": "1.16B",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "tool": "96.33M",
+              "armor": "~1.16B"
             },
             {
               "tier": "II",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "~2.31B",
+              "tool": "~192.66M",
+              "armor": "~2.31B"
             },
             {
               "tier": "III",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "~3.47B",
+              "tool": "~385.32M",
+              "armor": "~3.47B"
             },
             {
               "tier": "IV",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "~4.62B",
+              "tool": "~770.64M",
               "armor": "Not recorded"
             },
             {
               "tier": "V",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "~5.78B",
+              "tool": "~1.16B",
               "armor": "Not recorded"
             }
           ],
@@ -3886,9 +3886,9 @@
           "rows": [
             {
               "tier": "I",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "24",
+              "tool": "24",
+              "armor": "12"
             },
             {
               "tier": "II",

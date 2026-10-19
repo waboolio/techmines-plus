@@ -4,10 +4,10 @@ Client-side Fabric mod for `techmines.minehut.gg`.
 
 ## Download and install
 
-Latest public version: **0.7.0**. Choose the jar for your Minecraft version:
+Latest public version: **0.7.1**. Choose the jar for your Minecraft version:
 
-- [Minecraft 26.3: techmines-plus-0.7.0.jar](downloads/techmines-plus-0.7.0.jar)
-- [Minecraft 26.2: techmines-plus-0.7.0+mc26.2.jar](downloads/techmines-plus-0.7.0+mc26.2.jar)
+- [Minecraft 26.3: techmines-plus-0.7.1.jar](downloads/techmines-plus-0.7.1.jar)
+- [Minecraft 26.2: techmines-plus-0.7.1+mc26.2.jar](downloads/techmines-plus-0.7.1+mc26.2.jar)
 
 Open the file on GitHub and use the download button. Do not install a sources jar.
 
@@ -45,7 +45,7 @@ Open **Vendor Info**, choose a world, then a mine. Browse resource costs for
 swords, the relevant mining tool, armour per piece, talismans and elytras.
 Previous/next mine buttons and paginated world/mine lists support browsing.
 
-Version **0.7.0** includes the latest spreadsheet snapshot across **11 worlds and
+Version **0.7.1** includes the latest spreadsheet snapshot across **11 worlds and
 99 mine/boss pages**, including Acidic Lakes, Steampunk, Sakura Forest, Wild West
 and Planet X. Confirmed spreadsheet entries are shown without a prefix. Blue and
 orange spreadsheet estimates carry a cyan **~** prefix. Excel formulas alone do
@@ -57,9 +57,12 @@ Astralium Sword I is retained as entered (1.16B); its page flags that the pickax
 and talisman imply a base near 5.154B. The Bulbasaur talisman unit is still unconfirmed.
 See [vendor data instructions](VENDOR-DATA.md) to update the catalogue.
 
+Mine 80 (Pixel Grove, Charmander / Firestone) now includes the missing sword,
+pickaxe and armour estimates. Confirmed starting prices remain unchanged.
+
 ## Testing and bug reports
 
-Both 0.7.0 builds compile successfully and their bundled vendor data/version
+Both 0.7.1 builds compile successfully and their bundled vendor data/version
 metadata were checked. The refreshed pages still need an in-game appearance check.
 Report issues with mod/Minecraft/Fabric versions, reproduction steps, screenshots
 and relevant console errors at [GitHub Issues](https://github.com/waboolio/techmines-plus/issues).
@@ -68,7 +71,7 @@ Remove account tokens and personal information from shared logs.
 ## Build from source
 
 Use a Java 25 JDK. Run `gradlew.bat build` on Windows or `./gradlew build` on Linux/macOS.
-The main source targets Minecraft 26.3 and produces `build/libs/techmines-plus-0.7.0.jar`.
+The main source targets Minecraft 26.3 and produces `build/libs/techmines-plus-0.7.1.jar`.
 See the compatibility instructions for the separate 26.2 variant.
 
 Unofficial community project; not affiliated with Mojang, Microsoft, Minehut or the Techmines server owners.
