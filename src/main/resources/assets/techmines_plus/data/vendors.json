@@ -1,42 +1,3536 @@
 {
   "schemaVersion": 1,
-  "source": "User supplied Techmines.xlsx; imported 2026-10-18",
+  "source": "Techmines.xlsx; blue/orange estimates marked ~; black entries confirmed; imported 2026-10-18",
   "worlds": [
     {
       "name": "Spawn",
-      "mines": []
+      "mines": [
+        {
+          "name": "MINE 1 Wood",
+          "resource": "Wood",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "512",
+              "tool": "8",
+              "armor": "256"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "24",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "64",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "192",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "320",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "1.54k",
+          "elytra": "1.02k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Spawn / B1:G10"
+        },
+        {
+          "name": "MINE 2 Stone",
+          "resource": "Stone",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "44",
+              "tool": "Not recorded",
+              "armor": "44"
+            },
+            {
+              "tier": "II",
+              "sword": "88",
+              "tool": "44",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "88",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "4.22k",
+          "elytra": "2.81k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Spawn / C14:G23"
+        },
+        {
+          "name": "MINE 3 Coal",
+          "resource": "Coal",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "410",
+              "tool": "68",
+              "armor": "410"
+            },
+            {
+              "tier": "II",
+              "sword": "820",
+              "tool": "137",
+              "armor": "820"
+            },
+            {
+              "tier": "III",
+              "sword": "1.23k",
+              "tool": "273",
+              "armor": "Not confirmed"
+            },
+            {
+              "tier": "IV",
+              "sword": "1.64k",
+              "tool": "410",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "13.12k",
+          "elytra": "8.74k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Spawn / C27:G36"
+        },
+        {
+          "name": "MINE 4 Iron",
+          "resource": "Iron",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "1.07k",
+              "tool": "90",
+              "armor": "1.07k"
+            },
+            {
+              "tier": "II",
+              "sword": "2.15k",
+              "tool": "179",
+              "armor": "2.15k"
+            },
+            {
+              "tier": "III",
+              "sword": "3.22k",
+              "tool": "358",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "4.30k",
+              "tool": "716",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "5.37k",
+              "tool": "1.17k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "22.92k",
+          "elytra": "11.46k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Spawn / C38:G47"
+        },
+        {
+          "name": "MINE 5 Gold",
+          "resource": "Gold",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "1.44k",
+              "tool": "120",
+              "armor": "1.44k"
+            },
+            {
+              "tier": "II",
+              "sword": "2.88k",
+              "tool": "240",
+              "armor": "2.88k"
+            },
+            {
+              "tier": "III",
+              "sword": "4.33k",
+              "tool": "481",
+              "armor": "4.33k"
+            },
+            {
+              "tier": "IV",
+              "sword": "5.77k",
+              "tool": "962",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "7.21k",
+              "tool": "1.44k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "30.77k",
+          "elytra": "15.39k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Spawn / C49:G58"
+        },
+        {
+          "name": "MINE 6 Lapis",
+          "resource": "Lapis",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "2.22k",
+              "tool": "185",
+              "armor": "2.22k"
+            },
+            {
+              "tier": "II",
+              "sword": "4.43k",
+              "tool": "369",
+              "armor": "4.43k"
+            },
+            {
+              "tier": "III",
+              "sword": "6.65k",
+              "tool": "739",
+              "armor": "6.65k"
+            },
+            {
+              "tier": "IV",
+              "sword": "8.87k",
+              "tool": "1.48k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "11.08k",
+              "tool": "2.22k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "37.82k",
+          "elytra": "18.91k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Spawn / C60:G69"
+        },
+        {
+          "name": "MINE 7 Diamond",
+          "resource": "Diamond",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "3.24k",
+              "tool": "270",
+              "armor": "3.24k"
+            },
+            {
+              "tier": "II",
+              "sword": "6.49k",
+              "tool": "541",
+              "armor": "6.49k"
+            },
+            {
+              "tier": "III",
+              "sword": "9.73k",
+              "tool": "1.08k",
+              "armor": "9.73k"
+            },
+            {
+              "tier": "IV",
+              "sword": "10.81k",
+              "tool": "2.16k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "14.06k",
+              "tool": "3.24k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "43.26k",
+          "elytra": "21.63k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Spawn / C71:G80"
+        },
+        {
+          "name": "MINE 8 Emerald",
+          "resource": "Emerald",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "4.29k",
+              "tool": "358",
+              "armor": "4.29k"
+            },
+            {
+              "tier": "II",
+              "sword": "8.59k",
+              "tool": "716",
+              "armor": "8.59k"
+            },
+            {
+              "tier": "III",
+              "sword": "12.88k",
+              "tool": "1.43k",
+              "armor": "12.88k"
+            },
+            {
+              "tier": "IV",
+              "sword": "17.17k",
+              "tool": "2.86k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "21.47k",
+              "tool": "4.29k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "45.80k",
+          "elytra": "22.90k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Spawn / C82:G91"
+        },
+        {
+          "name": "Boss Iron Titan",
+          "resource": "Iron Titan Core",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "1",
+              "tool": "1",
+              "armor": "1"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Spawn / C93:G102"
+        }
+      ]
     },
     {
       "name": "Nether",
-      "mines": []
+      "mines": [
+        {
+          "name": "MINE 9 Magma",
+          "resource": "Magma",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "18.88k",
+              "tool": "1.57k",
+              "armor": "18.88k"
+            },
+            {
+              "tier": "II",
+              "sword": "~37.76k",
+              "tool": "~3.15k",
+              "armor": "~37.76k"
+            },
+            {
+              "tier": "III",
+              "sword": "~56.64k",
+              "tool": "~6.29k",
+              "armor": "~56.64k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~75.52k",
+              "tool": "~12.59k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~94.40k",
+              "tool": "~18.88k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "377.59k",
+          "elytra": "188.79k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Nether / B1:G10"
+        },
+        {
+          "name": "MINE 10 Crimson",
+          "resource": "Crimson",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "51.06k",
+              "tool": "4.25k",
+              "armor": "~51.06k"
+            },
+            {
+              "tier": "II",
+              "sword": "~102.11k",
+              "tool": "~8.51k",
+              "armor": "~102.11k"
+            },
+            {
+              "tier": "III",
+              "sword": "~153.17k",
+              "tool": "~17.02k",
+              "armor": "~153.17k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~204.23k",
+              "tool": "~34.04k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~255.29k",
+              "tool": "~51.06k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~1.02M",
+          "elytra": "~510.57k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Nether / C14:G23"
+        },
+        {
+          "name": "MINE 11 Quartz",
+          "resource": "Quartz",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "25.46k",
+              "tool": "2.12k",
+              "armor": "~25.46k"
+            },
+            {
+              "tier": "II",
+              "sword": "~50.92k",
+              "tool": "~4.24k",
+              "armor": "~50.92k"
+            },
+            {
+              "tier": "III",
+              "sword": "~76.38k",
+              "tool": "~8.49k",
+              "armor": "~76.38k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~101.84k",
+              "tool": "~16.97k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~127.30k",
+              "tool": "~25.46k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~509.20k",
+          "elytra": "~254.60k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Nether / C27:G36"
+        },
+        {
+          "name": "MINE 12 Topaz",
+          "resource": "Topaz",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "28.85k",
+              "tool": "~2.40k",
+              "armor": "~28.85k"
+            },
+            {
+              "tier": "II",
+              "sword": "~57.70k",
+              "tool": "~4.81k",
+              "armor": "~57.70k"
+            },
+            {
+              "tier": "III",
+              "sword": "~86.55k",
+              "tool": "~9.62k",
+              "armor": "~86.55k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~115.40k",
+              "tool": "~19.23k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~144.25k",
+              "tool": "~28.85k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~577.00k",
+          "elytra": "~288.50k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Nether / C38:G47"
+        },
+        {
+          "name": "MINE 13 Warped",
+          "resource": "Warped",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "101.48k",
+              "tool": "8.46k",
+              "armor": "101.48k"
+            },
+            {
+              "tier": "II",
+              "sword": "~202.96k",
+              "tool": "~16.91k",
+              "armor": "~202.96k"
+            },
+            {
+              "tier": "III",
+              "sword": "~304.44k",
+              "tool": "~33.83k",
+              "armor": "~304.44k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~405.92k",
+              "tool": "~67.65k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~507.40k",
+              "tool": "~101.48k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~2.03M",
+          "elytra": "~1.01M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Nether / C49:G58"
+        },
+        {
+          "name": "MINE 14 Celestite",
+          "resource": "Celestite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "41.59k",
+              "tool": "1.73k",
+              "armor": "~41.59k"
+            },
+            {
+              "tier": "II",
+              "sword": "~83.18k",
+              "tool": "~3.46k",
+              "armor": "~83.18k"
+            },
+            {
+              "tier": "III",
+              "sword": "~124.77k",
+              "tool": "~6.92k",
+              "armor": "~124.77k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~166.36k",
+              "tool": "~13.84k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~207.95k",
+              "tool": "~20.76k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~831.80k",
+          "elytra": "~415.90k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Nether / C60:G69"
+        },
+        {
+          "name": "MINE 15 SoulSand",
+          "resource": "Soul Sand",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "8.26k",
+              "tool": "344",
+              "armor": "8.26k"
+            },
+            {
+              "tier": "II",
+              "sword": "~16.53k",
+              "tool": "861",
+              "armor": "16.53k"
+            },
+            {
+              "tier": "III",
+              "sword": "~24.79k",
+              "tool": "2.07k",
+              "armor": "24.79k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~33.05k",
+              "tool": "4.13k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~41.32k",
+              "tool": "6.20k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~165.28k",
+          "elytra": "~82.64k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Nether / C71:G80"
+        },
+        {
+          "name": "MINE 16 Netherite",
+          "resource": "Netherite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "51.45k",
+              "tool": "4.29k",
+              "armor": "51.45k"
+            },
+            {
+              "tier": "II",
+              "sword": "~102.91k",
+              "tool": "~8.58k",
+              "armor": "102.91k"
+            },
+            {
+              "tier": "III",
+              "sword": "~154.36k",
+              "tool": "~17.15k",
+              "armor": "154.36k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~205.81k",
+              "tool": "~34.30k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~257.27k",
+              "tool": "51.45k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~1.03M",
+          "elytra": "~514.54k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Nether / C82:G91"
+        },
+        {
+          "name": "Boss Wither Overlord",
+          "resource": "Wither Rose",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "2",
+              "tool": "2",
+              "armor": "1"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Nether / C93:G102"
+        }
+      ]
     },
     {
       "name": "End",
-      "mines": []
+      "mines": [
+        {
+          "name": "MINE 17 End Stone",
+          "resource": "End Stone",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "~94.50k",
+              "tool": "~7.88k",
+              "armor": "~94.50k"
+            },
+            {
+              "tier": "II",
+              "sword": "~189.00k",
+              "tool": "~15.75k",
+              "armor": "~189.00k"
+            },
+            {
+              "tier": "III",
+              "sword": "~283.50k",
+              "tool": "~31.50k",
+              "armor": "~283.50k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~378.00k",
+              "tool": "~63.00k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~472.50k",
+              "tool": "~94.50k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "1.89M",
+          "elytra": "~945.00k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / End / C1:G10"
+        },
+        {
+          "name": "MINE 18 Death",
+          "resource": "Death",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "109.04k",
+              "tool": "9.09k",
+              "armor": "~109.04k"
+            },
+            {
+              "tier": "II",
+              "sword": "~218.08k",
+              "tool": "~18.17k",
+              "armor": "~218.08k"
+            },
+            {
+              "tier": "III",
+              "sword": "~327.12k",
+              "tool": "~36.35k",
+              "armor": "~327.12k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~436.16k",
+              "tool": "~72.69k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~545.20k",
+              "tool": "~109.04k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "2.18M",
+          "elytra": "~1.09M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / End / C14:G23"
+        },
+        {
+          "name": "MINE 19 Ethereal",
+          "resource": "Ethereal",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "206.00k",
+              "tool": "17.17k",
+              "armor": "~206.04k"
+            },
+            {
+              "tier": "II",
+              "sword": "~412.08k",
+              "tool": "~34.34k",
+              "armor": "~412.08k"
+            },
+            {
+              "tier": "III",
+              "sword": "~618.12k",
+              "tool": "~68.68k",
+              "armor": "~618.12k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~824.16k",
+              "tool": "~137.36k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~1.03M",
+              "tool": "~206.04k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~4.12M",
+          "elytra": "~2.06M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / End / C27:G36"
+        },
+        {
+          "name": "MINE 20 Nebular",
+          "resource": "Nebular",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "22.63k",
+              "tool": "1.89k",
+              "armor": "22.63k"
+            },
+            {
+              "tier": "II",
+              "sword": "~45.26k",
+              "tool": "~3.77k",
+              "armor": "~45.26k"
+            },
+            {
+              "tier": "III",
+              "sword": "~67.89k",
+              "tool": "~7.54k",
+              "armor": "~67.89k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~90.52k",
+              "tool": "~15.09k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~113.15k",
+              "tool": "~22.63k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~452.60k",
+          "elytra": "~226.30k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / End / C38:G47"
+        },
+        {
+          "name": "MINE 21 Amethyst",
+          "resource": "Amethyst",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "153.45k",
+              "tool": "12.79k",
+              "armor": "~153.45k"
+            },
+            {
+              "tier": "II",
+              "sword": "~306.90k",
+              "tool": "~25.57k",
+              "armor": "~306.90k"
+            },
+            {
+              "tier": "III",
+              "sword": "~460.35k",
+              "tool": "~51.15k",
+              "armor": "~460.35k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~613.80k",
+              "tool": "~102.30k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~767.25k",
+              "tool": "~153.45k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~3.07M",
+          "elytra": "~1.53M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / End / C49:G58"
+        },
+        {
+          "name": "MINE 22 Azurite",
+          "resource": "Azurite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "175.48k",
+              "tool": "~14.62k",
+              "armor": "175.48k"
+            },
+            {
+              "tier": "II",
+              "sword": "~350.96k",
+              "tool": "~29.25k",
+              "armor": "~350.96k"
+            },
+            {
+              "tier": "III",
+              "sword": "~526.44k",
+              "tool": "~58.49k",
+              "armor": "526.44k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~701.92k",
+              "tool": "~116.99k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~877.40k",
+              "tool": "~175.48k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~3.51M",
+          "elytra": "~1.75M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / End / C60:G69"
+        },
+        {
+          "name": "MINE 23 Void",
+          "resource": "Void",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "200.26k",
+              "tool": "~16.69k",
+              "armor": "200.26k"
+            },
+            {
+              "tier": "II",
+              "sword": "~400.52k",
+              "tool": "~33.38k",
+              "armor": "~400.52k"
+            },
+            {
+              "tier": "III",
+              "sword": "~600.78k",
+              "tool": "~66.75k",
+              "armor": "~600.78k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~801.04k",
+              "tool": "~133.51k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~1.00M",
+              "tool": "~200.26k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "4.01M",
+          "elytra": "~2.00M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / End / C71:G80"
+        },
+        {
+          "name": "MINE 24 Nullscape",
+          "resource": "Nullscape",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "35.16k",
+              "tool": "1.10k",
+              "armor": "~35.16k"
+            },
+            {
+              "tier": "II",
+              "sword": "~70.32k",
+              "tool": "2.20k",
+              "armor": "~70.32k"
+            },
+            {
+              "tier": "III",
+              "sword": "~105.48k",
+              "tool": "4.39k",
+              "armor": "~105.48k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~140.64k",
+              "tool": "8.79k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "175.80k",
+              "tool": "17.58k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "703.18k",
+          "elytra": "~351.60k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / End / C82:G91"
+        },
+        {
+          "name": "Boss",
+          "resource": "Boss",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / End / C93:G102"
+        }
+      ]
     },
     {
       "name": "Heaven",
-      "mines": []
+      "mines": [
+        {
+          "name": "MINE 25 GlowStone",
+          "resource": "GlowStone",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "349.80k",
+              "tool": "29.15k",
+              "armor": "349.80k"
+            },
+            {
+              "tier": "II",
+              "sword": "699.60k",
+              "tool": "58.30k",
+              "armor": "699.60k"
+            },
+            {
+              "tier": "III",
+              "sword": "1.05M",
+              "tool": "116.60k",
+              "armor": "1.05M"
+            },
+            {
+              "tier": "IV",
+              "sword": "1.40M",
+              "tool": "233.20k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "1.75M",
+              "tool": "349.80k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "7.00M",
+          "elytra": "3.50M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Heaven / C1:G10"
+        },
+        {
+          "name": "MINE 26 Cloudium",
+          "resource": "Cloudium",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "50.16k",
+              "tool": "4.18k",
+              "armor": "50.16k"
+            },
+            {
+              "tier": "II",
+              "sword": "100.32k",
+              "tool": "8.36k",
+              "armor": "100.32k"
+            },
+            {
+              "tier": "III",
+              "sword": "150.48k",
+              "tool": "16.72k",
+              "armor": "150.48k"
+            },
+            {
+              "tier": "IV",
+              "sword": "200.64k",
+              "tool": "33.44k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "250.80k",
+              "tool": "50.16k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "1.00M",
+          "elytra": "501.60k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Heaven / C16:G25"
+        },
+        {
+          "name": "MINE 27 Sunstone",
+          "resource": "Sunstone",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "439.18k",
+              "tool": "36.60k",
+              "armor": "439.18k"
+            },
+            {
+              "tier": "II",
+              "sword": "878.36k",
+              "tool": "73.20k",
+              "armor": "878.36k"
+            },
+            {
+              "tier": "III",
+              "sword": "1.32M",
+              "tool": "146.39k",
+              "armor": "1.32M"
+            },
+            {
+              "tier": "IV",
+              "sword": "1.76M",
+              "tool": "292.79k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "2.20M",
+              "tool": "439.18k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "8.78M",
+          "elytra": "4.39M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Heaven / C29:G38"
+        },
+        {
+          "name": "MINE 28 Cerasium",
+          "resource": "Cerasium",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "623.86k",
+              "tool": "51.99k",
+              "armor": "623.86k"
+            },
+            {
+              "tier": "II",
+              "sword": "1.25M",
+              "tool": "103.98k",
+              "armor": "1.25M"
+            },
+            {
+              "tier": "III",
+              "sword": "1.87M",
+              "tool": "207.95k",
+              "armor": "1.87M"
+            },
+            {
+              "tier": "IV",
+              "sword": "2.50M",
+              "tool": "415.91k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "3.12M",
+              "tool": "623.86k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "12.48M",
+          "elytra": "6.24M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Heaven / C42:G51"
+        },
+        {
+          "name": "MINE 29 Soranite",
+          "resource": "Soranite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "551.07k",
+              "tool": "45.92k",
+              "armor": "551.07k"
+            },
+            {
+              "tier": "II",
+              "sword": "1.10M",
+              "tool": "91.84k",
+              "armor": "1.10M"
+            },
+            {
+              "tier": "III",
+              "sword": "1.65M",
+              "tool": "183.69k",
+              "armor": "1.65M"
+            },
+            {
+              "tier": "IV",
+              "sword": "2.20M",
+              "tool": "367.38k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "2.76M",
+              "tool": "551.07k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "11.02M",
+          "elytra": "5.51M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Heaven / C53:G62"
+        },
+        {
+          "name": "MINE 30 Starfall",
+          "resource": "Starfall",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "75.88k",
+              "tool": "6.32k",
+              "armor": "~75.88k"
+            },
+            {
+              "tier": "II",
+              "sword": "~151.76k",
+              "tool": "~12.65k",
+              "armor": "~151.76k"
+            },
+            {
+              "tier": "III",
+              "sword": "~227.64k",
+              "tool": "~25.29k",
+              "armor": "~227.64k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~303.52k",
+              "tool": "~50.59k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~379.40k",
+              "tool": "~75.88k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~1.52M",
+          "elytra": "~758.80k",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Heaven / C64:G73"
+        },
+        {
+          "name": "MINE 31 Crystite",
+          "resource": "Crystite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "783.28k",
+              "tool": "65.27k",
+              "armor": "~783.28k"
+            },
+            {
+              "tier": "II",
+              "sword": "~1.57M",
+              "tool": "~130.55k",
+              "armor": "~1.57M"
+            },
+            {
+              "tier": "III",
+              "sword": "~2.35M",
+              "tool": "~261.09k",
+              "armor": "~2.35M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~3.13M",
+              "tool": "~522.19k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~3.92M",
+              "tool": "~783.28k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~15.67M",
+          "elytra": "~7.83M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Heaven / C75:G84"
+        },
+        {
+          "name": "MINE 32 Aetherite",
+          "resource": "Aetherite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "~783.50k",
+              "tool": "~65.29k",
+              "armor": "~783.50k"
+            },
+            {
+              "tier": "II",
+              "sword": "~1.57M",
+              "tool": "~130.58k",
+              "armor": "~1.57M"
+            },
+            {
+              "tier": "III",
+              "sword": "~2.35M",
+              "tool": "~261.17k",
+              "armor": "~2.35M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~3.13M",
+              "tool": "~522.33k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~3.92M",
+              "tool": "~783.50k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "15.67M",
+          "elytra": "~7.83M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Heaven / C86:G95"
+        },
+        {
+          "name": "Boss The Hallowed Allay",
+          "resource": "Hallowed Bloom",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "6",
+              "tool": "6",
+              "armor": "3"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Heaven / C98:G107"
+        }
+      ]
     },
     {
       "name": "Ocean",
-      "mines": []
+      "mines": [
+        {
+          "name": "MINE 33 Sand",
+          "resource": "Sand",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "118.95k",
+              "tool": "9.91k",
+              "armor": "118.95k"
+            },
+            {
+              "tier": "II",
+              "sword": "237.90k",
+              "tool": "19.82k",
+              "armor": "237.90k"
+            },
+            {
+              "tier": "III",
+              "sword": "356.85k",
+              "tool": "39.65k",
+              "armor": "356.85k"
+            },
+            {
+              "tier": "IV",
+              "sword": "475.80k",
+              "tool": "79.30k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "594.75k",
+              "tool": "118.95k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "2.38M",
+          "elytra": "1.19M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Ocean / C1:G10"
+        },
+        {
+          "name": "MINE 34 Prismarine",
+          "resource": "Prismarine",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "1.27M",
+              "tool": "105.44k",
+              "armor": "1.27M"
+            },
+            {
+              "tier": "II",
+              "sword": "2.53M",
+              "tool": "210.88k",
+              "armor": "2.53M"
+            },
+            {
+              "tier": "III",
+              "sword": "3.80M",
+              "tool": "421.76k",
+              "armor": "3.80M"
+            },
+            {
+              "tier": "IV",
+              "sword": "5.06M",
+              "tool": "843.52k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "6.33M",
+              "tool": "1.27M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "25.31M",
+          "elytra": "12.65M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Ocean / C14:G23"
+        },
+        {
+          "name": "MINE 35 Baythal",
+          "resource": "Baythal",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "1.45M",
+              "tool": "120.61k",
+              "armor": "1.45M"
+            },
+            {
+              "tier": "II",
+              "sword": "2.89M",
+              "tool": "241.22k",
+              "armor": "2.89M"
+            },
+            {
+              "tier": "III",
+              "sword": "4.34M",
+              "tool": "482.44k",
+              "armor": "4.34M"
+            },
+            {
+              "tier": "IV",
+              "sword": "5.79M",
+              "tool": "964.88k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "7.24M",
+              "tool": "1.45M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "28.95M",
+          "elytra": "14.47M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Ocean / C27:G36"
+        },
+        {
+          "name": "MINE 36 Sponge",
+          "resource": "Sponge",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "161.26k",
+              "tool": "13.44k",
+              "armor": "161.26k"
+            },
+            {
+              "tier": "II",
+              "sword": "322.52k",
+              "tool": "26.88k",
+              "armor": "322.52k"
+            },
+            {
+              "tier": "III",
+              "sword": "483.78k",
+              "tool": "53.75k",
+              "armor": "483.78k"
+            },
+            {
+              "tier": "IV",
+              "sword": "645.04k",
+              "tool": "107.51k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "806.30k",
+              "tool": "161.26k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "3.23M",
+          "elytra": "1.61M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Ocean / C38:G47"
+        },
+        {
+          "name": "MINE 37 Dead Coral",
+          "resource": "Dead Coral",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "1.76M",
+              "tool": "146.86k",
+              "armor": "~1.76M"
+            },
+            {
+              "tier": "II",
+              "sword": "~3.52M",
+              "tool": "~293.72k",
+              "armor": "~3.52M"
+            },
+            {
+              "tier": "III",
+              "sword": "~5.29M",
+              "tool": "~587.44k",
+              "armor": "~5.29M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~7.05M",
+              "tool": "~1.17M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~8.81M",
+              "tool": "~1.76M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~35.25M",
+          "elytra": "~17.62M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Ocean / C49:G58"
+        },
+        {
+          "name": "MINE 38 Oxygen",
+          "resource": "Oxygen",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "2.00M",
+              "tool": "166.28k",
+              "armor": "~2.00M"
+            },
+            {
+              "tier": "II",
+              "sword": "~3.99M",
+              "tool": "~332.56k",
+              "armor": "~3.99M"
+            },
+            {
+              "tier": "III",
+              "sword": "~5.99M",
+              "tool": "~665.12k",
+              "armor": "~5.99M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~7.98M",
+              "tool": "~1.33M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "9.98M",
+              "tool": "~2.00M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~39.91M",
+          "elytra": "~19.95M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Ocean / C60:G69"
+        },
+        {
+          "name": "MINE 39 Thallasium",
+          "resource": "Thallasium",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "2.26M",
+              "tool": "188.27k",
+              "armor": "~2.26M"
+            },
+            {
+              "tier": "II",
+              "sword": "4.52M",
+              "tool": "~376.54k",
+              "armor": "~4.52M"
+            },
+            {
+              "tier": "III",
+              "sword": "6.78M",
+              "tool": "~753.08k",
+              "armor": "~6.78M"
+            },
+            {
+              "tier": "IV",
+              "sword": "9.04M",
+              "tool": "~1.51M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "11.30M",
+              "tool": "2.26M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~45.18M",
+          "elytra": "~22.59M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Ocean / C71:G80"
+        },
+        {
+          "name": "MINE 40 Atlantium",
+          "resource": "Atlantium",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "2.56M",
+              "tool": "213.19k",
+              "armor": "~2.56M"
+            },
+            {
+              "tier": "II",
+              "sword": "5.12M",
+              "tool": "426.38k",
+              "armor": "~5.12M"
+            },
+            {
+              "tier": "III",
+              "sword": "~7.67M",
+              "tool": "~852.76k",
+              "armor": "~7.67M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~10.23M",
+              "tool": "~1.71M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~12.79M",
+              "tool": "~2.56M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~51.17M",
+          "elytra": "~25.58M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Ocean / C82:G91"
+        },
+        {
+          "name": "Boss: Leviathan",
+          "resource": "Leviathan Guts",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "10",
+              "tool": "10",
+              "armor": "5"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Ocean / C93:G102"
+        }
+      ]
     },
     {
       "name": "Acidic Lakes",
-      "mines": []
+      "mines": [
+        {
+          "name": "MINE 41 Sulfur",
+          "resource": "Sulfur",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "312.79k",
+              "tool": "26.07k",
+              "armor": "~312.79k"
+            },
+            {
+              "tier": "II",
+              "sword": "~625.58k",
+              "tool": "~52.13k",
+              "armor": "~625.58k"
+            },
+            {
+              "tier": "III",
+              "sword": "~938.37k",
+              "tool": "~104.26k",
+              "armor": "~938.37k"
+            },
+            {
+              "tier": "IV",
+              "sword": "~1.25M",
+              "tool": "~208.53k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~1.56M",
+              "tool": "~312.79k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~6.26M",
+          "elytra": "~3.13M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Acidic Lakes / C1:G10"
+        },
+        {
+          "name": "MINE 42 Mirestone",
+          "resource": "Mirestone",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "3.96M",
+              "tool": "330.42k",
+              "armor": "~3.96M"
+            },
+            {
+              "tier": "II",
+              "sword": "~7.93M",
+              "tool": "~660.83k",
+              "armor": "~7.93M"
+            },
+            {
+              "tier": "III",
+              "sword": "~11.89M",
+              "tool": "~1.32M",
+              "armor": "~11.89M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~15.86M",
+              "tool": "~2.64M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~19.82M",
+              "tool": "~3.96M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~79.30M",
+          "elytra": "~39.65M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Acidic Lakes / C14:G23"
+        },
+        {
+          "name": "MINE 43 Cinnibar",
+          "resource": "Cinnibar",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "3.78M",
+              "tool": "314.59k",
+              "armor": "~3.78M"
+            },
+            {
+              "tier": "II",
+              "sword": "~7.55M",
+              "tool": "~629.18k",
+              "armor": "~7.55M"
+            },
+            {
+              "tier": "III",
+              "sword": "~11.33M",
+              "tool": "~1.26M",
+              "armor": "~11.33M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~15.10M",
+              "tool": "~2.52M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~18.88M",
+              "tool": "~3.78M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~75.50M",
+          "elytra": "~37.75M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Acidic Lakes / C27:G36"
+        },
+        {
+          "name": "MINE 44 Sludge",
+          "resource": "Sludge",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "430.98k",
+              "tool": "35.91k",
+              "armor": "~430.98k"
+            },
+            {
+              "tier": "II",
+              "sword": "~861.96k",
+              "tool": "~71.83k",
+              "armor": "~861.96k"
+            },
+            {
+              "tier": "III",
+              "sword": "~1.29M",
+              "tool": "~143.66k",
+              "armor": "~1.29M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~1.72M",
+              "tool": "~287.32k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~2.15M",
+              "tool": "~430.98k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~8.62M",
+          "elytra": "~4.31M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Acidic Lakes / C38:G47"
+        },
+        {
+          "name": "MINE 45 Noxium",
+          "resource": "Noxium",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "5.59M",
+              "tool": "466.13k",
+              "armor": "~5.59M"
+            },
+            {
+              "tier": "II",
+              "sword": "~11.19M",
+              "tool": "~932.26k",
+              "armor": "~11.19M"
+            },
+            {
+              "tier": "III",
+              "sword": "~16.78M",
+              "tool": "~1.86M",
+              "armor": "~16.78M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~22.37M",
+              "tool": "~3.73M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~27.97M",
+              "tool": "~5.59M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~111.87M",
+          "elytra": "~55.94M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Acidic Lakes / C49:G58"
+        },
+        {
+          "name": "MINE 46 Slime",
+          "resource": "Slime",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "580.28k",
+              "tool": "48.36k",
+              "armor": "~580.28k"
+            },
+            {
+              "tier": "II",
+              "sword": "~1.16M",
+              "tool": "~96.71k",
+              "armor": "~1.16M"
+            },
+            {
+              "tier": "III",
+              "sword": "~1.74M",
+              "tool": "~193.43k",
+              "armor": "~1.74M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~2.32M",
+              "tool": "~386.85k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~2.90M",
+              "tool": "~580.28k",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~11.61M",
+          "elytra": "~5.80M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Acidic Lakes / C60:G69"
+        },
+        {
+          "name": "MINE 47 Malice",
+          "resource": "Malice",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "7.10M",
+              "tool": "591.91k",
+              "armor": "~7.10M"
+            },
+            {
+              "tier": "II",
+              "sword": "~14.21M",
+              "tool": "~1.18M",
+              "armor": "~14.21M"
+            },
+            {
+              "tier": "III",
+              "sword": "~21.31M",
+              "tool": "~2.37M",
+              "armor": "~21.31M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~28.41M",
+              "tool": "~4.74M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~35.51M",
+              "tool": "~7.10M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~142.06M",
+          "elytra": "~71.03M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Acidic Lakes / C71:G80"
+        },
+        {
+          "name": "MINE 48 Viridite",
+          "resource": "Viridite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "8.07M",
+              "tool": "672.91k",
+              "armor": "~8.07M"
+            },
+            {
+              "tier": "II",
+              "sword": "~16.15M",
+              "tool": "~1.35M",
+              "armor": "~16.15M"
+            },
+            {
+              "tier": "III",
+              "sword": "~24.22M",
+              "tool": "~2.69M",
+              "armor": "~24.22M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~32.30M",
+              "tool": "~5.38M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~40.37M",
+              "tool": "~8.07M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~161.50M",
+          "elytra": "~80.75M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Acidic Lakes / C82:G91"
+        },
+        {
+          "name": "Boss: Slime Lord",
+          "resource": "Slime Ball",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "14",
+              "tool": "14",
+              "armor": "7"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Acidic Lakes / C93:G102"
+        }
+      ]
     },
     {
       "name": "Steampunk",
-      "mines": []
+      "mines": [
+        {
+          "name": "MINE 49 Nickel",
+          "resource": "Nickel",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "10.94M",
+              "tool": "911.42k",
+              "armor": "~10.94M"
+            },
+            {
+              "tier": "II",
+              "sword": "~21.87M",
+              "tool": "~1.82M",
+              "armor": "~21.87M"
+            },
+            {
+              "tier": "III",
+              "sword": "~32.81M",
+              "tool": "~3.65M",
+              "armor": "~32.81M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~43.75M",
+              "tool": "~7.29M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~54.69M",
+              "tool": "~10.94M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~218.74M",
+          "elytra": "~109.37M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Steampunk / C1:G10"
+        },
+        {
+          "name": "MINE 50 Walnut",
+          "resource": "Walnut",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "9.01M",
+              "tool": "751.11k",
+              "armor": "~9.01M"
+            },
+            {
+              "tier": "II",
+              "sword": "~18.03M",
+              "tool": "~1.50M",
+              "armor": "~18.03M"
+            },
+            {
+              "tier": "III",
+              "sword": "~27.04M",
+              "tool": "~3.00M",
+              "armor": "~27.04M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~36.05M",
+              "tool": "~6.01M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~45.07M",
+              "tool": "~9.01M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~180.27M",
+          "elytra": "~90.13M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Steampunk / C14:G23"
+        },
+        {
+          "name": "MINE 51 Tin",
+          "resource": "Tin",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "13.97M",
+              "tool": "1.16M",
+              "armor": "~13.97M"
+            },
+            {
+              "tier": "II",
+              "sword": "~27.94M",
+              "tool": "~2.33M",
+              "armor": "~27.94M"
+            },
+            {
+              "tier": "III",
+              "sword": "~41.91M",
+              "tool": "~4.66M",
+              "armor": "~41.91M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~55.88M",
+              "tool": "~9.31M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~69.85M",
+              "tool": "~13.97M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~279.40M",
+          "elytra": "~139.70M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Steampunk / C27:G36"
+        },
+        {
+          "name": "MINE 52 Luminite",
+          "resource": "Luminite",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "1.19M",
+              "tool": "98.93k",
+              "armor": "~1.19M"
+            },
+            {
+              "tier": "II",
+              "sword": "~2.37M",
+              "tool": "~197.86k",
+              "armor": "~2.37M"
+            },
+            {
+              "tier": "III",
+              "sword": "~3.56M",
+              "tool": "~395.72k",
+              "armor": "~3.56M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~4.75M",
+              "tool": "~791.44k",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~5.94M",
+              "tool": "~1.19M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~23.74M",
+          "elytra": "~11.87M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Steampunk / C38:G47"
+        },
+        {
+          "name": "MINE 53 Ash",
+          "resource": "Ash",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "1.79M",
+              "tool": "149.40k",
+              "armor": "~1.79M"
+            },
+            {
+              "tier": "II",
+              "sword": "~3.59M",
+              "tool": "~298.80k",
+              "armor": "~3.59M"
+            },
+            {
+              "tier": "III",
+              "sword": "~5.38M",
+              "tool": "~597.60k",
+              "armor": "~5.38M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~7.17M",
+              "tool": "~1.20M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~8.96M",
+              "tool": "~1.79M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~35.86M",
+          "elytra": "~17.93M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Steampunk / C49:G58"
+        },
+        {
+          "name": "MINE 54 Mudstone",
+          "resource": "Mudstone",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "20.19M",
+              "tool": "1.68M",
+              "armor": "~20.19M"
+            },
+            {
+              "tier": "II",
+              "sword": "~40.38M",
+              "tool": "~3.37M",
+              "armor": "~40.38M"
+            },
+            {
+              "tier": "III",
+              "sword": "~60.57M",
+              "tool": "~6.73M",
+              "armor": "~60.57M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~80.76M",
+              "tool": "~13.46M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~100.95M",
+              "tool": "~20.19M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~403.80M",
+          "elytra": "~201.90M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Steampunk / C60:G69"
+        },
+        {
+          "name": "MINE 55 Cast Iron",
+          "resource": "Cast Iron",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "23.09M",
+              "tool": "1.92M",
+              "armor": "~23.09M"
+            },
+            {
+              "tier": "II",
+              "sword": "~46.18M",
+              "tool": "~3.85M",
+              "armor": "~46.18M"
+            },
+            {
+              "tier": "III",
+              "sword": "~69.27M",
+              "tool": "~7.70M",
+              "armor": "~69.27M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~92.36M",
+              "tool": "~15.39M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~115.45M",
+              "tool": "~23.09M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~461.80M",
+          "elytra": "~230.90M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Steampunk / C71:G80"
+        },
+        {
+          "name": "MINE 56 Brass",
+          "resource": "Brass",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "26.42M",
+              "tool": "2.20M",
+              "armor": "~26.42M"
+            },
+            {
+              "tier": "II",
+              "sword": "~52.84M",
+              "tool": "~4.40M",
+              "armor": "~52.84M"
+            },
+            {
+              "tier": "III",
+              "sword": "~79.26M",
+              "tool": "~8.81M",
+              "armor": "~79.26M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~105.68M",
+              "tool": "~17.61M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~132.10M",
+              "tool": "~26.42M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~528.40M",
+          "elytra": "~264.20M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Steampunk / C82:G91"
+        },
+        {
+          "name": "Boss: Clockwork Titan",
+          "resource": "Mechanical Scrap",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "18",
+              "tool": "18",
+              "armor": "9"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Steampunk / C93:G102"
+        }
+      ]
     },
     {
       "name": "Sakura Forest",
-      "mines": []
+      "mines": [
+        {
+          "name": "MINE 57 Cherry Wood",
+          "resource": "Cherry Wood",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "22.40M",
+              "tool": "1.87M",
+              "armor": "~22.41M"
+            },
+            {
+              "tier": "II",
+              "sword": "~44.83M",
+              "tool": "~3.74M",
+              "armor": "~44.83M"
+            },
+            {
+              "tier": "III",
+              "sword": "~67.25M",
+              "tool": "~7.47M",
+              "armor": "~67.25M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~89.66M",
+              "tool": "~14.94M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~112.08M",
+              "tool": "~22.41M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~448.30M",
+          "elytra": "~224.15M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Sakura Forest / C1:G10"
+        },
+        {
+          "name": "MINE 58 Jasper",
+          "resource": "Jasper",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "39.84M",
+              "tool": "3.32M",
+              "armor": "~39.84M"
+            },
+            {
+              "tier": "II",
+              "sword": "~79.68M",
+              "tool": "~6.64M",
+              "armor": "~79.68M"
+            },
+            {
+              "tier": "III",
+              "sword": "~119.52M",
+              "tool": "~13.28M",
+              "armor": "~119.52M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~159.36M",
+              "tool": "~26.56M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~199.20M",
+              "tool": "~39.84M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~796.80M",
+          "elytra": "~398.40M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Sakura Forest / C14:G23"
+        },
+        {
+          "name": "MINE 59 Bamboo",
+          "resource": "Bamboo",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "29.69M",
+              "tool": "2.47M",
+              "armor": "~29.69M"
+            },
+            {
+              "tier": "II",
+              "sword": "~59.38M",
+              "tool": "~4.95M",
+              "armor": "~59.38M"
+            },
+            {
+              "tier": "III",
+              "sword": "~89.07M",
+              "tool": "~9.90M",
+              "armor": "~89.07M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~118.76M",
+              "tool": "~19.79M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~148.45M",
+              "tool": "~29.69M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~593.80M",
+          "elytra": "~296.90M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Sakura Forest / C27:G36"
+        },
+        {
+          "name": "MINE 60 Tamahagane",
+          "resource": "Tamahagane",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "51.90M",
+              "tool": "4.32M",
+              "armor": "~51.88M"
+            },
+            {
+              "tier": "II",
+              "sword": "~103.75M",
+              "tool": "~8.65M",
+              "armor": "~103.75M"
+            },
+            {
+              "tier": "III",
+              "sword": "~155.62M",
+              "tool": "~17.29M",
+              "armor": "~155.62M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~207.50M",
+              "tool": "~34.58M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~259.38M",
+              "tool": "~51.88M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~1.04B",
+          "elytra": "~518.75M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Sakura Forest / C38:G47"
+        },
+        {
+          "name": "MINE 61 Blossom",
+          "resource": "Blossom",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "3.95M",
+              "tool": "329.22k",
+              "armor": "~3.95M"
+            },
+            {
+              "tier": "II",
+              "sword": "~7.90M",
+              "tool": "~658.44k",
+              "armor": "~7.90M"
+            },
+            {
+              "tier": "III",
+              "sword": "~11.85M",
+              "tool": "~1.32M",
+              "armor": "~11.85M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~15.80M",
+              "tool": "~2.63M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~19.75M",
+              "tool": "~3.95M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~79.01M",
+          "elytra": "~39.51M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Sakura Forest / C49:G58"
+        },
+        {
+          "name": "MINE 62 Satetsu",
+          "resource": "Satetsu",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "4.72M",
+              "tool": "393.63k",
+              "armor": "~4.72M"
+            },
+            {
+              "tier": "II",
+              "sword": "~9.45M",
+              "tool": "~787.26k",
+              "armor": "~9.45M"
+            },
+            {
+              "tier": "III",
+              "sword": "~14.17M",
+              "tool": "~1.57M",
+              "armor": "~14.17M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~18.89M",
+              "tool": "~3.15M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~23.62M",
+              "tool": "~4.72M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~94.47M",
+          "elytra": "~47.24M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Sakura Forest / C60:G69"
+        },
+        {
+          "name": "MINE 63 Jade",
+          "resource": "Jade",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "77.47M",
+              "tool": "6.46M",
+              "armor": "~77.47M"
+            },
+            {
+              "tier": "II",
+              "sword": "~154.94M",
+              "tool": "~12.91M",
+              "armor": "~154.94M"
+            },
+            {
+              "tier": "III",
+              "sword": "~232.41M",
+              "tool": "~25.82M",
+              "armor": "~232.41M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~309.88M",
+              "tool": "~51.65M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~387.35M",
+              "tool": "~77.47M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~1.55B",
+          "elytra": "~774.70M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Sakura Forest / C71:G80"
+        },
+        {
+          "name": "MINE 64 Sakurite",
+          "resource": "Sakurite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "89.47M",
+              "tool": "7.46M",
+              "armor": "~89.47M"
+            },
+            {
+              "tier": "II",
+              "sword": "~178.94M",
+              "tool": "~14.91M",
+              "armor": "~178.94M"
+            },
+            {
+              "tier": "III",
+              "sword": "~268.41M",
+              "tool": "~29.82M",
+              "armor": "~268.41M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~357.88M",
+              "tool": "~59.65M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~447.35M",
+              "tool": "~89.47M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~1.79B",
+          "elytra": "~894.70M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Sakura Forest / C82:G91"
+        },
+        {
+          "name": "Boss: Blossom Wisp",
+          "resource": "Wisp Spirit",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "20",
+              "tool": "20",
+              "armor": "10"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Sakura Forest / C93:G102"
+        }
+      ]
     },
     {
       "name": "Wild West",
-      "mines": []
+      "mines": [
+        {
+          "name": "MINE 65 Red Sand",
+          "resource": "Red Sand",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "9.77M",
+              "tool": "673.68k",
+              "armor": "9.77M"
+            },
+            {
+              "tier": "II",
+              "sword": "14.82M",
+              "tool": "1.35M",
+              "armor": "14.82M"
+            },
+            {
+              "tier": "III",
+              "sword": "19.87M",
+              "tool": "2.02M",
+              "armor": "19.87M"
+            },
+            {
+              "tier": "IV",
+              "sword": "24.93M",
+              "tool": "2.69M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "32.67M",
+              "tool": "5.39M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "151.58M",
+          "elytra": "75.79M",
+          "notes": [
+            "~ marks estimates; verify vendor prices.",
+            "REVIEW: entered sword/tool prices differ from 12:1. Each progresses independently."
+          ],
+          "source": "Techmines.xlsx / Wild West / C1:G10"
+        },
+        {
+          "name": "MINE 66 Fossil",
+          "resource": "Fossil",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "133.26M",
+              "tool": "11.10M",
+              "armor": "~133.26M"
+            },
+            {
+              "tier": "II",
+              "sword": "~266.52M",
+              "tool": "~22.21M",
+              "armor": "~266.52M"
+            },
+            {
+              "tier": "III",
+              "sword": "~399.78M",
+              "tool": "~44.42M",
+              "armor": "~399.78M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~533.04M",
+              "tool": "~88.84M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~666.30M",
+              "tool": "~133.26M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~2.67B",
+          "elytra": "~1.33B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Wild West / C14:G23"
+        },
+        {
+          "name": "MINE 67 Turquoise",
+          "resource": "Turquoise",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "154.51M",
+              "tool": "12.88M",
+              "armor": "~154.51M"
+            },
+            {
+              "tier": "II",
+              "sword": "~309.02M",
+              "tool": "~25.75M",
+              "armor": "~309.02M"
+            },
+            {
+              "tier": "III",
+              "sword": "~463.53M",
+              "tool": "~51.50M",
+              "armor": "~463.53M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~618.04M",
+              "tool": "~103.01M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~772.55M",
+              "tool": "~154.51M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~3.09B",
+          "elytra": "~1.55B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Wild West / C27:G36"
+        },
+        {
+          "name": "MINE 68 Dry Grass",
+          "resource": "Dry Grass",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "10.74M",
+              "tool": "894.69k",
+              "armor": "~10.74M"
+            },
+            {
+              "tier": "II",
+              "sword": "~21.47M",
+              "tool": "~1.79M",
+              "armor": "~21.47M"
+            },
+            {
+              "tier": "III",
+              "sword": "~32.21M",
+              "tool": "~3.58M",
+              "armor": "~32.21M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~42.95M",
+              "tool": "~7.16M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~53.68M",
+              "tool": "~10.74M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~214.73M",
+          "elytra": "~107.36M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Wild West / C38:G47"
+        },
+        {
+          "name": "MINE 69 Pine Wood",
+          "resource": "Pine Wood",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "120.57M",
+              "tool": "10.05M",
+              "armor": "~120.57M"
+            },
+            {
+              "tier": "II",
+              "sword": "~241.14M",
+              "tool": "~20.09M",
+              "armor": "~241.14M"
+            },
+            {
+              "tier": "III",
+              "sword": "~361.71M",
+              "tool": "~40.19M",
+              "armor": "~361.71M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~482.28M",
+              "tool": "~80.38M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~602.85M",
+              "tool": "~120.57M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~2.41B",
+          "elytra": "~1.21B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Wild West / C49:G58"
+        },
+        {
+          "name": "MINE 70 Heavy Gold",
+          "resource": "Heavy Gold",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "237.80M",
+              "tool": "19.82M",
+              "armor": "~237.81M"
+            },
+            {
+              "tier": "II",
+              "sword": "~475.63M",
+              "tool": "~39.64M",
+              "armor": "~475.63M"
+            },
+            {
+              "tier": "III",
+              "sword": "~713.45M",
+              "tool": "~79.27M",
+              "armor": "~713.45M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~951.26M",
+              "tool": "~158.54M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~1.19B",
+              "tool": "~237.81M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~4.76B",
+          "elytra": "~2.38B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Wild West / C60:G69"
+        },
+        {
+          "name": "MINE 71 Onyx",
+          "resource": "Onyx",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "277.36M",
+              "tool": "23.11M",
+              "armor": "~277.36M"
+            },
+            {
+              "tier": "II",
+              "sword": "~554.72M",
+              "tool": "~46.23M",
+              "armor": "~554.72M"
+            },
+            {
+              "tier": "III",
+              "sword": "~832.08M",
+              "tool": "~92.45M",
+              "armor": "~832.08M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~1.11B",
+              "tool": "~184.91M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~1.39B",
+              "tool": "~277.36M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~5.55B",
+          "elytra": "~2.77B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Wild West / C71:G80"
+        },
+        {
+          "name": "MINE 72 Westium",
+          "resource": "Westium",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "20.51M",
+              "tool": "1.17M",
+              "armor": "20.51M"
+            },
+            {
+              "tier": "II",
+              "sword": "41.02M",
+              "tool": "3.42M",
+              "armor": "41.02M"
+            },
+            {
+              "tier": "III",
+              "sword": "61.53M",
+              "tool": "6.84M",
+              "armor": "61.53M"
+            },
+            {
+              "tier": "IV",
+              "sword": "82.04M",
+              "tool": "13.67M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "102.55M",
+              "tool": "20.51M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "410.13M",
+          "elytra": "205.06M",
+          "notes": [
+            "~ marks estimates; verify vendor prices.",
+            "REVIEW: entered sword/tool prices differ from 12:1. Each progresses independently."
+          ],
+          "source": "Techmines.xlsx / Wild West / C82:G91"
+        },
+        {
+          "name": "Boss: Goldwraith",
+          "resource": "Guilded Bullet",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "22",
+              "tool": "22",
+              "armor": "11"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Wild West / C93:G102"
+        }
+      ]
     },
     {
       "name": "Pixel Grove",
@@ -54,9 +3548,9 @@
             },
             {
               "tier": "II",
-              "sword": "444.7M",
+              "sword": "444.70M",
               "tool": "37.06M",
-              "armor": "444.7M"
+              "armor": "444.70M"
             },
             {
               "tier": "III",
@@ -66,7 +3560,7 @@
             },
             {
               "tier": "IV",
-              "sword": "889.4M",
+              "sword": "889.40M",
               "tool": "148.23M",
               "armor": "Not recorded"
             },
@@ -79,7 +3573,9 @@
           ],
           "talisman": "4.45B",
           "elytra": "2.22B",
-          "notes": [],
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
           "source": "Techmines.xlsx / Pixel Grove / C1:G10"
         },
         {
@@ -121,7 +3617,7 @@
           "talisman": "536.44 (unit unconfirmed)",
           "elytra": "268.22M",
           "notes": [
-            "F19: unit missing in source; verify with vendor."
+            "Talisman unit missing in source; verify with vendor."
           ],
           "source": "Techmines.xlsx / Pixel Grove / C14:G23"
         },
@@ -163,7 +3659,9 @@
           ],
           "talisman": "10.22B",
           "elytra": "5.11B",
-          "notes": [],
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
           "source": "Techmines.xlsx / Pixel Grove / C27:G36"
         },
         {
@@ -173,15 +3671,15 @@
           "rows": [
             {
               "tier": "I",
-              "sword": "38.6M",
+              "sword": "38.60M",
               "tool": "3.22M",
-              "armor": "38.6M"
+              "armor": "38.60M"
             },
             {
               "tier": "II",
-              "sword": "77.2M",
+              "sword": "77.20M",
               "tool": "6.43M",
-              "armor": "77.2M"
+              "armor": "77.20M"
             },
             {
               "tier": "III",
@@ -198,13 +3696,15 @@
             {
               "tier": "V",
               "sword": "193.01M",
-              "tool": "38.6M",
+              "tool": "38.60M",
               "armor": "Not recorded"
             }
           ],
           "talisman": "772.05M",
           "elytra": "386.02M",
-          "notes": [],
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
           "source": "Techmines.xlsx / Pixel Grove / C38:G47"
         },
         {
@@ -220,32 +3720,34 @@
             },
             {
               "tier": "II",
-              "sword": "1.4B",
+              "sword": "1.40B",
               "tool": "116.75M",
-              "armor": "1.4B"
+              "armor": "1.40B"
             },
             {
               "tier": "III",
-              "sword": "2.1B",
+              "sword": "2.10B",
               "tool": "233.49M",
-              "armor": "2.1B"
+              "armor": "2.10B"
             },
             {
               "tier": "IV",
-              "sword": "2.8B",
+              "sword": "2.80B",
               "tool": "466.98M",
               "armor": "Not recorded"
             },
             {
               "tier": "V",
-              "sword": "3.5B",
+              "sword": "3.50B",
               "tool": "700.47M",
               "armor": "Not recorded"
             }
           ],
           "talisman": "14.01B",
-          "elytra": "7B",
-          "notes": [],
+          "elytra": "7.00B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
           "source": "Techmines.xlsx / Pixel Grove / C49:G58"
         },
         {
@@ -286,7 +3788,9 @@
           ],
           "talisman": "16.53B",
           "elytra": "8.26B",
-          "notes": [],
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
           "source": "Techmines.xlsx / Pixel Grove / C60:G69"
         },
         {
@@ -309,7 +3813,7 @@
             {
               "tier": "III",
               "sword": "2.93B",
-              "tool": "325.5M",
+              "tool": "325.50M",
               "armor": "2.93B"
             },
             {
@@ -327,7 +3831,9 @@
           ],
           "talisman": "19.53B",
           "elytra": "9.77B",
-          "notes": [],
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
           "source": "Techmines.xlsx / Pixel Grove / C71:G80"
         },
         {
@@ -368,58 +3874,14 @@
           ],
           "talisman": "23.12B",
           "elytra": "11.56B",
-          "notes": [],
-          "source": "Techmines.xlsx / Pixel Grove / C82:G91"
-        }
-      ]
-    },
-    {
-      "name": "Planet X",
-      "mines": [
-        {
-          "name": "MINE 81 Xenowood",
-          "resource": "Xenowood",
-          "toolName": "Axe",
-          "rows": [
-            {
-              "tier": "I",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
-            },
-            {
-              "tier": "II",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
-            },
-            {
-              "tier": "III",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
-            },
-            {
-              "tier": "IV",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
-            },
-            {
-              "tier": "V",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
-            }
+          "notes": [
+            "~ marks estimates; verify vendor prices."
           ],
-          "talisman": "16.1B",
-          "elytra": "Not recorded",
-          "notes": [],
-          "source": "Techmines.xlsx / Planet X / C1:G10"
+          "source": "Techmines.xlsx / Pixel Grove / C82:G91"
         },
         {
-          "name": "MINE 82 Sporeleaf",
-          "resource": "Sporeleaf",
+          "name": "Boss",
+          "resource": "Boss",
           "toolName": "Hoe",
           "rows": [
             {
@@ -453,9 +3915,102 @@
               "armor": "Not recorded"
             }
           ],
-          "talisman": "1.98B",
+          "talisman": "Not recorded",
           "elytra": "Not recorded",
-          "notes": [],
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Pixel Grove / C93:G102"
+        }
+      ]
+    },
+    {
+      "name": "Planet X",
+      "mines": [
+        {
+          "name": "MINE 81 Xenowood",
+          "resource": "Xenowood",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "804.81M",
+              "tool": "67.07M",
+              "armor": "~804.81M"
+            },
+            {
+              "tier": "II",
+              "sword": "~1.61B",
+              "tool": "~134.13M",
+              "armor": "~1.61B"
+            },
+            {
+              "tier": "III",
+              "sword": "~2.41B",
+              "tool": "~268.27M",
+              "armor": "~2.41B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~3.22B",
+              "tool": "~536.54M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~4.02B",
+              "tool": "~804.81M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "16.10B",
+          "elytra": "~8.05B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "source": "Techmines.xlsx / Planet X / C1:G10"
+        },
+        {
+          "name": "MINE 82 Sporeleaf",
+          "resource": "Sporeleaf",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "99.13M",
+              "tool": "8.26M",
+              "armor": "~99.13M"
+            },
+            {
+              "tier": "II",
+              "sword": "~198.26M",
+              "tool": "~16.52M",
+              "armor": "~198.26M"
+            },
+            {
+              "tier": "III",
+              "sword": "~297.39M",
+              "tool": "~33.04M",
+              "armor": "~297.39M"
+            },
+            {
+              "tier": "IV",
+              "sword": "~396.52M",
+              "tool": "~66.09M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~495.65M",
+              "tool": "99.13M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "1.98B",
+          "elytra": "~991.30M",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
           "source": "Techmines.xlsx / Planet X / C13:G22"
         },
         {
@@ -465,38 +4020,40 @@
           "rows": [
             {
               "tier": "I",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "2.11B",
+              "tool": "176.22M",
+              "armor": "~2.11B"
             },
             {
               "tier": "II",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "~4.23B",
+              "tool": "~352.44M",
+              "armor": "~4.23B"
             },
             {
               "tier": "III",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "~6.34B",
+              "tool": "~704.88M",
+              "armor": "~6.34B"
             },
             {
               "tier": "IV",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "~8.46B",
+              "tool": "~1.41B",
               "armor": "Not recorded"
             },
             {
               "tier": "V",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "~10.57B",
+              "tool": "~2.11B",
               "armor": "Not recorded"
             }
           ],
           "talisman": "42.29B",
-          "elytra": "Not recorded",
-          "notes": [],
+          "elytra": "~21.15B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
           "source": "Techmines.xlsx / Planet X / C25:G34"
         },
         {
@@ -506,38 +4063,40 @@
           "rows": [
             {
               "tier": "I",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "146.17M",
+              "tool": "12.18M",
+              "armor": "~146.17M"
             },
             {
               "tier": "II",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "~292.33M",
+              "tool": "24.36M",
+              "armor": "~292.33M"
             },
             {
               "tier": "III",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "~438.50M",
+              "tool": "48.72M",
+              "armor": "~438.50M"
             },
             {
               "tier": "IV",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "~584.66M",
+              "tool": "97.44M",
               "armor": "Not recorded"
             },
             {
               "tier": "V",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "~730.83M",
+              "tool": "146.17M",
               "armor": "Not recorded"
             }
           ],
           "talisman": "2.92B",
-          "elytra": "Not recorded",
-          "notes": [],
+          "elytra": "~1.46B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
           "source": "Techmines.xlsx / Planet X / C36:G45"
         },
         {
@@ -547,38 +4106,40 @@
           "rows": [
             {
               "tier": "I",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "2.99B",
+              "tool": "248.87M",
+              "armor": "~2.99B"
             },
             {
               "tier": "II",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "~5.97B",
+              "tool": "~497.74M",
+              "armor": "~5.97B"
             },
             {
               "tier": "III",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "~8.96B",
+              "tool": "~995.48M",
+              "armor": "~8.96B"
             },
             {
               "tier": "IV",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "~11.95B",
+              "tool": "~1.99B",
               "armor": "Not recorded"
             },
             {
               "tier": "V",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "~14.93B",
+              "tool": "~2.99B",
               "armor": "Not recorded"
             }
           ],
           "talisman": "59.73B",
-          "elytra": "Not recorded",
-          "notes": [],
+          "elytra": "~29.86B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
           "source": "Techmines.xlsx / Planet X / C47:G56"
         },
         {
@@ -588,38 +4149,40 @@
           "rows": [
             {
               "tier": "I",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "3.58B",
+              "tool": "297.94M",
+              "armor": "~3.58B"
             },
             {
               "tier": "II",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "~7.15B",
+              "tool": "~595.88M",
+              "armor": "~7.15B"
             },
             {
               "tier": "III",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "~10.73B",
+              "tool": "~1.19B",
+              "armor": "~10.73B"
             },
             {
               "tier": "IV",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "~14.30B",
+              "tool": "~2.38B",
               "armor": "Not recorded"
             },
             {
               "tier": "V",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "~17.88B",
+              "tool": "~3.58B",
               "armor": "Not recorded"
             }
           ],
           "talisman": "71.51B",
-          "elytra": "Not recorded",
-          "notes": [],
+          "elytra": "~35.75B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
           "source": "Techmines.xlsx / Planet X / C58:G67"
         },
         {
@@ -629,38 +4192,40 @@
           "rows": [
             {
               "tier": "I",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "4.29B",
+              "tool": "357.37M",
+              "armor": "~4.29B"
             },
             {
               "tier": "II",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "~8.58B",
+              "tool": "~714.74M",
+              "armor": "~8.58B"
             },
             {
               "tier": "III",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "~12.87B",
+              "tool": "~1.43B",
+              "armor": "~12.87B"
             },
             {
               "tier": "IV",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "~17.15B",
+              "tool": "~2.86B",
               "armor": "Not recorded"
             },
             {
               "tier": "V",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "~21.44B",
+              "tool": "~4.29B",
               "armor": "Not recorded"
             }
           ],
           "talisman": "85.77B",
-          "elytra": "Not recorded",
-          "notes": [],
+          "elytra": "~42.88B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
           "source": "Techmines.xlsx / Planet X / C69:G78"
         },
         {
@@ -671,8 +4236,52 @@
             {
               "tier": "I",
               "sword": "1.16B",
-              "tool": "Not recorded",
+              "tool": "429.50M",
+              "armor": "~5.15B"
+            },
+            {
+              "tier": "II",
+              "sword": "~10.31B",
+              "tool": "~859.00M",
+              "armor": "~10.31B"
+            },
+            {
+              "tier": "III",
+              "sword": "~15.46B",
+              "tool": "~1.72B",
+              "armor": "~15.46B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~20.62B",
+              "tool": "~3.44B",
               "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~25.77B",
+              "tool": "~5.15B",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "103.08B",
+          "elytra": "~51.54B",
+          "notes": [
+            "~ marks estimates; verify vendor prices.",
+            "REVIEW: Sword I entered 1.16B; pickaxe/talisman imply ~5.154B. Original retained; estimates use pickaxe/talisman."
+          ],
+          "source": "Techmines.xlsx / Planet X / C80:G89"
+        },
+        {
+          "name": "Boss: Xenarch",
+          "resource": "Xenarch Core",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "26",
+              "tool": "26",
+              "armor": "13"
             },
             {
               "tier": "II",
@@ -699,12 +4308,12 @@
               "armor": "Not recorded"
             }
           ],
-          "talisman": "103.08B",
-          "elytra": "Not confirmed",
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
           "notes": [
-            "G85: source says \"Elytra\"; verify with vendor."
+            "~ marks estimates; verify vendor prices."
           ],
-          "source": "Techmines.xlsx / Planet X / C80:G89"
+          "source": "Techmines.xlsx / Planet X / C91:G100"
         }
       ]
     }

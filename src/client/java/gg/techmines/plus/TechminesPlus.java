@@ -12,6 +12,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.components.Tooltip;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.InventoryScreen;
@@ -42,11 +43,14 @@ public final class TechminesPlus implements ClientModInitializer {
    if (screen instanceof InventoryScreen && onTechmines(client)) {
     InventoryOrigin origin = (InventoryOrigin)screen;
     Screens.getWidgets(screen).add(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(screen)).bounds(origin.techminesPlusLeft()+98,origin.techminesPlusTop()-24,76,20).build());
-    // Three compact item buttons fit beside the recipe book without covering inventory slots.
-    int x = origin.techminesPlusLeft() + 126, y = origin.techminesPlusTop() + 61;
+    // Replace the unused recipe button with five compact command shortcuts.
+    Screens.getWidgets(screen).removeIf(widget -> widget instanceof ImageButton && widget.getX()==origin.techminesPlusLeft()+104 && widget.getY()==height/2-22);
+    int x = origin.techminesPlusLeft() + 98, y = origin.techminesPlusTop() + 61;
     Screens.getWidgets(screen).add(new ItemButton(x,y,"Wardrobe — /wardrobe",new ItemStack(Items.ARMOR_STAND),0,b -> command("wardrobe")).compact());
-    Screens.getWidgets(screen).add(new ItemButton(x+16,y,"Ender Chest — /ec",new ItemStack(Items.ENDER_CHEST),0,b -> command("ec")).compact());
-    Screens.getWidgets(screen).add(new ItemButton(x+32,y,"Personal Vaults",new ItemStack(Items.CHEST),0,b -> client.gui.setScreen(new PlusScreen(screen,true))).compact());
+    Screens.getWidgets(screen).add(new ItemButton(x+15,y,"Ender Chest — /ec",new ItemStack(Items.ENDER_CHEST),0,b -> command("ec")).compact());
+    Screens.getWidgets(screen).add(new ItemButton(x+30,y,"Personal Vaults",new ItemStack(Items.CHEST),0,b -> client.gui.setScreen(new PlusScreen(screen,true))).compact());
+    Screens.getWidgets(screen).add(new ItemButton(x+45,y,"Fly — /fly",new ItemStack(Items.ELYTRA),0,b -> command("fly")).compact());
+    Screens.getWidgets(screen).add(new ItemButton(x+60,y,"Auction House — /ah",new ItemStack(Items.EMERALD),0,b -> command("ah")).compact());
    }
   });
  }
@@ -58,13 +62,17 @@ public final class TechminesPlus implements ClientModInitializer {
    this.icon=icon; this.color=color;
    setTooltip(Tooltip.create(Component.literal(label)));
   }
-  ItemButton compact() { setWidth(16); setHeight(18); return this; }
+  ItemButton compact() { setWidth(15); setHeight(18); return this; }
   @Override protected void extractContents(GuiGraphicsExtractor g,int mouseX,int mouseY,float delta) {
    int x=getX(),y=getY();
    g.fill(x,y,x+getWidth(),y+getHeight(),0xff373737);
    g.fill(x+1,y+1,x+getWidth()-1,y+getHeight()-1,isHoveredOrFocused()?0xffeeeeee:0xffa4a4a4);
    g.fill(x+2,y+2,x+getWidth()-2,y+getHeight()-2,0xff6b6b6b);
-   if(color==0) g.item(icon,x+(getWidth()-16)/2,y+(getHeight()-16)/2);
+   if(color==0) {
+    if(getWidth()==15) {
+     g.pose().pushMatrix();g.pose().translate((float)x,(float)(y+2)).scale(0.875f,0.875f);g.item(icon,0,0);g.pose().popMatrix();
+    } else g.item(icon,x+(getWidth()-16)/2,y+(getHeight()-16)/2);
+   }
    else {
     // Client-only coloured chest artwork; no inventory stacks or server slots change.
     int shade=0xff000000 | ((color & 0x00fefefe) >>> 1);
@@ -92,17 +100,23 @@ public final class TechminesPlus implements ClientModInitializer {
      addRenderableWidget(label);
     }
    } else {
-    addRenderableWidget(new ItemButton(x+28,y+32,"Wardrobe — /wardrobe",new ItemStack(Items.ARMOR_STAND),0,b -> command("wardrobe")));
-    addRenderableWidget(new ItemButton(x+89,y+32,"Ender Chest — /ec",new ItemStack(Items.ENDER_CHEST),0,b -> command("ec")));
-    addRenderableWidget(new ItemButton(x+150,y+32,"Personal Vaults",new ItemStack(Items.CHEST),0,b -> Minecraft.getInstance().gui.setScreen(new PlusScreen(this,true))));
+    addRenderableWidget(new ItemButton(x,y+32,"Wardrobe — /wardrobe",new ItemStack(Items.ARMOR_STAND),0,b -> command("wardrobe")));
+    addRenderableWidget(new ItemButton(x+44,y+32,"Ender Chest — /ec",new ItemStack(Items.ENDER_CHEST),0,b -> command("ec")));
+    addRenderableWidget(new ItemButton(x+88,y+32,"Personal Vaults",new ItemStack(Items.CHEST),0,b -> Minecraft.getInstance().gui.setScreen(new PlusScreen(this,true))));
+    addRenderableWidget(new ItemButton(x+132,y+32,"Fly — /fly",new ItemStack(Items.ELYTRA),0,b -> command("fly")));
+    addRenderableWidget(new ItemButton(x+176,y+32,"Auction House — /ah",new ItemStack(Items.EMERALD),0,b -> command("ah")));
    }
-   if(!vaults) addRenderableWidget(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(this)).bounds(x,y+70,200,20).build());
-   addRenderableWidget(Button.builder(Component.literal("Back"),b -> onClose()).bounds(x,y+116,200,20).build());
+   if(!vaults) {
+    addRenderableWidget(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(this)).bounds(x,y+62,200,20).build());
+   }
+   addRenderableWidget(Button.builder(Component.literal("Back"),b -> onClose()).bounds(x,y+(vaults?116:90),200,20).build());
   }
   @Override public void onClose() { Minecraft.getInstance().gui.setScreen(parent); }
   @Override public boolean isPauseScreen() { return false; }
  }
 }
+
+
 
 
 

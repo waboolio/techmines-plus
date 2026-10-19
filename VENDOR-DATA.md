@@ -8,12 +8,12 @@ files are needed. No workbook or game/account files are published here.
 
 Install Python and openpyxl, then run:
 
-    python tools/import_vendors.py path/to/Techmines.xlsx src/main/resources/assets/techmines_plus/data/vendors.json
+    python tools/import_catalog.py path/to/Techmines.xlsx src/main/resources/assets/techmines_plus/data/vendors.json
 
 The importer reads the current workbook layout: mine heading in C, resource two
 rows below, category headings four rows below, and five tier rows next.
 Costs are in columns C-G; tier names in A. Add new world names to the importer's
-world_names list when a new world is added. The importer preserves missing cells
+names list when a new world is added. The importer preserves missing cells
 and flags ambiguous entries. It does not calculate totals or guess requirements.
 
 ## Updating without rebuilding
@@ -38,3 +38,10 @@ Vendor screenshots or copied item tooltips can be transcribed and verified.
 A client-side capture tool could be added later to save items/tooltips from
 vendor menus the player opens. This version does not automatically capture
 vendors or retrieve private server configuration.
+
+## Confirmed prices and estimates (0.7.0)
+
+Black entries remain confirmed, including numeric Excel formulas. Blue/orange
+font colours mark estimates and are imported with a ~ prefix. Column I REVIEW
+notes beside a mine are included on its page. Save and recalculate the workbook
+before importing because the importer reads cached formula results.

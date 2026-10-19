@@ -81,14 +81,15 @@ final class VendorInfoScreen extends Screen {
    VendorCatalog.Cost cost=mine.rows().get(i);int y=top+(i+1)*rowH;
    if(i%2==0)g.fill(left,y-2,left+boxWidth,y+11,0x443d5366);
    String[] values={cost.tier(),cost.sword(),cost.tool(),cost.armor()};
-   for(int j=0;j<4;j++)line(g,values[j].equals("Not recorded")?"--":values[j],xs[j],y,values[j].equals("Not recorded")?0xff999999:0xffffffff,j==0?28:col-3);
+   for(int j=0;j<4;j++)line(g,values[j].equals("Not recorded")?"--":values[j],xs[j],y,values[j].equals("Not recorded")?0xff999999:values[j].startsWith("~")?0xff60cfff:0xffffffff,j==0?28:col-3);
   }
-  line(g,"Talisman: "+mine.talisman(),left,140,0xffffffff,boxWidth);
-  line(g,"Elytra: "+mine.elytra(),left,153,0xffffffff,boxWidth);
-  line(g,"M = million | B = billion | -- = not recorded",left,169,0xffbbbbbb,boxWidth);
+  line(g,"Talisman: "+mine.talisman(),left,140,mine.talisman().startsWith("~")?0xff60cfff:0xffffffff,boxWidth);
+  line(g,"Elytra: "+mine.elytra(),left,153,mine.elytra().startsWith("~")?0xff60cfff:0xffffffff,boxWidth);
+  line(g,"k=thousand M=million B=billion ~=estimate",left,169,0xffbbbbbb,boxWidth);
   if(!mine.notes().isEmpty())line(g,mine.notes().get(0),left,182,0xffffbf69,boxWidth);
   if(height>=246)line(g,"Source: "+mine.source(),left,height-44,0xffaaaaaa,boxWidth);
  }
  @Override public void onClose() { show(parent); }
  @Override public boolean isPauseScreen() { return false; }
 }
+
