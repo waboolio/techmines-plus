@@ -28,16 +28,19 @@ final class VendorInfoScreen extends Screen {
   boxWidth=Math.min(440,width-16);left=(width-boxWidth)/2;
   if(mineIndex<0) {
    int count=world==null?catalog.worlds.size():world.mines().size();
-   perPage=Math.max(2,((height-104)/24)*2);
+   int stride=world==null?32:24;
+   perPage=Math.max(2,((height-104)/stride)*2);
    int pages=Math.max(1,(count+perPage-1)/perPage);page=Math.min(page,pages-1);
    for(int i=page*perPage;i<Math.min(count,(page+1)*perPage);i++) {
     final int index=i; int pos=i-page*perPage;String name;
     if(world==null) { VendorCatalog.World w=catalog.worlds.get(i);name=w.name()+(w.mines().isEmpty()?" [no data]":""); }
     else name=world.mines().get(i).name();
-    button(name,left+(pos%2)*(boxWidth/2+2),48+(pos/2)*24,boxWidth/2-2,b -> {
-     if(world==null) show(new VendorInfoScreen(this,catalog,catalog.worlds.get(index),-1));
-     else show(new VendorInfoScreen(this,catalog,world,index));
-    });
+    int bx=left+(pos%2)*(boxWidth/2+2),by=48+(pos/2)*stride,bw=boxWidth/2-2;
+    if(world==null){
+     VendorCatalog.World target=catalog.worlds.get(index);
+     addRenderableWidget(new WorldButton(target.name(),bx,by,bw,b -> show(new VendorInfoScreen(this,catalog,target,-1))));
+    }else button(name,bx,by,bw,b -> show(new VendorInfoScreen(this,catalog,world,index)));
+
    }
    if(pages>1) {
     Button prev=button("<",left,height-50,40,b -> {page--;rebuildWidgets();});prev.active=page>0;
