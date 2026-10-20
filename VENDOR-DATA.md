@@ -39,7 +39,7 @@ A client-side capture tool could be added later to save items/tooltips from
 vendor menus the player opens. This version does not automatically capture
 vendors or retrieve private server configuration.
 
-## Confirmed prices and estimates (0.10.0)
+## Confirmed prices and estimates (0.10.1)
 
 Black entries remain confirmed, including numeric Excel formulas. Blue/orange
 font colours mark estimates and are imported with a ~ prefix. Column I REVIEW
