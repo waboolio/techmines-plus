@@ -34,36 +34,45 @@ public final class TechminesPlus implements ClientModInitializer {
   if (onTechmines(client)) { client.gui.setScreen(null); client.getConnection().sendCommand(command); }
  }
  @Override public void onInitializeClient() {
+  MenuIcons.initialize(net.fabricmc.loader.api.FabricLoader.getInstance().getConfigDir().resolve("techmines-plus/menu-icons.json"));
   KeyMapping.Category category = KeyMapping.Category.register(Identifier.fromNamespaceAndPath("techmines_plus", "shortcuts"));
   KeyMapping menu = KeyMappingHelper.registerKeyMapping(new KeyMapping("key.techmines_plus.menu", InputConstants.Type.KEYBOARD, InputConstants.KEY_K, category));
   ClientTickEvents.END_CLIENT_TICK.register(client -> {
+   MenuIcons.tick(client);
    while (menu.consumeClick()) if (client.gui.screen() == null && onTechmines(client)) client.gui.setScreen(new PlusScreen(null, false));
   });
   ScreenEvents.AFTER_INIT.register((client, screen, width, height) -> {
    if (screen instanceof InventoryScreen && onTechmines(client)) {
     InventoryOrigin origin = (InventoryOrigin)screen;
     Screens.getWidgets(screen).add(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(screen)).bounds(origin.techminesPlusLeft()+98,origin.techminesPlusTop()-24,76,20).build());
-    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+48,origin.techminesPlusTop()-24,"Trash - /trash",new ItemStack(Items.HOPPER),0,b -> command("trash")));
+    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+48,origin.techminesPlusTop()-24,"Overclock - /oc",MenuIcons::overclock,0,b -> command("oc")));
     Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+74,origin.techminesPlusTop()-24,"Toggle PvP - /pvp",new ItemStack(Items.IRON_SWORD),0,b -> command("pvp")));
-    // Replace the unused recipe button with five compact command shortcuts and two upper buttons.
+    // Keep the compact inventory row clear; auxiliary shortcuts sit outside the slots.
     Screens.getWidgets(screen).removeIf(widget -> widget instanceof ImageButton && widget.getX()==origin.techminesPlusLeft()+104 && widget.getY()==height/2-22);
     int x = origin.techminesPlusLeft() + 98, y = origin.techminesPlusTop() + 61;
     Screens.getWidgets(screen).add(new ItemButton(x,y,"Wardrobe — /wardrobe",new ItemStack(Items.ARMOR_STAND),0,b -> command("wardrobe")).compact());
     Screens.getWidgets(screen).add(new ItemButton(x+15,y,"Ender Chest — /ec",new ItemStack(Items.ENDER_CHEST),0,b -> command("ec")).compact());
     Screens.getWidgets(screen).add(new ItemButton(x+30,y,"Personal Vaults",new ItemStack(Items.CHEST),0,b -> client.gui.setScreen(new PlusScreen(screen,true))).compact());
-    Screens.getWidgets(screen).add(new ItemButton(x+45,y,"Fly — /fly",new ItemStack(Items.ELYTRA),0,b -> command("fly")).compact());
+    Screens.getWidgets(screen).add(new ItemButton(x+45,y,"Accessory Bag - /bag",MenuIcons::bag,0,b -> command("bag")).compact());
+    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()-24,origin.techminesPlusTop()+25,"Fly - /fly",new ItemStack(Items.ELYTRA),0,b -> command("fly")).rail());
+    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()-24,origin.techminesPlusTop()+43,"Heal - /heal",new ItemStack(Items.GLISTERING_MELON_SLICE),0,b -> command("heal")).rail());
+    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+180,origin.techminesPlusTop()+140,"Trash - /trash",new ItemStack(Items.HOPPER),0,b -> command("trash")));
     Screens.getWidgets(screen).add(new ItemButton(x+60,y,"Auction House — /ah",new ItemStack(Items.EMERALD),0,b -> command("ah")).compact());
    }
   });
  }
  private static final class ItemButton extends Button {
-  private final ItemStack icon;
+  private final java.util.function.Supplier<ItemStack> icon;
   private final int color;
   ItemButton(int x,int y,String label,ItemStack icon,int color,OnPress action) {
+   this(x,y,label,()->icon,color,action);
+  }
+  ItemButton(int x,int y,String label,java.util.function.Supplier<ItemStack> icon,int color,OnPress action) {
    super(x,y,22,20,Component.literal(label),action,DEFAULT_NARRATION);
    this.icon=icon; this.color=color;
    setTooltip(Tooltip.create(Component.literal(label)));
   }
+  ItemButton rail() { setWidth(20); setHeight(18); return this; }
   ItemButton compact() { setWidth(15); setHeight(18); return this; }
   @Override protected void extractContents(GuiGraphicsExtractor g,int mouseX,int mouseY,float delta) {
    int x=getX(),y=getY();
@@ -72,8 +81,8 @@ public final class TechminesPlus implements ClientModInitializer {
    g.fill(x+2,y+2,x+getWidth()-2,y+getHeight()-2,0xff6b6b6b);
    if(color==0) {
     if(getWidth()==15) {
-     g.pose().pushMatrix();g.pose().translate((float)x,(float)(y+2)).scale(0.875f,0.875f);g.item(icon,0,0);g.pose().popMatrix();
-    } else g.item(icon,x+(getWidth()-16)/2,y+(getHeight()-16)/2);
+     g.pose().pushMatrix();g.pose().translate((float)x,(float)(y+2)).scale(0.875f,0.875f);g.item(icon.get(),0,0);g.pose().popMatrix();
+    } else g.item(icon.get(),x+(getWidth()-16)/2,y+(getHeight()-16)/2);
    }
    else {
     // Client-only coloured chest artwork; no inventory stacks or server slots change.
@@ -91,7 +100,7 @@ public final class TechminesPlus implements ClientModInitializer {
   private final boolean vaults;
   PlusScreen(Screen parent,boolean vaults) { super(Component.literal(vaults?"Personal Vaults":"Techmines Plus")); this.parent=parent; this.vaults=vaults; }
   @Override protected void init() {
-   int x=width/2-100,y=Math.max(6,height/2-65);
+   int x=width/2-100,y=Math.max(6,(height-(vaults?136:122))/2);
    Button heading=Button.builder(title,b -> {}).bounds(x,y,200,20).build(); heading.active=false; addRenderableWidget(heading);
    if(vaults) {
     for(int i=0;i<7;i++) {
@@ -102,18 +111,21 @@ public final class TechminesPlus implements ClientModInitializer {
      addRenderableWidget(label);
     }
    } else {
-    addRenderableWidget(new ItemButton(x,y+32,"Wardrobe — /wardrobe",new ItemStack(Items.ARMOR_STAND),0,b -> command("wardrobe")));
-    addRenderableWidget(new ItemButton(x+29,y+32,"Ender Chest — /ec",new ItemStack(Items.ENDER_CHEST),0,b -> command("ec")));
-    addRenderableWidget(new ItemButton(x+58,y+32,"Personal Vaults",new ItemStack(Items.CHEST),0,b -> Minecraft.getInstance().gui.setScreen(new PlusScreen(this,true))));
-    addRenderableWidget(new ItemButton(x+87,y+32,"Fly — /fly",new ItemStack(Items.ELYTRA),0,b -> command("fly")));
-    addRenderableWidget(new ItemButton(x+116,y+32,"Auction House — /ah",new ItemStack(Items.EMERALD),0,b -> command("ah")));
-    addRenderableWidget(new ItemButton(x+145,y+32,"Trash - /trash",new ItemStack(Items.HOPPER),0,b -> command("trash")));
-    addRenderableWidget(new ItemButton(x+174,y+32,"Toggle PvP - /pvp",new ItemStack(Items.IRON_SWORD),0,b -> command("pvp")));
+    addRenderableWidget(new ItemButton(x,y+26,"Wardrobe - /wardrobe",new ItemStack(Items.ARMOR_STAND),0,b -> command("wardrobe")));
+    addRenderableWidget(new ItemButton(x+44,y+26,"Ender Chest - /ec",new ItemStack(Items.ENDER_CHEST),0,b -> command("ec")));
+    addRenderableWidget(new ItemButton(x+88,y+26,"Personal Vaults",new ItemStack(Items.CHEST),0,b -> Minecraft.getInstance().gui.setScreen(new PlusScreen(this,true))));
+    addRenderableWidget(new ItemButton(x+132,y+26,"Accessory Bag - /bag",MenuIcons::bag,0,b -> command("bag")));
+    addRenderableWidget(new ItemButton(x+176,y+26,"Auction House - /ah",new ItemStack(Items.EMERALD),0,b -> command("ah")));
+    addRenderableWidget(new ItemButton(x,y+50,"Fly - /fly",new ItemStack(Items.ELYTRA),0,b -> command("fly")));
+    addRenderableWidget(new ItemButton(x+44,y+50,"Heal - /heal",new ItemStack(Items.GLISTERING_MELON_SLICE),0,b -> command("heal")));
+    addRenderableWidget(new ItemButton(x+88,y+50,"Overclock - /oc",MenuIcons::overclock,0,b -> command("oc")));
+    addRenderableWidget(new ItemButton(x+132,y+50,"Trash - /trash",new ItemStack(Items.HOPPER),0,b -> command("trash")));
+    addRenderableWidget(new ItemButton(x+176,y+50,"Toggle PvP - /pvp",new ItemStack(Items.IRON_SWORD),0,b -> command("pvp")));
    }
    if(!vaults) {
-    addRenderableWidget(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(this)).bounds(x,y+62,200,20).build());
+    addRenderableWidget(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(this)).bounds(x,y+76,200,20).build());
    }
-   addRenderableWidget(Button.builder(Component.literal("Back"),b -> onClose()).bounds(x,y+(vaults?116:90),200,20).build());
+   addRenderableWidget(Button.builder(Component.literal("Back"),b -> onClose()).bounds(x,y+(vaults?116:102),200,20).build());
   }
   @Override public void onClose() { Minecraft.getInstance().gui.setScreen(parent); }
   @Override public boolean isPauseScreen() { return false; }
