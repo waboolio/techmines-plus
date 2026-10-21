@@ -1,6 +1,5 @@
 package gg.techmines.plus;
 
-import java.util.Locale;
 import gg.techmines.plus.mixin.InventoryOrigin;
 import com.mojang.blaze3d.platform.InputConstants;
 import net.fabricmc.api.ClientModInitializer;
@@ -25,9 +24,7 @@ public final class TechminesPlus implements ClientModInitializer {
  private static final int[] COLORS = {0xffe34b4b,0xffffa332,0xffffdf4d,0xff61bd58,0xff4fbce0,0xff626de0,0xffbd63d5};
  private static final String[] COLOR_NAMES = {"Red","Orange","Yellow","Green","Cyan","Blue","Purple"};
  public static boolean onTechmines(Minecraft client) {
-  if (client.player == null || client.getConnection() == null || client.getCurrentServer() == null) return false;
-  String address = client.getCurrentServer().ip.toLowerCase(Locale.ROOT);
-  return address.equals("techmines.minehut.gg") || address.equals("techmines.minehut.gg:25565");
+  return ServerDetection.active(client);
  }
  private static void command(String command) {
   Minecraft client = Minecraft.getInstance();
