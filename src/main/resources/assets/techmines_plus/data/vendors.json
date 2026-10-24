@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "source": "Techmines.xlsx; blue/orange estimates marked ~; black entries confirmed; imported 2026-10-18",
+  "source": "Techmines.xlsx; blue/orange estimates marked ~; black entries confirmed; imported 2026-10-24",
   "worlds": [
     {
       "name": "Spawn",
@@ -6098,6 +6098,560 @@
             "Not recorded"
           ],
           "source": "Techmines.xlsx / Planet X / C91:G100"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Sands",
+      "mines": [
+        {
+          "name": "MINE 89 Palmwood",
+          "resource": "Palmwood",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "3.37B",
+              "tool": "280.54M",
+              "armor": "3.37B"
+            },
+            {
+              "tier": "II",
+              "sword": "~6.73B",
+              "tool": "~561.08M",
+              "armor": "6.73B"
+            },
+            {
+              "tier": "III",
+              "sword": "~10.10B",
+              "tool": "~1.12B",
+              "armor": "10.10B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~13.47B",
+              "tool": "~2.24B",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "16829999999.999998 (unit unconfirmed)",
+              "tool": "3.37B",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~67.33B",
+          "elytra": "~33.66B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "3370000000",
+            "~6732960000",
+            "~10099440000",
+            "~13465920000",
+            "Not confirmed",
+            "280540000",
+            "~561080000",
+            "~1122160000",
+            "~2244320000",
+            "3370000000",
+            "3370000000",
+            "6730000000",
+            "10100000000",
+            "~67329600000",
+            "~33664800000"
+          ],
+          "source": "Techmines.xlsx / Ancient Sands / C1:G10"
+        },
+        {
+          "name": "MINE 90 Oasisleaf",
+          "resource": "Oasisleaf",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "424.18M",
+              "tool": "35.35M",
+              "armor": "424.18M"
+            },
+            {
+              "tier": "II",
+              "sword": "~848.36M",
+              "tool": "~70.70M",
+              "armor": "848.36M"
+            },
+            {
+              "tier": "III",
+              "sword": "~1.27B",
+              "tool": "~141.39M",
+              "armor": "1.27B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~1.70B",
+              "tool": "~282.79M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "2.12B",
+              "tool": "424.18M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~8.48B",
+          "elytra": "~4.24B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "424180000",
+            "~848360000",
+            "~1272540000",
+            "~1696720000",
+            "2120000000",
+            "35350000",
+            "~70696667",
+            "~141393333",
+            "~282786667",
+            "424180000",
+            "424180000",
+            "848360000",
+            "1270000000",
+            "~8483600000",
+            "~4241800000"
+          ],
+          "source": "Techmines.xlsx / Ancient Sands / C14:G23"
+        },
+        {
+          "name": "MINE 91 DuneStone",
+          "resource": "DuneStone",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "9.11B",
+              "tool": "759.50M",
+              "armor": "9.11B"
+            },
+            {
+              "tier": "II",
+              "sword": "~18.23B",
+              "tool": "~1.52B",
+              "armor": "18.23B"
+            },
+            {
+              "tier": "III",
+              "sword": "~27.34B",
+              "tool": "~3.04B",
+              "armor": "27.34B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~36.46B",
+              "tool": "~6.08B",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "45.57B",
+              "tool": "9.11B",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~182.28B",
+          "elytra": "~91.14B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "9110000000",
+            "~18228000000",
+            "~27342000000",
+            "~36456000000",
+            "45570000000",
+            "759500000",
+            "~1519000000",
+            "~3038000000",
+            "~6076000000",
+            "9110000000",
+            "9110000000",
+            "18230000000",
+            "27340000000",
+            "~182280000000",
+            "~91140000000"
+          ],
+          "source": "Techmines.xlsx / Ancient Sands / C27:G36"
+        },
+        {
+          "name": "MINE 92 Sunsilt",
+          "resource": "Sunsilt",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "642.61M",
+              "tool": "53.55M",
+              "armor": "642.61M"
+            },
+            {
+              "tier": "II",
+              "sword": "~1.29B",
+              "tool": "~107.10M",
+              "armor": "~1.29B"
+            },
+            {
+              "tier": "III",
+              "sword": "~1.93B",
+              "tool": "~214.20M",
+              "armor": "~1.93B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~2.57B",
+              "tool": "~428.41M",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "3.21B",
+              "tool": "642.61M",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~12.85B",
+          "elytra": "~6.43B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "642610000",
+            "~1285220000",
+            "~1927830000",
+            "~2570440000",
+            "3210000000",
+            "53550000",
+            "~107101667",
+            "~214203333",
+            "~428406667",
+            "642610000",
+            "642610000",
+            "~1285220000",
+            "~1927830000",
+            "~12852200000",
+            "~6426100000"
+          ],
+          "source": "Techmines.xlsx / Ancient Sands / C38:G47"
+        },
+        {
+          "name": "MINE 93 Amberite",
+          "resource": "Amberite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "13.30B",
+              "tool": "1.11B",
+              "armor": "13.30B"
+            },
+            {
+              "tier": "II",
+              "sword": "~26.60B",
+              "tool": "~2.22B",
+              "armor": "26.60B"
+            },
+            {
+              "tier": "III",
+              "sword": "~39.89B",
+              "tool": "~4.43B",
+              "armor": "39.89B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~53.19B",
+              "tool": "~8.87B",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "66489999999.99999 (unit unconfirmed)",
+              "tool": "13.30B",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~265.95B",
+          "elytra": "~132.98B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "13300000000",
+            "~26595333333",
+            "~39893000000",
+            "~53190666667",
+            "Not confirmed",
+            "1110000000",
+            "~2216277778",
+            "~4432555556",
+            "~8865111111",
+            "13300000000",
+            "13300000000",
+            "26600000000",
+            "39890000000",
+            "~265953333333",
+            "~132976666667"
+          ],
+          "source": "Techmines.xlsx / Ancient Sands / C49:G58"
+        },
+        {
+          "name": "MINE 94 Terracite",
+          "resource": "Terracite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "16.18B",
+              "tool": "1.35B",
+              "armor": "16.18B"
+            },
+            {
+              "tier": "II",
+              "sword": "~32.36B",
+              "tool": "~2.70B",
+              "armor": "32.36B"
+            },
+            {
+              "tier": "III",
+              "sword": "~48.54B",
+              "tool": "~5.39B",
+              "armor": "48.54B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~64.72B",
+              "tool": "~10.79B",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "80.90B",
+              "tool": "16.18B",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~323.60B",
+          "elytra": "~161.80B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "16180000000",
+            "~32360000000",
+            "~48540000000",
+            "~64720000000",
+            "80900000000",
+            "1350000000",
+            "~2696666667",
+            "~5393333333",
+            "~10786666667",
+            "16180000000",
+            "16180000000",
+            "32360000000",
+            "48540000000",
+            "~323600000000",
+            "~161800000000"
+          ],
+          "source": "Techmines.xlsx / Ancient Sands / C60:G69"
+        },
+        {
+          "name": "MINE 95 Emberglass",
+          "resource": "Emberglass",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "19.73B",
+              "tool": "1.64B",
+              "armor": "19.73B"
+            },
+            {
+              "tier": "II",
+              "sword": "~39.46B",
+              "tool": "~3.29B",
+              "armor": "39.46B"
+            },
+            {
+              "tier": "III",
+              "sword": "~59.19B",
+              "tool": "~6.58B",
+              "armor": "59.19B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~78.92B",
+              "tool": "~13.15B",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~98.65B",
+              "tool": "19.73B",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~394.60B",
+          "elytra": "~197.30B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "19730000000",
+            "~39460000000",
+            "~59190000000",
+            "~78920000000",
+            "~98650000000",
+            "1640000000",
+            "~3288333333",
+            "~6576666667",
+            "~13153333333",
+            "19730000000",
+            "19730000000",
+            "39460000000",
+            "59190000000",
+            "~394600000000",
+            "~197300000000"
+          ],
+          "source": "Techmines.xlsx / Ancient Sands / C71:G80"
+        },
+        {
+          "name": "MINE 96 Heliodor",
+          "resource": "Heliodor",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "24.11B",
+              "tool": "2009999999.9999998 (unit unconfirmed)",
+              "armor": "24.11B"
+            },
+            {
+              "tier": "II",
+              "sword": "~48.22B",
+              "tool": "~4.02B",
+              "armor": "48.22B"
+            },
+            {
+              "tier": "III",
+              "sword": "~72.33B",
+              "tool": "~8.04B",
+              "armor": "72.33B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~96.44B",
+              "tool": "~16.07B",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "120.55B",
+              "tool": "24.11B",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~482.20B",
+          "elytra": "~241.10B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "24110000000",
+            "~48220000000",
+            "~72330000000",
+            "~96440000000",
+            "120550000000",
+            "Not confirmed",
+            "~4018333333",
+            "~8036666667",
+            "~16073333333",
+            "24110000000",
+            "24110000000",
+            "48220000000",
+            "72330000000",
+            "~482200000000",
+            "~241100000000"
+          ],
+          "source": "Techmines.xlsx / Ancient Sands / C82:G91"
+        },
+        {
+          "name": "Boss ANUBIS",
+          "resource": "Solkhar Sunseal",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "28",
+              "tool": "28",
+              "armor": "14"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "28",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "28",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "14",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
+          ],
+          "source": "Techmines.xlsx / Ancient Sands / C93:G102"
         }
       ]
     }

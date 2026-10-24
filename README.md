@@ -4,10 +4,10 @@ Client-side Fabric mod for `techmines.minehut.gg`.
 
 ## Download and install
 
-Latest public version: **0.10.2**. Choose the jar for your Minecraft version:
+Latest public version: **0.11.0**. Choose the jar for your Minecraft version:
 
-- [Minecraft 26.3: techmines-plus-0.10.2.jar](https://github.com/waboolio/techmines-plus/releases/download/v0.10.2/techmines-plus-0.10.2.jar)
-- [Minecraft 26.2: techmines-plus-0.10.2+mc26.2.jar](https://github.com/waboolio/techmines-plus/releases/download/v0.10.2/techmines-plus-0.10.2%2Bmc26.2.jar)
+- [Minecraft 26.3: techmines-plus-0.11.0.jar](https://github.com/waboolio/techmines-plus/releases/download/v0.11.0/techmines-plus-0.11.0.jar)
+- [Minecraft 26.2: techmines-plus-0.11.0+mc26.2.jar](https://github.com/waboolio/techmines-plus/releases/download/v0.11.0/techmines-plus-0.11.0%2Bmc26.2.jar)
 
 Use these release attachments for counted downloads. Do not install the source-code ZIP.
 Browse all versions on the [Releases page](https://github.com/waboolio/techmines-plus/releases).
@@ -54,8 +54,8 @@ Open **Vendor Info**, choose a world, then a mine. Browse resource costs for
 swords, the relevant mining tool, armour per piece, talismans and elytras.
 Previous/next mine buttons and paginated world/mine lists support browsing.
 
-Version **0.10.2** includes the latest spreadsheet snapshot across **11 worlds and
-99 mine/boss pages**, including Acidic Lakes, Steampunk, Sakura Forest, Wild West
+Version **0.11.0** includes the latest spreadsheet snapshot across **12 worlds and
+108 mine/boss pages**, including Acidic Lakes, Steampunk, Sakura Forest, Wild West
 and Planet X. Confirmed spreadsheet entries are shown without a prefix. Blue and
 orange spreadsheet estimates carry a cyan **~** prefix. Excel formulas alone do
 not mark a confirmed price as estimated.
@@ -83,7 +83,7 @@ The total inherits any estimate marker in its included prices.
 
 ## Testing and bug reports
 
-Both 0.10.2 builds compile successfully and their bundled vendor data/version
+Both 0.11.0 builds compile successfully and their bundled vendor data/version
 metadata were checked. Totals were checked against all 99 spreadsheet pages,
 including missing prices and four-piece armour sets. The refreshed pages still need an in-game appearance check.
 Report issues with mod/Minecraft/Fabric versions, reproduction steps, screenshots
@@ -93,7 +93,7 @@ Remove account tokens and personal information from shared logs.
 ## Build from source
 
 Use a Java 25 JDK. Run `gradlew.bat build` on Windows or `./gradlew build` on Linux/macOS.
-The main source targets Minecraft 26.3 and produces `build/libs/techmines-plus-0.10.2.jar`.
+The main source targets Minecraft 26.3 and produces `build/libs/techmines-plus-0.11.0.jar`.
 See the compatibility instructions for the separate 26.2 variant.
 
 Unofficial community project; not affiliated with Mojang, Microsoft, Minehut or the Techmines server owners.
@@ -114,10 +114,10 @@ Optional release notes go in release-notes/VERSION.md. Existing attachments are
 never overwritten, preserving their counters. Always use a new version for
 changed jars. The workflow can also be run manually in Actions.
 
-## World button design (0.10.2)
+## World button design (0.11.0)
 
 Vendor Info world buttons now show warp-themed block icons, colored accents and
-clear world names. All 11 worlds and pagination remain available. Vanilla items
+clear world names. All 12 worlds and pagination remain available. Vanilla items
 are used for the icons; the custom green/gold server artwork is approximated
 with a melon block. Vendor prices and totals are unchanged.
 

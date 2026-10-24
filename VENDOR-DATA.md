@@ -1,7 +1,7 @@
 # Vendor catalogue
 
 Bundled data: `src/main/resources/assets/techmines_plus/data/vendors.json`.
-Source: user-supplied Techmines.xlsx, imported 2026-10-18. No private server
+Source: user-supplied Techmines.xlsx, imported 2026-10-24. No private server
 files are needed. No workbook or game/account files are published here.
 
 ## Updating from the workbook
@@ -39,7 +39,7 @@ A client-side capture tool could be added later to save items/tooltips from
 vendor menus the player opens. This version does not automatically capture
 vendors or retrieve private server configuration.
 
-## Confirmed prices and estimates (0.10.2)
+## Confirmed prices and estimates (0.11.0)
 
 Black entries remain confirmed, including numeric Excel formulas. Blue/orange
 font colours mark estimates and are imported with a ~ prefix. Column I REVIEW

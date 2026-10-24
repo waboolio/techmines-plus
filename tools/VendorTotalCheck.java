@@ -14,6 +14,6 @@ public final class VendorTotalCheck {
   prices=new ArrayList<>(Collections.nCopies(15,"0"));result=VendorTotal.calculate(prices,List.of("512"));check(result.amount().compareTo(new BigDecimal("512"))==0,"additional starter tool counted once");
   int count=0;
   for(String line:Files.readAllLines(Path.of(args[0]))){String[] parts=line.split("\\t",-1);result=VendorTotal.calculate(Arrays.asList(Arrays.copyOfRange(parts,4,19)),Arrays.asList(Arrays.copyOfRange(parts,19,parts.length)));check(result.amount()==null?parts[1].equals("unknown"):result.amount().compareTo(new BigDecimal(parts[1]))==0,"spreadsheet sum: "+parts[0]);check(result.complete()==Boolean.parseBoolean(parts[2]),"completeness: "+parts[0]);check(result.estimated()==Boolean.parseBoolean(parts[3]),"estimate flag: "+parts[0]);count++;}
-  check(count==99,"all pages checked");System.out.println("Vendor total checks passed: 99 spreadsheet totals, full armour sets, specials, estimates, missing values and units.");
+  check(count==108,"all pages checked");System.out.println("Vendor total checks passed: 108 spreadsheet totals, full armour sets, specials, estimates, missing values and units.");
  }
 }

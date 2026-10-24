@@ -17,9 +17,9 @@ final class WorldButton extends Button {
    case "heaven"->Items.QUARTZ_BLOCK;case "ocean"->Items.BLUE_ICE;case "acidic lakes"->Items.MELON;
    case "steampunk"->Items.COPPER_BLOCK.weathering().unaffected();case "sakura forest"->Items.CHERRY_LEAVES;
    case "wild west"->Items.HAY_BLOCK;case "pixel grove"->Items.OAK_LEAVES;
-   case "planet x"->Items.CRYING_OBSIDIAN;default->Items.COMPASS;
+   case "ancient sands"->Items.SANDSTONE;case "planet x"->Items.CRYING_OBSIDIAN;default->Items.COMPASS;
   });
-  accent=switch(world){case "spawn","pixel grove"->0xff86b85b;case "nether"->0xffa85048;case "end"->0xffddd69b;case "heaven"->0xffeeeeec;case "ocean"->0xff6ecae1;case "acidic lakes"->0xffbad745;case "steampunk"->0xffcf946c;case "sakura forest"->0xffeea7cc;case "wild west"->0xffdbbe58;case "planet x"->0xffa574de;default->0xffa7bcc8;};
+  accent=switch(world){case "spawn","pixel grove"->0xff86b85b;case "nether"->0xffa85048;case "end"->0xffddd69b;case "heaven"->0xffeeeeec;case "ocean"->0xff6ecae1;case "acidic lakes"->0xffbad745;case "steampunk"->0xffcf946c;case "sakura forest"->0xffeea7cc;case "wild west"->0xffdbbe58;case "ancient sands"->0xffd7bd83;case "planet x"->0xffa574de;default->0xffa7bcc8;};
   setTooltip(Tooltip.create(Component.literal(name+" vendor prices")));
  }
  @Override protected void extractContents(GuiGraphicsExtractor g,int mx,int my,float delta){
