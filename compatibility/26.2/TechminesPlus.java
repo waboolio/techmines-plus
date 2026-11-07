@@ -42,7 +42,9 @@ public final class TechminesPlus implements ClientModInitializer {
    if (screen instanceof InventoryScreen && onTechmines(client)) {
     InventoryOrigin origin = (InventoryOrigin)screen;
     Screens.getWidgets(screen).add(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(screen)).bounds(origin.techminesPlusLeft()+98,origin.techminesPlusTop()-24,76,20).build());
-    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+48,origin.techminesPlusTop()-24,"Overclock - /oc",MenuIcons::overclock,0,b -> command("oc")));
+    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft(),origin.techminesPlusTop()-24,"Overclock - /oc",MenuIcons::overclock,0,b -> command("oc")));
+    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+24,origin.techminesPlusTop()-24,"Shards - /shards",new ItemStack(Items.AMETHYST_SHARD),0,b -> command("shards")));
+    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+48,origin.techminesPlusTop()-24,"Shop - /shop",new ItemStack(Items.TOTEM_OF_UNDYING),0,b -> command("shop")));
     Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+74,origin.techminesPlusTop()-24,"Toggle PvP - /pvp",new ItemStack(Items.IRON_SWORD),0,b -> command("pvp")));
     // Keep the compact inventory row clear; auxiliary shortcuts sit outside the slots.
     Screens.getWidgets(screen).removeIf(widget -> widget instanceof ImageButton && widget.getX()==origin.techminesPlusLeft()+104 && widget.getY()==height/2-22);
@@ -97,7 +99,7 @@ public final class TechminesPlus implements ClientModInitializer {
   private final boolean vaults;
   PlusScreen(Screen parent,boolean vaults) { super(Component.literal(vaults?"Personal Vaults":"Techmines Plus")); this.parent=parent; this.vaults=vaults; }
   @Override protected void init() {
-   int x=width/2-100,y=Math.max(6,(height-(vaults?136:122))/2);
+   int x=width/2-100,y=Math.max(6,(height-(vaults?136:146))/2);
    Button heading=Button.builder(title,b -> {}).bounds(x,y,200,20).build(); heading.active=false; addRenderableWidget(heading);
    if(vaults) {
     for(int i=0;i<7;i++) {
@@ -120,9 +122,11 @@ public final class TechminesPlus implements ClientModInitializer {
     addRenderableWidget(new ItemButton(x+176,y+50,"Toggle PvP - /pvp",new ItemStack(Items.IRON_SWORD),0,b -> command("pvp")));
    }
    if(!vaults) {
-    addRenderableWidget(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(this)).bounds(x,y+76,200,20).build());
+    addRenderableWidget(new ItemButton(x+66,y+74,"Shards - /shards",new ItemStack(Items.AMETHYST_SHARD),0,b -> command("shards")));
+    addRenderableWidget(new ItemButton(x+110,y+74,"Shop - /shop",new ItemStack(Items.TOTEM_OF_UNDYING),0,b -> command("shop")));
+    addRenderableWidget(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(this)).bounds(x,y+100,200,20).build());
    }
-   addRenderableWidget(Button.builder(Component.literal("Back"),b -> onClose()).bounds(x,y+(vaults?116:102),200,20).build());
+   addRenderableWidget(Button.builder(Component.literal("Back"),b -> onClose()).bounds(x,y+(vaults?116:126),200,20).build());
   }
   @Override public void onClose() { Minecraft.getInstance().gui.setScreen(parent); }
   @Override public boolean isPauseScreen() { return false; }
