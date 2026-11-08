@@ -4,10 +4,10 @@ Client-side Fabric mod for `techmines.minehut.gg`.
 
 ## Download and install
 
-Latest public version: **0.12.0**. Choose the jar for your Minecraft version:
+Latest public version: **0.13.0**. Choose the jar for your Minecraft version:
 
-- [Minecraft 26.3: techmines-plus-0.12.0.jar](https://github.com/waboolio/techmines-plus/releases/download/v0.12.0/techmines-plus-0.12.0.jar)
-- [Minecraft 26.2: techmines-plus-0.12.0+mc26.2.jar](https://github.com/waboolio/techmines-plus/releases/download/v0.12.0/techmines-plus-0.12.0%2Bmc26.2.jar)
+- [Minecraft 26.3: techmines-plus-0.13.0.jar](https://github.com/waboolio/techmines-plus/releases/download/v0.13.0/techmines-plus-0.13.0.jar)
+- [Minecraft 26.2: techmines-plus-0.13.0+mc26.2.jar](https://github.com/waboolio/techmines-plus/releases/download/v0.13.0/techmines-plus-0.13.0%2Bmc26.2.jar)
 
 Use these release attachments for counted downloads. Do not install the source-code ZIP.
 Browse all versions on the [Releases page](https://github.com/waboolio/techmines-plus/releases).
@@ -29,13 +29,12 @@ See [26.2 compatibility instructions](MINECRAFT-26.2.md).
 The inventory shortcuts are arranged around the existing slots:
 
 - Compact row: Wardrobe `/wardrobe`, Ender Chest `/ec`, Vaults `/pv 1` through `/pv 7`, Accessory Bag `/bag`, Auction House `/ah`.
-- Left of the equipment slots: Elytra `/fly` aligned with the chestplate, and Heal `/heal` below it.
-- Top bar: Overclock `/oc`, Shards `/shards` (amethyst shard), Shop `/shop` (totem), and PvP toggle `/pvp`, beside Vendor Info.
+- Side column: PvP `/pvp` above Elytra `/fly`, with Heal `/heal` below.
+- Above the inventory: Vendor Info on its own row; beneath it Overclock `/oc`, Shop `/shop`, Shards `/shards`, Skill Tree `/skilltree` in that order. Skill Tree uses an oak sapling icon.
 - Right of the hotbar: Trash `/trash`.
 
 Heal uses a glistering melon icon. Bag replaces Fly's previous compact-row position.
-Overclock replaces the previous top-bar Trash button. The K menu has the same
-commands in two rows, including all three new shortcuts.
+Overclock replaces the previous top-bar Trash button. The K menu offers the same commands.
 
 Accessory Bag uses Minecraft's blue bundle icon immediately. Open **Overclocks**
 once to copy its exact server item appearance. That display stack is cached
@@ -54,7 +53,7 @@ Open **Vendor Info**, choose a world, then a mine. Browse resource costs for
 swords, the relevant mining tool, armour per piece, talismans and elytras.
 Previous/next mine buttons and paginated world/mine lists support browsing.
 
-Version **0.12.0** includes the latest spreadsheet snapshot across **12 worlds and
+Version **0.13.0** includes the latest spreadsheet snapshot across **12 worlds and
 108 mine/boss pages**, including Acidic Lakes, Steampunk, Sakura Forest, Wild West
 and Planet X. Confirmed spreadsheet entries are shown without a prefix. Blue and
 orange spreadsheet estimates carry a cyan **~** prefix. Excel formulas alone do
@@ -83,7 +82,7 @@ The total inherits any estimate marker in its included prices.
 
 ## Testing and bug reports
 
-Both 0.12.0 builds compile successfully and their bundled vendor data/version
+Both 0.13.0 builds compile successfully and their bundled vendor data/version
 metadata were checked. Totals were checked against all 99 spreadsheet pages,
 including missing prices and four-piece armour sets. The refreshed pages still need an in-game appearance check.
 Report issues with mod/Minecraft/Fabric versions, reproduction steps, screenshots
@@ -93,7 +92,7 @@ Remove account tokens and personal information from shared logs.
 ## Build from source
 
 Use a Java 25 JDK. Run `gradlew.bat build` on Windows or `./gradlew build` on Linux/macOS.
-The main source targets Minecraft 26.3 and produces `build/libs/techmines-plus-0.12.0.jar`.
+The main source targets Minecraft 26.3 and produces `build/libs/techmines-plus-0.13.0.jar`.
 See the compatibility instructions for the separate 26.2 variant.
 
 Unofficial community project; not affiliated with Mojang, Microsoft, Minehut or the Techmines server owners.
@@ -114,7 +113,7 @@ Optional release notes go in release-notes/VERSION.md. Existing attachments are
 never overwritten, preserving their counters. Always use a new version for
 changed jars. The workflow can also be run manually in Actions.
 
-## World button design (0.12.0)
+## World button design (0.13.0)
 
 Vendor Info world buttons now show warp-themed block icons, colored accents and
 clear world names. All 12 worlds and pagination remain available. Vanilla items

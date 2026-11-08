@@ -41,11 +41,15 @@ public final class TechminesPlus implements ClientModInitializer {
   ScreenEvents.AFTER_INIT.register((client, screen, width, height) -> {
    if (screen instanceof InventoryScreen && onTechmines(client)) {
     InventoryOrigin origin = (InventoryOrigin)screen;
-    Screens.getWidgets(screen).add(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(screen)).bounds(origin.techminesPlusLeft()+98,origin.techminesPlusTop()-24,76,20).build());
-    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft(),origin.techminesPlusTop()-24,"Overclock - /oc",MenuIcons::overclock,0,b -> command("oc")));
-    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+24,origin.techminesPlusTop()-24,"Shards - /shards",new ItemStack(Items.AMETHYST_SHARD),0,b -> command("shards")));
-    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+48,origin.techminesPlusTop()-24,"Shop - /shop",new ItemStack(Items.TOTEM_OF_UNDYING),0,b -> command("shop")));
-    Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+74,origin.techminesPlusTop()-24,"Toggle PvP - /pvp",new ItemStack(Items.IRON_SWORD),0,b -> command("pvp")));
+    int left=origin.techminesPlusLeft(),top=origin.techminesPlusTop();
+    // Shorten only the vendor row at the minimum GUI height so both rows stay visible.
+    int vendorHeight=Math.min(20,Math.max(13,top-24));
+    Screens.getWidgets(screen).add(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(screen)).bounds(left,Math.max(0,top-24-vendorHeight),176,vendorHeight).build());
+    Screens.getWidgets(screen).add(new ItemButton(left+40,top-22,"Overclock - /oc",MenuIcons::overclock,0,b -> command("oc")));
+    Screens.getWidgets(screen).add(new ItemButton(left+64,top-22,"Shop - /shop",new ItemStack(Items.TOTEM_OF_UNDYING),0,b -> command("shop")));
+    Screens.getWidgets(screen).add(new ItemButton(left+88,top-22,"Shards - /shards",new ItemStack(Items.AMETHYST_SHARD),0,b -> command("shards")));
+    Screens.getWidgets(screen).add(new ItemButton(left+112,top-22,"Skill Tree - /skilltree",new ItemStack(Items.OAK_SAPLING),0,b -> command("skilltree")));
+    Screens.getWidgets(screen).add(new ItemButton(left-24,top+7,"Toggle PvP - /pvp",new ItemStack(Items.IRON_SWORD),0,b -> command("pvp")).rail());
     // Keep the compact inventory row clear; auxiliary shortcuts sit outside the slots.
     Screens.getWidgets(screen).removeIf(widget -> widget instanceof ImageButton && widget.getX()==origin.techminesPlusLeft()+104 && widget.getY()==height/2-22);
     int x = origin.techminesPlusLeft() + 98, y = origin.techminesPlusTop() + 61;
@@ -122,8 +126,9 @@ public final class TechminesPlus implements ClientModInitializer {
     addRenderableWidget(new ItemButton(x+176,y+50,"Toggle PvP - /pvp",new ItemStack(Items.IRON_SWORD),0,b -> command("pvp")));
    }
    if(!vaults) {
-    addRenderableWidget(new ItemButton(x+66,y+74,"Shards - /shards",new ItemStack(Items.AMETHYST_SHARD),0,b -> command("shards")));
-    addRenderableWidget(new ItemButton(x+110,y+74,"Shop - /shop",new ItemStack(Items.TOTEM_OF_UNDYING),0,b -> command("shop")));
+    addRenderableWidget(new ItemButton(x+88,y+74,"Shards - /shards",new ItemStack(Items.AMETHYST_SHARD),0,b -> command("shards")));
+    addRenderableWidget(new ItemButton(x+44,y+74,"Shop - /shop",new ItemStack(Items.TOTEM_OF_UNDYING),0,b -> command("shop")));
+    addRenderableWidget(new ItemButton(x+132,y+74,"Skill Tree - /skilltree",new ItemStack(Items.OAK_SAPLING),0,b -> command("skilltree")));
     addRenderableWidget(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(this)).bounds(x,y+100,200,20).build());
    }
    addRenderableWidget(Button.builder(Component.literal("Back"),b -> onClose()).bounds(x,y+(vaults?116:126),200,20).build());
