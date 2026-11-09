@@ -84,10 +84,10 @@ final class VendorInfoScreen extends Screen {
    VendorCatalog.Cost cost=mine.rows().get(i);int y=top+(i+1)*rowH;
    if(i%2==0)g.fill(left,y-2,left+boxWidth,y+11,0x443d5366);
    String[] values={cost.tier(),cost.sword(),cost.tool(),cost.armor()};
-   for(int j=0;j<4;j++)line(g,values[j].equals("Not recorded")?"--":values[j],xs[j],y,values[j].equals("Not recorded")?0xff999999:values[j].startsWith("~")?0xff60cfff:0xffffffff,j==0?28:col-3);
+   for(int j=0;j<4;j++)line(g,values[j].equals("Not recorded")?"--":VendorNumbers.display(values[j]),xs[j],y,values[j].equals("Not recorded")?0xff999999:values[j].startsWith("~")?0xff60cfff:0xffffffff,j==0?28:col-3);
   }
-  line(g,"Talisman: "+mine.talisman(),left,120,mine.talisman().startsWith("~")?0xff60cfff:0xffffffff,boxWidth);
-  line(g,"Elytra: "+mine.elytra(),left,133,mine.elytra().startsWith("~")?0xff60cfff:0xffffffff,boxWidth);
+  line(g,"Talisman: "+VendorNumbers.display(mine.talisman()),left,120,mine.talisman().startsWith("~")?0xff60cfff:0xffffffff,boxWidth);
+  line(g,"Elytra: "+VendorNumbers.display(mine.elytra()),left,133,mine.elytra().startsWith("~")?0xff60cfff:0xffffffff,boxWidth);
   line(g,mine.total().label(),left,146,mine.total().estimated()?0xff60cfff:mine.total().complete()?0xff8fdeb1:0xffffbf69,boxWidth);
   line(g,"All tiers + 4 armor pieces + talisman + elytra",left,159,0xffbbbbbb,boxWidth);
   line(g,"k=thousand M=million B=billion ~=estimate",left,172,0xffbbbbbb,boxWidth);

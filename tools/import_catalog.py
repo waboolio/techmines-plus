@@ -1,4 +1,4 @@
-import openpyxl,re,json,sys,pathlib
+import openpyxl,re,json,sys,pathlib,math
 source=pathlib.Path(sys.argv[1]); values=openpyxl.load_workbook(source,data_only=True); styles=openpyxl.load_workbook(source,data_only=False)
 names=['Spawn','Nether','End','Heaven','Ocean','Acidic Lakes','Steampunk','Sakura Forest','Wild West','Pixel Grove','Planet X','Ancient Sands'];worlds=[];total=0;estimated=0
 for name in names:
@@ -11,7 +11,7 @@ for name in names:
    if v is None:return 'Not recorded'
    est=bool(cell.font.color and cell.font.color.type=='rgb' and str(cell.font.color.rgb)[-6:].upper() in ['0070C0','C55A11','DDF3FF','000066'])
    if isinstance(v,(int,float)):
-    if cell.data_type!='f' and isinstance(v,float) and not v.is_integer():return str(v)+' (unit unconfirmed)'
+    if cell.data_type!='f' and isinstance(v,float) and not v.is_integer() and (abs(v)<1000 or abs(v-round(v))>max(1e-6,math.ulp(v)*4)):return str(v)+' (unit unconfirmed)'
     if abs(v)>=1e9:text=f'{v/1e9:.2f}B'
     elif abs(v)>=1e6:text=f'{v/1e6:.2f}M'
     elif abs(v)>=1000:text=f'{v/1000:.2f}k'
@@ -26,7 +26,7 @@ for name in names:
    if v is None:return 'Not recorded'
    est=bool(cell.font.color and cell.font.color.type=='rgb' and str(cell.font.color.rgb)[-6:].upper() in ['0070C0','C55A11','DDF3FF','000066'])
    if isinstance(v,(int,float)):
-    if cell.data_type!='f' and isinstance(v,float) and not v.is_integer():return 'Not confirmed'
+    if cell.data_type!='f' and isinstance(v,float) and not v.is_integer() and (abs(v)<1000 or abs(v-round(v))>max(1e-6,math.ulp(v)*4)):return 'Not confirmed'
     from decimal import Decimal
     text=format(Decimal(str(v)).quantize(Decimal('1')),'f')
    else:
