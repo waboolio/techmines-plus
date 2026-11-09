@@ -1,3 +1,13 @@
-{"required":true,"package":"gg.techmines.plus.mixin","compatibilityLevel":"JAVA_25","client":["InventoryOrigin","InventoryBranding"],"injectors":{"defaultRequire":1}}
-
-
+{
+  "required": true,
+  "package": "gg.techmines.plus.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "InventoryOrigin",
+    "InventoryBranding",
+    "ChatNameClick"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

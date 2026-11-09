@@ -1,0 +1,7 @@
+allprojects { p ->
+ p.afterEvaluate {
+  p.tasks.register('writeChatCheckClasspath') {
+   doLast { p.file('build/chat-check-classpath.txt').text=p.sourceSets.client.runtimeClasspath.asPath }
+  }
+ }
+}

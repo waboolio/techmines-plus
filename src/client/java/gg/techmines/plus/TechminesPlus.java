@@ -31,6 +31,7 @@ public final class TechminesPlus implements ClientModInitializer {
   if (onTechmines(client)) { client.gui.setScreen(null); client.getConnection().sendCommand(command); }
  }
  @Override public void onInitializeClient() {
+  ChatMentions.initialize();
   MenuIcons.initialize(net.fabricmc.loader.api.FabricLoader.getInstance().getConfigDir().resolve("techmines-plus/menu-icons.json"));
   KeyMapping.Category category = KeyMapping.Category.register(Identifier.fromNamespaceAndPath("techmines_plus", "shortcuts"));
   KeyMapping menu = KeyMappingHelper.registerKeyMapping(new KeyMapping("key.techmines_plus.menu", InputConstants.Type.KEYBOARD, InputConstants.KEY_K, category));
