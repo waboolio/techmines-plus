@@ -21,6 +21,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 
 public final class TechminesPlus implements ClientModInitializer {
+ private static VaultNames vaultNames;
  private static final int[] COLORS = {0xffe34b4b,0xffffa332,0xffffdf4d,0xff61bd58,0xff4fbce0,0xff626de0,0xffbd63d5};
  private static final String[] COLOR_NAMES = {"Red","Orange","Yellow","Green","Cyan","Blue","Purple"};
  public static boolean onTechmines(Minecraft client) {
@@ -31,6 +32,7 @@ public final class TechminesPlus implements ClientModInitializer {
   if (onTechmines(client)) { client.gui.setScreen(null); client.getConnection().sendCommand(command); }
  }
  @Override public void onInitializeClient() {
+  vaultNames=new VaultNames(net.fabricmc.loader.api.FabricLoader.getInstance().getConfigDir().resolve("techmines-plus/vault-names.json"));
   ChatMentions.initialize();
   MenuIcons.initialize(net.fabricmc.loader.api.FabricLoader.getInstance().getConfigDir().resolve("techmines-plus/menu-icons.json"));
   KeyMapping.Category category = KeyMapping.Category.register(Identifier.fromNamespaceAndPath("techmines_plus", "shortcuts"));
@@ -60,6 +62,7 @@ public final class TechminesPlus implements ClientModInitializer {
     Screens.getWidgets(screen).add(new ItemButton(x+45,y,"Accessory Bag - /bag",MenuIcons::bag,0,b -> command("bag")).compact());
     Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()-24,origin.techminesPlusTop()+25,"Fly - /fly",new ItemStack(Items.ELYTRA),0,b -> command("fly")).rail());
     Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()-24,origin.techminesPlusTop()+43,"Heal - /heal",new ItemStack(Items.GLISTERING_MELON_SLICE),0,b -> command("heal")).rail());
+    Screens.getWidgets(screen).add(new ItemButton(left-24,top+61,"Players",new ItemStack(Items.PLAYER_HEAD),0,b -> client.gui.setScreen(new PlayersScreen(screen))).rail());
     Screens.getWidgets(screen).add(new ItemButton(origin.techminesPlusLeft()+180,origin.techminesPlusTop()+140,"Trash - /trash",new ItemStack(Items.HOPPER),0,b -> command("trash")));
     Screens.getWidgets(screen).add(new ItemButton(x+60,y,"Auction House — /ah",new ItemStack(Items.EMERALD),0,b -> command("ah")).compact());
    }
@@ -104,15 +107,13 @@ public final class TechminesPlus implements ClientModInitializer {
   private final boolean vaults;
   PlusScreen(Screen parent,boolean vaults) { super(Component.literal(vaults?"Personal Vaults":"Techmines Plus")); this.parent=parent; this.vaults=vaults; }
   @Override protected void init() {
-   int x=width/2-100,y=Math.max(6,(height-(vaults?136:146))/2);
+   int x=width/2-100,y=Math.max(6,(height-(vaults?194:146))/2);
    Button heading=Button.builder(title,b -> {}).bounds(x,y,200,20).build(); heading.active=false; addRenderableWidget(heading);
    if(vaults) {
+    String account=Minecraft.getInstance().player.getUUID().toString();
     for(int i=0;i<7;i++) {
-     final int vault=i+1;
-     int bx=x+(i%4)*50,by=y+28+(i/4)*42;
-     addRenderableWidget(new ItemButton(bx+14,by,COLOR_NAMES[i]+" chest — Vault "+vault+" — /pv "+vault,new ItemStack(Items.CHEST),COLORS[i],b -> command("pv "+vault)));
-     Button label=Button.builder(Component.literal(""+vault),b -> command("pv "+vault)).bounds(bx+8,by+21,34,18).build();
-     addRenderableWidget(label);
+     final int vault=i+1;int bx=x+(i%2)*104,by=y+26+(i/2)*36;
+     addRenderableWidget(new VaultShortcutButton(bx,by,vaultNames.label(account,vault),vault,COLORS[i],b -> command("pv "+vault),()->Minecraft.getInstance().gui.setScreen(new VaultRenameScreen(this,vaultNames,account,vault))));
     }
    } else {
     addRenderableWidget(new ItemButton(x,y+26,"Wardrobe - /wardrobe",new ItemStack(Items.ARMOR_STAND),0,b -> command("wardrobe")));
@@ -130,9 +131,10 @@ public final class TechminesPlus implements ClientModInitializer {
     addRenderableWidget(new ItemButton(x+88,y+74,"Shards - /shards",new ItemStack(Items.AMETHYST_SHARD),0,b -> command("shards")));
     addRenderableWidget(new ItemButton(x+44,y+74,"Shop - /shop",new ItemStack(Items.TOTEM_OF_UNDYING),0,b -> command("shop")));
     addRenderableWidget(new ItemButton(x+132,y+74,"Skill Tree - /skilltree",new ItemStack(Items.OAK_SAPLING),0,b -> command("skilltree")));
+    addRenderableWidget(new ItemButton(x+176,y+74,"Players",new ItemStack(Items.PLAYER_HEAD),0,b -> Minecraft.getInstance().gui.setScreen(new PlayersScreen(this))));
     addRenderableWidget(Button.builder(Component.literal("Vendor Info"),b -> VendorInfoScreen.open(this)).bounds(x,y+100,200,20).build());
    }
-   addRenderableWidget(Button.builder(Component.literal("Back"),b -> onClose()).bounds(x,y+(vaults?116:126),200,20).build());
+   addRenderableWidget(Button.builder(Component.literal("Back"),b -> onClose()).bounds(x,y+(vaults?174:126),200,20).build());
   }
   @Override public void onClose() { Minecraft.getInstance().gui.setScreen(parent); }
   @Override public boolean isPauseScreen() { return false; }
