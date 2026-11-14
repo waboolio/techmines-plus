@@ -34,6 +34,7 @@ public final class TechminesPlus implements ClientModInitializer {
  @Override public void onInitializeClient() {
   vaultNames=new VaultNames(net.fabricmc.loader.api.FabricLoader.getInstance().getConfigDir().resolve("techmines-plus/vault-names.json"));
   ChatMentions.initialize();
+  ReforgeTooltips.initialize();
   MenuIcons.initialize(net.fabricmc.loader.api.FabricLoader.getInstance().getConfigDir().resolve("techmines-plus/menu-icons.json"));
   KeyMapping.Category category = KeyMapping.Category.register(Identifier.fromNamespaceAndPath("techmines_plus", "shortcuts"));
   KeyMapping menu = KeyMappingHelper.registerKeyMapping(new KeyMapping("key.techmines_plus.menu", InputConstants.Type.KEYSYM, InputConstants.KEY_K, category));

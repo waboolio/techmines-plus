@@ -1,0 +1,575 @@
+{
+  "schemaVersion": 1,
+  "tiers": [
+    {
+      "name": "Common",
+      "letter": "C",
+      "colour": "White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "name": "Uncommon",
+      "letter": "U",
+      "colour": "Yellow",
+      "hex": "#FFFF55"
+    },
+    {
+      "name": "Rare",
+      "letter": "R",
+      "colour": "Dark blue",
+      "hex": "#0000AA"
+    },
+    {
+      "name": "Epic",
+      "letter": "E",
+      "colour": "Purple",
+      "hex": "#AA00AA"
+    },
+    {
+      "name": "Legendary",
+      "letter": "L",
+      "colour": "Orange",
+      "hex": "#FFAA00"
+    },
+    {
+      "name": "Mythical",
+      "letter": "M",
+      "colour": "Pink",
+      "hex": "#FF55FF"
+    },
+    {
+      "name": "Divine",
+      "letter": "D",
+      "colour": "Light blue",
+      "hex": "#55FFFF"
+    },
+    {
+      "name": "Secret",
+      "letter": "S",
+      "colour": "Red",
+      "hex": "#FF5555"
+    }
+  ],
+  "reforges": [
+    {
+      "name": "Brutal",
+      "itemTypes": [
+        "Sword"
+      ],
+      "bonuses": {
+        "Damage": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094102.png"
+    },
+    {
+      "name": "Savage",
+      "itemTypes": [
+        "Sword"
+      ],
+      "bonuses": {
+        "Crit Damage": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094112.png"
+    },
+    {
+      "name": "Reinforced",
+      "itemTypes": [
+        "All Wear",
+        "Offhand"
+      ],
+      "bonuses": {
+        "Health": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ],
+        "Damage": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094117.png"
+    },
+    {
+      "name": "Wise",
+      "itemTypes": [
+        "All Wear",
+        "Offhand",
+        "Dungeon Wand"
+      ],
+      "bonuses": {
+        "Health": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094125.png"
+    },
+    {
+      "name": "Glass",
+      "itemTypes": [
+        "All Wear",
+        "Offhand"
+      ],
+      "bonuses": {
+        "Crit Damage": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094131.png"
+    },
+    {
+      "name": "Blessed",
+      "itemTypes": [
+        "All Wear",
+        "Offhand"
+      ],
+      "bonuses": {
+        "Mining Fortune": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094137.png"
+    },
+    {
+      "name": "Forceful",
+      "itemTypes": [
+        "All Wear",
+        "Offhand"
+      ],
+      "bonuses": {
+        "Crit Damage": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ],
+        "Health": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094144.png"
+    },
+    {
+      "name": "Exposed",
+      "itemTypes": [
+        "All Wear",
+        "Offhand"
+      ],
+      "bonuses": {
+        "Damage": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094238.png"
+    },
+    {
+      "name": "Fortunate",
+      "itemTypes": [
+        "Pickaxe"
+      ],
+      "bonuses": {
+        "Mining Fortune": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094244.png"
+    },
+    {
+      "name": "Swift",
+      "itemTypes": [
+        "Pickaxe"
+      ],
+      "bonuses": {
+        "Mining Speed": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ],
+        "Mining Fortune": [
+          -1.0,
+          -2.0,
+          -3.0,
+          -4.0,
+          -5.0,
+          -6.0,
+          -7.0,
+          -8.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094249.png"
+    },
+    {
+      "name": "Charged",
+      "itemTypes": [
+        "Sword",
+        "Dungeon Wand"
+      ],
+      "bonuses": {
+        "Tech": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094254.png"
+    },
+    {
+      "name": "Fierce",
+      "itemTypes": [
+        "Sword"
+      ],
+      "bonuses": {
+        "Melee": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094259.png"
+    },
+    {
+      "name": "Nimble",
+      "itemTypes": [
+        "All Wear",
+        "Offhand"
+      ],
+      "bonuses": {
+        "Damage": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ],
+        "Speed": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094304.png"
+    },
+    {
+      "name": "Mechanized",
+      "itemTypes": [
+        "All Wear",
+        "Offhand"
+      ],
+      "bonuses": {
+        "Health": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ],
+        "Tech": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094310.png"
+    },
+    {
+      "name": "Vicious",
+      "itemTypes": [
+        "All Wear",
+        "Offhand"
+      ],
+      "bonuses": {
+        "Melee": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ],
+        "Crit Damage": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          25.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094344.png"
+    },
+    {
+      "name": "Godly",
+      "itemTypes": [
+        "Accessory"
+      ],
+      "bonuses": {
+        "Mining Fortune": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          6.25
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094350.png"
+    },
+    {
+      "name": "Superior",
+      "itemTypes": [
+        "Accessory"
+      ],
+      "bonuses": {
+        "Speed": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          6.25
+        ],
+        "Health": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          6.25
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094355.png"
+    },
+    {
+      "name": "Itchy",
+      "itemTypes": [
+        "Accessory"
+      ],
+      "bonuses": {
+        "Damage": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          6.25
+        ],
+        "Health": [
+          -0.25,
+          -0.5,
+          -0.75,
+          -1.0,
+          -1.25,
+          -1.5,
+          -1.75,
+          -2.0
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094400.png"
+    },
+    {
+      "name": "Vivid",
+      "itemTypes": [
+        "Accessory"
+      ],
+      "bonuses": {
+        "Speed": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          6.25
+        ],
+        "Mining Speed": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          6.25
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094404.png"
+    },
+    {
+      "name": "Robotic",
+      "itemTypes": [
+        "Accessory"
+      ],
+      "bonuses": {
+        "Tech": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          6.25
+        ],
+        "Health": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          6.25
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094409.png"
+    },
+    {
+      "name": "Zealous",
+      "itemTypes": [
+        "Accessory"
+      ],
+      "bonuses": {
+        "Melee": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          6.25
+        ],
+        "Crit Damage": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          6.25
+        ]
+      },
+      "source": "Screenshot 2026-11-14 094415.png"
+    }
+  ]
+}
