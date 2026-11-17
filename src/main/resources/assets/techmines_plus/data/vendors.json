@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "source": "Techmines.xlsx; blue/orange estimates marked ~; black entries confirmed; imported 2026-10-24",
+  "source": "Techmines.xlsx; blue/orange estimates marked ~; black entries confirmed; imported 2026-11-16",
   "worlds": [
     {
       "name": "Spawn",
@@ -963,7 +963,7 @@
               "armor": "Not recorded"
             }
           ],
-          "talisman": "~165.28k",
+          "talisman": "330.52K",
           "elytra": "~82.64k",
           "notes": [
             "~ marks estimates; verify vendor prices."
@@ -983,7 +983,7 @@
             "8260",
             "16530",
             "24790",
-            "~165275",
+            "330.52K",
             "~82638"
           ],
           "source": "Techmines.xlsx / Nether / C71:G80"
@@ -6652,6 +6652,560 @@
             "Not recorded"
           ],
           "source": "Techmines.xlsx / Ancient Sands / C93:G102"
+        }
+      ]
+    },
+    {
+      "name": "The Arctic",
+      "mines": [
+        {
+          "name": "MINE 97 Frostpine",
+          "resource": "Frostpine",
+          "toolName": "Axe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "15.86B",
+              "tool": "1.32B",
+              "armor": "~15.86B"
+            },
+            {
+              "tier": "II",
+              "sword": "~31.71B",
+              "tool": "~2.64B",
+              "armor": "~31.71B"
+            },
+            {
+              "tier": "III",
+              "sword": "~47.57B",
+              "tool": "~5.29B",
+              "armor": "~47.57B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~63.42B",
+              "tool": "~10.57B",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "79.28B",
+              "tool": "15.86B",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~317.12B",
+          "elytra": "~158.56B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "15.86B",
+            "~31712000000",
+            "~47568000000",
+            "~63424000000",
+            "79.28B",
+            "1.32B",
+            "~2642666667",
+            "~5285333333",
+            "~10570666667",
+            "15.86B",
+            "~15856000000",
+            "~31712000000",
+            "~47568000000",
+            "~317120000000",
+            "~158560000000"
+          ],
+          "source": "Techmines.xlsx / The Arctic / C1:G10"
+        },
+        {
+          "name": "MINE 98 Rimeleaf",
+          "resource": "Rimeleaf",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
+          ],
+          "source": "Techmines.xlsx / The Arctic / C14:G23"
+        },
+        {
+          "name": "MINE 99 GlacierStone",
+          "resource": "GlacierStone",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "44.26B",
+              "tool": "3.69B",
+              "armor": "~44.26B"
+            },
+            {
+              "tier": "II",
+              "sword": "~88.52B",
+              "tool": "~7.38B",
+              "armor": "~88.52B"
+            },
+            {
+              "tier": "III",
+              "sword": "~132.79B",
+              "tool": "14.75B",
+              "armor": "~132.79B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~177.05B",
+              "tool": "29.51B",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "221.31B",
+              "tool": "44.26B",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~885.24B",
+          "elytra": "~442.62B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "44.26B",
+            "~88524000000",
+            "~132786000000",
+            "~177048000000",
+            "221.31B",
+            "3.69B",
+            "~7377000000",
+            "14.75B",
+            "29.51B",
+            "44.26B",
+            "~44262000000",
+            "~88524000000",
+            "~132786000000",
+            "~885240000000",
+            "~442620000000"
+          ],
+          "source": "Techmines.xlsx / The Arctic / C27:G36"
+        },
+        {
+          "name": "MINE 100 SnowDrift",
+          "resource": "SnowDrift",
+          "toolName": "Shovel",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
+          ],
+          "source": "Techmines.xlsx / The Arctic / C38:G47"
+        },
+        {
+          "name": "MINE 101 Cryolite",
+          "resource": "Cryolite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "~66.98B",
+              "tool": "5.58B",
+              "armor": "~66.98B"
+            },
+            {
+              "tier": "II",
+              "sword": "~133.96B",
+              "tool": "~11.16B",
+              "armor": "~133.96B"
+            },
+            {
+              "tier": "III",
+              "sword": "~200.94B",
+              "tool": "22.33B",
+              "armor": "~200.94B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~267.92B",
+              "tool": "~44.65B",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~334.89B",
+              "tool": "~66.98B",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~1339.58B",
+          "elytra": "~669.79B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "~66978750000",
+            "~133957500000",
+            "~200936250000",
+            "~267915000000",
+            "~334893750000",
+            "5.58B",
+            "~11163125000",
+            "22.33B",
+            "~44.65B",
+            "~66978750000",
+            "~66978750000",
+            "~133957500000",
+            "~200936250000",
+            "~1339575000000",
+            "~669787500000"
+          ],
+          "source": "Techmines.xlsx / The Arctic / C49:G58"
+        },
+        {
+          "name": "MINE 102 Frost Steel",
+          "resource": "Frost Steel",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "83B",
+              "tool": "6.92B",
+              "armor": "83B"
+            },
+            {
+              "tier": "II",
+              "sword": "~165.99B",
+              "tool": "13.83B",
+              "armor": "165.99B"
+            },
+            {
+              "tier": "III",
+              "sword": "~248.99B",
+              "tool": "27.67B",
+              "armor": "248.99B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~331.98B",
+              "tool": "55.33B",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "414.98B",
+              "tool": "83B",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~1659.92B",
+          "elytra": "~829.96B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "83B",
+            "~165992000000",
+            "~248988000000",
+            "~331984000000",
+            "414.98B",
+            "6.92B",
+            "13.83B",
+            "27.67B",
+            "55.33B",
+            "83B",
+            "83B",
+            "165.99B",
+            "248.99B",
+            "~1659920000000",
+            "~829960000000"
+          ],
+          "source": "Techmines.xlsx / The Arctic / C60:G69"
+        },
+        {
+          "name": "MINE 103 Aurorite",
+          "resource": "Aurorite",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "103.08B",
+              "tool": "8.59B",
+              "armor": "103.08B"
+            },
+            {
+              "tier": "II",
+              "sword": "~206.17B",
+              "tool": "~17.18B",
+              "armor": "~206.17B"
+            },
+            {
+              "tier": "III",
+              "sword": "~309.25B",
+              "tool": "~34.36B",
+              "armor": "309.25B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~412.34B",
+              "tool": "~68.72B",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "~515.42B",
+              "tool": "103.08B",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~2061.68B",
+          "elytra": "~1030.84B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "103.08B",
+            "~206168000000",
+            "~309252000000",
+            "~412336000000",
+            "~515.42B",
+            "8.59B",
+            "~17180666667",
+            "~34361333333",
+            "~68722666667",
+            "103.08B",
+            "103.08B",
+            "~206168000000",
+            "309.25B",
+            "~2061680000000",
+            "~1030840000000"
+          ],
+          "source": "Techmines.xlsx / The Arctic / C71:G80"
+        },
+        {
+          "name": "MINE 104 Borealium",
+          "resource": "Borealium",
+          "toolName": "Pickaxe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "128.35B",
+              "tool": "10.7B",
+              "armor": "128.35B"
+            },
+            {
+              "tier": "II",
+              "sword": "~256.69B",
+              "tool": "~21.39B",
+              "armor": "~256.69B"
+            },
+            {
+              "tier": "III",
+              "sword": "~385.04B",
+              "tool": "~42.78B",
+              "armor": "385.04B"
+            },
+            {
+              "tier": "IV",
+              "sword": "~513.38B",
+              "tool": "~85.56B",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "641.73B",
+              "tool": "128.35B",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "~2566.92B",
+          "elytra": "~1283.46B",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "128.35B",
+            "~256692000000",
+            "~385038000000",
+            "~513384000000",
+            "641.73B",
+            "10.7B",
+            "~21391000000",
+            "~42782000000",
+            "~85564000000",
+            "128.35B",
+            "128.35B",
+            "~256692000000",
+            "385.04B",
+            "~2566920000000",
+            "~1283460000000"
+          ],
+          "source": "Techmines.xlsx / The Arctic / C82:G91"
+        },
+        {
+          "name": "Boss Nivor",
+          "resource": "Nivor Frostheart",
+          "toolName": "Hoe",
+          "rows": [
+            {
+              "tier": "I",
+              "sword": "30",
+              "tool": "30",
+              "armor": "15"
+            },
+            {
+              "tier": "II",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "III",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "IV",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            },
+            {
+              "tier": "V",
+              "sword": "Not recorded",
+              "tool": "Not recorded",
+              "armor": "Not recorded"
+            }
+          ],
+          "talisman": "Not recorded",
+          "elytra": "Not recorded",
+          "notes": [
+            "~ marks estimates; verify vendor prices."
+          ],
+          "additionalTotalCosts": [],
+          "totalCosts": [
+            "30",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "30",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "15",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded",
+            "Not recorded"
+          ],
+          "source": "Techmines.xlsx / The Arctic / C93:G102"
         }
       ]
     }
