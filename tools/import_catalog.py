@@ -52,7 +52,7 @@ for name in names:
     if review.startswith('REVIEW:'):notes.append(review)
    mines.append({'name':re.sub(r'\s+',' ',title),'resource':resource,'toolName':toolname,'rows':rows,'talisman':talisman,'elytra':elytra,'notes':notes,'additionalTotalCosts':[exact_cost(row+i,c) for c in range(2,5) if c!=tool and str(s.cell(header,c).value).lower() in ['pickaxe','axe','shovel','hoe'] for i in range(5) if s.cell(row+i,c).value is not None],'totalCosts':[exact_cost(row+i,sword) for i in range(5)]+[exact_cost(row+i,tool) for i in range(5)]+[exact_cost(row+i,5) for i in range(3)]+[exact_cost(row,6),exact_cost(row,7)],'source':f'Techmines.xlsx / {name} / {openpyxl.utils.get_column_letter(sword)}{start}:G{row+4}'})
  worlds.append({'name':name,'mines':mines});total+=len(mines)
-result={'schemaVersion':1,'source':'Techmines.xlsx; blue/orange estimates marked ~; black entries confirmed; imported 2026-11-16','worlds':worlds}
+result={'schemaVersion':1,'source':'Techmines.xlsx; blue/orange estimates marked ~; black entries confirmed; imported 2026-11-20','worlds':worlds}
 pathlib.Path(sys.argv[2]).write_text(json.dumps(result,indent=2),encoding='utf-8')
 assert len(worlds)==13
 assert all(len(m['rows'])==5 for w in worlds for m in w['mines'])

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "source": "Techmines.xlsx; blue/orange estimates marked ~; black entries confirmed; imported 2026-11-16",
+  "source": "Techmines.xlsx; blue/orange estimates marked ~; black entries confirmed; imported 2026-11-20",
   "worlds": [
     {
       "name": "Spawn",
@@ -6726,9 +6726,9 @@
           "rows": [
             {
               "tier": "I",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "2.04B",
+              "tool": "170.34M",
+              "armor": "2.04B"
             },
             {
               "tier": "II",
@@ -6740,7 +6740,7 @@
               "tier": "III",
               "sword": "Not recorded",
               "tool": "Not recorded",
-              "armor": "Not recorded"
+              "armor": "6.13B"
             },
             {
               "tier": "IV",
@@ -6750,33 +6750,33 @@
             },
             {
               "tier": "V",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "10.22B",
+              "tool": "2.04B",
               "armor": "Not recorded"
             }
           ],
-          "talisman": "Not recorded",
-          "elytra": "Not recorded",
+          "talisman": "40.88B",
+          "elytra": "~20.44B",
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
           "additionalTotalCosts": [],
           "totalCosts": [
+            "2.04B",
             "Not recorded",
             "Not recorded",
             "Not recorded",
+            "10.22B",
+            "170.34M",
             "Not recorded",
             "Not recorded",
             "Not recorded",
+            "2.04B",
+            "2.04B",
             "Not recorded",
-            "Not recorded",
-            "Not recorded",
-            "Not recorded",
-            "Not recorded",
-            "Not recorded",
-            "Not recorded",
-            "Not recorded",
-            "Not recorded"
+            "6.13B",
+            "40.88B",
+            "~20.44B"
           ],
           "source": "Techmines.xlsx / The Arctic / C14:G23"
         },
@@ -6848,21 +6848,21 @@
           "rows": [
             {
               "tier": "I",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
-              "armor": "Not recorded"
+              "sword": "3.2B",
+              "tool": "266.47M",
+              "armor": "3.2B"
             },
             {
               "tier": "II",
               "sword": "Not recorded",
               "tool": "Not recorded",
-              "armor": "Not recorded"
+              "armor": "~6.4B"
             },
             {
               "tier": "III",
               "sword": "Not recorded",
               "tool": "Not recorded",
-              "armor": "Not recorded"
+              "armor": "~9.59B"
             },
             {
               "tier": "IV",
@@ -6872,33 +6872,33 @@
             },
             {
               "tier": "V",
-              "sword": "Not recorded",
-              "tool": "Not recorded",
+              "sword": "15.99B",
+              "tool": "3.2B",
               "armor": "Not recorded"
             }
           ],
-          "talisman": "Not recorded",
-          "elytra": "Not recorded",
+          "talisman": "~63.95B",
+          "elytra": "~31.98B",
           "notes": [
             "~ marks estimates; verify vendor prices."
           ],
           "additionalTotalCosts": [],
           "totalCosts": [
+            "3.2B",
             "Not recorded",
             "Not recorded",
             "Not recorded",
+            "15.99B",
+            "266.47M",
             "Not recorded",
             "Not recorded",
             "Not recorded",
-            "Not recorded",
-            "Not recorded",
-            "Not recorded",
-            "Not recorded",
-            "Not recorded",
-            "Not recorded",
-            "Not recorded",
-            "Not recorded",
-            "Not recorded"
+            "3.2B",
+            "3.2B",
+            "~6.4B",
+            "~9.59B",
+            "~63.95B",
+            "~31.98B"
           ],
           "source": "Techmines.xlsx / The Arctic / C38:G47"
         },
